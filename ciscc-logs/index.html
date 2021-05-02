@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang='zh-TW'>
+
+<head>
+  <meta name="generator" content="Hexo 5.4.0">
+  <meta charset="utf-8">
+  
+
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>CISCC 抱怨系統的開發日誌與心得 - pan.blog</title>
+
+  
+    <meta name="description" content="CISCC 是個用在 CISC（中學資訊討論群）的抱怨 (Complain) 系統。在我 MacBook Air 歸還前，我決定把我的開發紀錄都放在我的 Blog 上。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="CISCC 抱怨系統的開發日誌與心得">
+<meta property="og:url" content="https://blog.pan93.tk/ciscc-logs/index.html">
+<meta property="og:site_name" content="pan.blog">
+<meta property="og:description" content="CISCC 是個用在 CISC（中學資訊討論群）的抱怨 (Complain) 系統。在我 MacBook Air 歸還前，我決定把我的開發紀錄都放在我的 Blog 上。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/%E6%88%AA%E5%9C%96-2021-01-03-%E4%B8%8A%E5%8D%881.38.54.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/image.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/ciscc-arch.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/截圖-2021-01-03-上午1.44.48.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/image-6.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/image-3.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/image-1.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/image-2.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/截圖-2021-01-20-下午8.38.26.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/截圖-2021-01-20-下午8.40.01.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/截圖-2021-01-20-下午8.26.05.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/截圖-2021-01-02-上午1.57.03.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/截圖-2021-01-02-上午2.37.21.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/截圖-2021-01-02-上午2.37.24.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/截圖-2021-01-02-下午8.51.11.png">
+<meta property="og:image" content="https://blog.pan93.tk/ciscc-logs/截圖-2021-01-02-下午8.57.18.png">
+<meta property="article:published_time" content="2021-01-20T13:01:23.000Z">
+<meta property="article:modified_time" content="2021-05-02T18:58:40.419Z">
+<meta property="article:author" content="pan93412">
+<meta property="article:tag" content="pan, blog">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.pan93.tk/ciscc-logs/%E6%88%AA%E5%9C%96-2021-01-03-%E4%B8%8A%E5%8D%881.38.54.png">
+  
+  
+
+  <!-- feed -->
+  
+
+  
+    
+<link rel="stylesheet" href="../css/main.css">
+
+  
+
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK8EPCLBY6"></script>
+    
+      <script src="/gtag.js"></script>
+    
+  
+</head>
+
+<body>
+  
+
+
+  <div class='l_body' id='start'>
+    <aside class='l_left'>
+    
+
+<header class='header'>
+  <div class='logo-wrap'>
+  
+  
+    <a class='title' href='../index.html'>
+      pan.blog
+    </a>
+  
+</div>
+
+  <nav class="menu dis-select"></nav>
+</header>
+
+<div class='widgets'>
+  
+    
+      
+      
+<div class="widget-wrap" id="toc"><div class="widget-header h4 dis-select"><span class="name">本文目錄</span></div><div class="widget-body fs14 post"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%96%8B%E7%99%BC%E5%8B%95%E6%A9%9F"><span class="toc-text">開發動機</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%B5%90%E6%A7%8B%E5%9C%96"><span class="toc-text">結構圖</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#GitHub-%E8%B2%A2%E7%8D%BB%E7%B4%80%E9%8C%84"><span class="toc-text">GitHub 貢獻紀錄</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%AE%E5%89%8D%E4%BD%BF%E7%94%A8%E7%9A%84-Tech-Stack"><span class="toc-text">目前使用的 Tech Stack</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Notes-Progress-Report"><span class="toc-text">Notes &#x2F; Progress Report</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2021-1-14-2021-1-16"><span class="toc-text">2021&#x2F;1&#x2F;14 ~ 2021&#x2F;1&#x2F;16</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2021-1-8"><span class="toc-text">2021&#x2F;1&#x2F;8</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2020-1-5"><span class="toc-text">2020&#x2F;1&#x2F;5</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2020-1-4"><span class="toc-text">2020&#x2F;1&#x2F;4</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2020-1-3"><span class="toc-text">2020&#x2F;1&#x2F;3</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2020-1-2"><span class="toc-text">2020&#x2F;1&#x2F;2</span></a></li></ol></li></ol></div></div></div>
+
+    
+  
+</div>
+
+
+    </aside>
+    <div class='l_main'>
+      
+
+      
+
+
+  <div class='bread-nav fs12'>
+  
+    
+    <div id='breadcrumb'>
+      <a class='cap breadcrumb' href='/'>首頁</a>
+      <span class="sep"></span>
+      <a class='cap breadcrumb' href='/'>網誌</a>
+      
+        <span class="sep"></span>
+        <a class="cap breadcrumb-link" href="../categories/Developments/">Developments</a>
+      
+    </div>
+    <div id='post-meta'>
+      發布於&nbsp;<time datetime='2021-01-20T13:01:23.000Z'>2021-01-20</time>
+    </div>
+  
+  </div>
+
+
+<article class='content md post'>
+<h1 class="article-title"><span>CISCC 抱怨系統的開發日誌與心得</span></h1>
+<p>CISCC 是個用在 CISC（中學資訊討論群）的抱怨 (Complain) 系統。在我 MacBook Air 歸還前，我決定把我的開發紀錄都放在我的 Blog 上。</p>
+<span id="more"></span>
+
+<h2 id="開發動機"><a href="#開發動機" class="headerlink" title="開發動機"></a>開發動機</h2><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="%E6%88%AA%E5%9C%96-2021-01-03-%E4%B8%8A%E5%8D%881.38.54.png" alt="CISC, #行政人員討論區 (2021/1/2)"></p>
+<p>CISC, #行政人員討論區 (2021/1/2)</p>
+<p>其實會想開發 CISCC，主要是因為我在 CISC 偶爾會想靠北某些事情，但是我自己靠北不想要暴露自己的身份，也不想要辦一個假的 Discord 帳戶搞這種事情，再加上我最近都沒有可以上傳到學習歷程的專案，所以就著手開始撰寫這個專案。</p>
+<h2 id="結構圖"><a href="#結構圖" class="headerlink" title="結構圖"></a>結構圖</h2><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image.png" alt="用來描述 2020/1/3 時，ciscc 架構多亂的方塊圖 (2020/1/3)"></p>
+<p>用來描述 2020/1/3 時，ciscc 架構多亂的方塊圖 (2020/1/3)</p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="ciscc-arch.png" alt="但實際產出的 CISCC 架構沒有這麼亂啦 (2020/1/20)"></p>
+<p>但實際產出的 CISCC 架構沒有這麼亂啦 (2020/1/20)</p>
+<p>我預計寫三個元件：</p>
+<ul>
+<li><code>ciscc-discord</code>: ciscc 跟 Discord 相關的地方</li>
+<li><code>ciscc-api</code>: ciscc 的 API，與 <code>ciscc-discord</code> 和 <code>ciscc-frontend</code> 串接的橋樑</li>
+<li><code>ciscc-frontend</code>: ciscc 的網頁前端，也就是發文的地方啦！</li>
+<li><code>ciscc-docker</code>: 用 Docker 將 ciscc 這三個元件容器化並整合。</li>
+</ul>
+<p>而截至 2020/1/3，完成度最高的是 <code>ciscc-discord</code>，其次是 <code>ciscc-api</code>，<code>ciscc-frontend</code> 尚未動工。2020/1/8 時已全數完工，並穩定上線。</p>
+<h2 id="GitHub-貢獻紀錄"><a href="#GitHub-貢獻紀錄" class="headerlink" title="GitHub 貢獻紀錄"></a>GitHub 貢獻紀錄</h2><div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="截圖-2021-01-03-上午1.44.48.png" style="width:1024px;"/></div></div>
+
+<p>GitHub 上 pan93412 在 2021/1 的貢獻紀錄 (2021/1/3)</p>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-6.png" style="width:1024px;"/></div></div>
+
+<p>pan93412/ciscc-frontend 的截圖，截至當時仍有 1 個問題尚未解決，如圖。(2020/1/20)</p>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-3.png" style="width:1024px;"/></div></div>
+
+<p>pan93412/ciscc-discord 的截圖，截至當時仍有 1 個問題尚未解決，如圖。(2020/1/20)</p>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-1.png" style="width:1024px;"/></div></div>
+
+<p>pan93412/ciscc-api 的截圖，截至當時仍有 1 個問題尚未解決，如圖。(2020/1/20)</p>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-2.png" style="width:1024px;"/></div></div>
+
+<p>pan93412/ciscc-docker 的截圖。(2020/1/20)</p>
+<h2 id="目前使用的-Tech-Stack"><a href="#目前使用的-Tech-Stack" class="headerlink" title="目前使用的 Tech Stack"></a>目前使用的 Tech Stack</h2><ul>
+<li><code>ciscc-discord</code>: <code>discord.js</code> w/ <code>TypeScript</code></li>
+<li><code>ciscc-api</code>: <code>Nest.js</code> w/ <code>TypeScript</code></li>
+<li><code>ciscc-frontend</code>: Native JavaScript w/ <code>Webpack</code> w/ <code>TypeScript</code></li>
+</ul>
+<h2 id="Notes-Progress-Report"><a href="#Notes-Progress-Report" class="headerlink" title="Notes / Progress Report"></a>Notes / Progress Report</h2><h3 id="2021-1-14-2021-1-16"><a href="#2021-1-14-2021-1-16" class="headerlink" title="2021/1/14 ~ 2021/1/16"></a>2021/1/14 ~ 2021/1/16</h3><ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/pan93412/ciscc-discord/compare/952ece53564e0bef9c78e5d5586533b27f753a28%5E...master">睽違 9 天後，ciscc-discord 終於更新了！</a>😆 不過這次不是我的功勞，是 <a target="_blank" rel="noopener" href="https://github.com/pan93412/ciscc-discord/commits?author=ChAoSUnItY">ChAoSUnItY</a> 大大的！他幫我修正了幾個陳年 bug，就比如說可以利用 ciscc 平台亂標人，還有時區錯誤的問題。我也順便把幾個註釋上的問題更新了。</li>
+<li>但是我還沒有更新 VPS 上的版本，抽空更新。</li>
+</ul>
+<h3 id="2021-1-8"><a href="#2021-1-8" class="headerlink" title="2021/1/8"></a>2021/1/8</h3><ul>
+<li>這個時候我已經拿到 MacBook Pro 了。可以繼續開發了！</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/pan93412/ciscc-api/compare/c825b4854da49ed4cb78333b777d4044efb596ab%5E...master">ciscc-api 把先前幾個 bugs，例如 CORS 問題、預先定義頻道 ID、IP 不正確問題、Rate Limit 太短等問題都修正後，彙整成一個 version 後釋出。也更新了 VPS 的上線版本。</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/pan93412/ciscc-frontend/compare/e23f86382dbd7937044ebeb2174127be7532a23d...master">ciscc-frontend 也是，但修正幅度比較不大。主要就是發文時鎖定「送出」按鈕，以及使錯誤訊息更友善。</a></li>
+</ul>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="截圖-2021-01-20-下午8.38.26.png" style="width:1024px;"/></div></div>
+
+<p>ciscc-api: 截至 2020/1/8 的新增提交 (2020/1/20)</p>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="截圖-2021-01-20-下午8.40.01.png" style="width:1024px;"/></div></div>
+
+<p>ciscc-frontend: 截至 2020/1/8 的新增提交 (2020/1/20)</p>
+<h3 id="2020-1-5"><a href="#2020-1-5" class="headerlink" title="2020/1/5"></a>2020/1/5</h3><div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="截圖-2021-01-20-下午8.26.05.png" style="width:1024px;"/></div></div>
+
+<p>Discord 1/5 剛上線時的首幾個訊息 (2020/1/20)</p>
+<ul>
+<li>CISCC 移轉到我的 VPS 了！超棒的，運作幾乎正常。但 CSRF 還是有點問題，Safari 偶爾會卡住不讓發文。</li>
+<li>ciscc-api 已經設定好 Rate Limit，部分解決短時間大量垃圾訊息問題。此外也解決了 CSRF 的問題，CSRF 是跨站保護，雖原意是防止未認可網站存取內部 API，但同時，如果未正確設定 CSRF，會導致正常的瀏覽器無法使用這個 API。我的做法是直接放行所有網站，未來考慮利用設定檔的形式限定可存取這個 API 的網站。</li>
+</ul>
+<h3 id="2020-1-4"><a href="#2020-1-4" class="headerlink" title="2020/1/4"></a>2020/1/4</h3><ul>
+<li>ciscc-frontend、ciscc-api 和 ciscc-docker 完工，準備明天上線。</li>
+</ul>
+<h3 id="2020-1-3"><a href="#2020-1-3" class="headerlink" title="2020/1/3"></a>2020/1/3</h3><ul>
+<li>ciscc-discord 的部分，已經能正常發文，訊息也很正確！理論上已經可以穩定使用了。</li>
+<li>ciscc-api 的部分，也是差不多完成了。但是我之後可能需要搭配 token 機制，防止被濫用，當作群發垃圾訊息的地方。傳統的做法是 CSRF Token，但是 ciscc-frontend 是純前端，不能直接注入 CSRF Token，如果是透過 API 拿 CSRF，就完全失去 CSRF 的意義，變得多此一舉又沒有防禦效果。這部分需要再多加思考。</li>
+</ul>
+<h3 id="2020-1-2"><a href="#2020-1-2" class="headerlink" title="2020/1/2"></a>2020/1/2</h3><ul>
+<li>ciscc-discord 完工。</li>
+</ul>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="截圖-2021-01-02-上午1.57.03.png" style="width:1024px;"/></div></div>
+
+<p>ciscc-discord 命令清單文件的擷圖 (2020/1/2)</p>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="截圖-2021-01-02-上午2.37.21.png" style="width:1024px;"/></div></div>
+
+<p>ciscc-discord 可以正常設定預設發言平台了 (2020/1/2)</p>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="截圖-2021-01-02-上午2.37.24.png" style="width:1024px;"/></div></div>
+
+<p>ciscc-discord 設定預設發言平台後的終端機畫面 (2020/1/2)</p>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="截圖-2021-01-02-下午8.51.11.png" style="width:1024px;"/></div></div>
+
+<p>ciscc-api 可以用 POST 傳送訊息了 (2020/1/2)</p>
+<div class="tag-plugin image"><div class="image-bg"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="截圖-2021-01-02-下午8.57.18.png" style="width:1024px;"/></div></div>
+
+<p>ciscc-api 加入了 Rate Limit (2020/1/2)</p>
+
+
+<div class="article-footer fs14"><section id="license"><div class="header"><span>授權條款</span></div><div class="body"><p>本文採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">姓名標示-非商業性-相同方式分享 4.0 國際</a> 授權條款。轉載請標示來源。</p>
+</div></section></div>
+
+</article>
+
+<div class="related-wrap" id="read-next"><section class="header cap theme"><span>接下來閱讀</span></section><section class="body"><div class="post-title h2"><a href="../avg85-failed/">Avg85 計畫失敗了。</a></div><div class="post-title fs14"><a href="../to-drakeet/">上一篇：To the committer of 4e50b58.</a></div></section></div>
+
+
+
+
+
+
+
+
+      
+<footer class="page-footer fs12"><hr><div><p>本網誌所有文章除特別聲明外，均採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 授權條款。轉載請註明出處。</p>
+<p>本站由 <a href="https://blog.pan93.tk/">@pan93412</a> 建立，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.1.0">Stellar</a> 作為主題。</p>
+</div></footer>
+
+      <div class='float-panel mobile-only blur' style='display:none'>
+  <button type='button' class='sidebar-toggle mobile' onclick='sidebar.toggle()'>
+    <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301"><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15302"></path><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15303"></path></svg>
+  </button>
+</div>
+
+    </div>
+  </div>
+  <div class='scripts'>
+    <script type="text/javascript">
+  stellar = {
+    // 懒加载 css https://github.com/filamentgroup/loadCSS
+    loadCSS: (href, before, media, attributes) => {
+      var doc = window.document;
+      var ss = doc.createElement("link");
+      var ref;
+      if (before) {
+        ref = before;
+      } else {
+        var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
+        ref = refs[refs.length - 1];
+      }
+      var sheets = doc.styleSheets;
+      if (attributes) {
+        for (var attributeName in attributes) {
+          if (attributes.hasOwnProperty(attributeName)) {
+            ss.setAttribute(attributeName, attributes[attributeName]);
+          }
+        }
+      }
+      ss.rel = "stylesheet";
+      ss.href = href;
+      ss.media = "only x";
+      function ready(cb) {
+        if (doc.body) {
+          return cb();
+        }
+        setTimeout(function () {
+          ready(cb);
+        });
+      }
+      ready(function () {
+        ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
+      });
+      var onloadcssdefined = function (cb) {
+        var resolvedHref = ss.href;
+        var i = sheets.length;
+        while (i--) {
+          if (sheets[i].href === resolvedHref) {
+            return cb();
+          }
+        }
+        setTimeout(function () {
+          onloadcssdefined(cb);
+        });
+      };
+      function loadCB() {
+        if (ss.addEventListener) {
+          ss.removeEventListener("load", loadCB);
+        }
+        ss.media = media || "all";
+      }
+      if (ss.addEventListener) {
+        ss.addEventListener("load", loadCB);
+      }
+      ss.onloadcssdefined = onloadcssdefined;
+      onloadcssdefined(loadCB);
+      return ss;
+    },
+
+    // 从 butterfly 和 volantis 获得灵感
+    loadScript: (src, opt) => new Promise((resolve, reject) => {
+      var script = document.createElement('script')
+      script.src = src
+      if (opt) {
+        for (let key of Object.keys(opt)) {
+          script[key] = opt[key]
+        }
+      } else {
+        // 默认异步，如果需要同步，第二个参数传入 {} 即可
+        script.async = true
+      }
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    }),
+
+    // https://github.com/jerryc127/hexo-theme-butterfly
+    jQuery: (fn) => {
+      if (typeof jQuery === 'undefined') {
+        stellar.loadScript(stellar.plugins.jQuery).then(fn)
+      } else {
+        fn()
+      }
+    }
+  };
+  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.1.0';
+  stellar.config = {
+    date_suffix: {
+      just: '剛剛',
+      min: '分鐘前',
+      hour: '小時前',
+      day: '天前',
+      month: '個月前',
+    },
+  };
+
+  // required plugins (only load if needs)
+  stellar.plugins = {
+    jQuery: '../https:/cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js',
+    sitesjs: '../js/plugins/sites.js',
+    friendsjs: '../js/plugins/friends.js',
+  };
+
+  // optional plugins
+  if ('true' == 'true') {
+    stellar.plugins.lazyload = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js","transition":"blur"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.swiper = Object.assign({"enable":true,"css":"https://unpkg.com/swiper/swiper-bundle.min.css","js":"https://unpkg.com/swiper/swiper-bundle.min.js"});
+  }
+  if ('' == 'true') {
+    stellar.plugins.scrollreveal = Object.assign({"enable":null,"js":"https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js","distance":"8px","duration":500,"interval":100,"scale":1});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+</script>
+
+<!-- required -->
+
+  
+<script src="../js/main.js" async></script>
+
+
+
+<!-- optional -->
+
+
+
+<!-- inject -->
+
+
+  </div>
+</body>
+</html>

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang='zh-TW'>
+
+<head>
+  <meta name="generator" content="Hexo 5.4.0">
+  <meta charset="utf-8">
+  
+
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>DevLog：使用者體驗 (1) - pan.blog</title>
+
+  
+    <meta name="description" content="貢獻了一個新東西到某個 GitHub 儲存庫，其中主要是讓程式更適合使用者。有許多開發者常常犯下類似「錯誤訊息太艱深難懂」、「以為使用者會需要，但其實沒必要的」的錯誤，而這篇文章我會詳談為何我覺得開發者為何不應該犯這些錯誤。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="DevLog：使用者體驗 (1)">
+<meta property="og:url" content="https://blog.pan93.tk/ux-1/index.html">
+<meta property="og:site_name" content="pan.blog">
+<meta property="og:description" content="貢獻了一個新東西到某個 GitHub 儲存庫，其中主要是讓程式更適合使用者。有許多開發者常常犯下類似「錯誤訊息太艱深難懂」、「以為使用者會需要，但其實沒必要的」的錯誤，而這篇文章我會詳談為何我覺得開發者為何不應該犯這些錯誤。">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://blog.pan93.tk/ux-1/image-7.png">
+<meta property="article:published_time" content="2020-10-17T16:20:37.000Z">
+<meta property="article:modified_time" content="2021-05-02T18:58:40.503Z">
+<meta property="article:author" content="pan93412">
+<meta property="article:tag" content="epf">
+<meta property="article:tag" content="JavaScript">
+<meta property="article:tag" content="Node.js">
+<meta property="article:tag" content="Vue.js">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.pan93.tk/ux-1/image-7.png">
+  
+  
+
+  <!-- feed -->
+  
+
+  
+    
+<link rel="stylesheet" href="../css/main.css">
+
+  
+
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK8EPCLBY6"></script>
+    
+      <script src="/gtag.js"></script>
+    
+  
+</head>
+
+<body>
+  
+
+
+  <div class='l_body' id='start'>
+    <aside class='l_left'>
+    
+
+<header class='header'>
+  <div class='logo-wrap'>
+  
+  
+    <a class='title' href='../index.html'>
+      pan.blog
+    </a>
+  
+</div>
+
+  <nav class="menu dis-select"></nav>
+</header>
+
+<div class='widgets'>
+  
+    
+      
+      
+<div class="widget-wrap" id="toc"><div class="widget-header h4 dis-select"><span class="name">本文目錄</span></div><div class="widget-body fs14 post"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%8C%AF%E8%AA%A4%E8%A8%8A%E6%81%AF%E4%B8%8D%E6%87%89%E9%81%8E%E6%96%BC%E7%B0%A1%E9%99%8B"><span class="toc-text">錯誤訊息不應過於簡陋</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E9%9C%80%E8%A6%81%E5%B0%B1%E4%B8%8D%E8%A6%81%E5%AF%AB"><span class="toc-text">不需要就不要寫</span></a></li></ol></div></div></div>
+
+    
+  
+</div>
+
+
+    </aside>
+    <div class='l_main'>
+      
+
+      
+
+
+  <div class='bread-nav fs12'>
+  
+    
+    <div id='breadcrumb'>
+      <a class='cap breadcrumb' href='/'>首頁</a>
+      <span class="sep"></span>
+      <a class='cap breadcrumb' href='/'>網誌</a>
+      
+        <span class="sep"></span>
+        <a class="cap breadcrumb-link" href="../categories/Developments/">Developments</a>
+      
+    </div>
+    <div id='post-meta'>
+      發布於&nbsp;<time datetime='2020-10-17T16:20:37.000Z'>2020-10-18</time>
+    </div>
+  
+  </div>
+
+
+<article class='content md post'>
+<h1 class="article-title"><span>DevLog：使用者體驗 (1)</span></h1>
+<p><a target="_blank" rel="noopener" href="https://github.com/qier222/YesPlayMusic/pull/9">貢獻了一個新東西到某個 GitHub 儲存庫</a>，其中主要是讓程式更適合使用者。有許多開發者常常犯下類似「錯誤訊息太艱深難懂」、「以為使用者會需要，但其實沒必要的」的錯誤，而這篇文章我會詳談為何我覺得開發者為何不應該犯這些錯誤。</p>
+<span id="more"></span>
+<h2 id="錯誤訊息不應過於簡陋"><a href="#錯誤訊息不應過於簡陋" class="headerlink" title="錯誤訊息不應過於簡陋"></a>錯誤訊息不應過於簡陋</h2><blockquote>
+<p>此外，我把原本很醜的 <code>if</code> 表示式以 Map 改寫，同時我也讓訊息比較好懂，畢竟這個專案的目標客群是一般使用者，盡可能用些平易近人的錯誤訊息。</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/qier222/YesPlayMusic/pull/9#issuecomment-711028059">GitHub - YesPlayMusic, PR #9</a></p>
+</blockquote>
+<p>為什麼錯誤訊息要平易近人？首先我們來看一個反例。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">權杖錯誤。</span><br></pre></td></tr></table></figure>
+
+<p>你能一眼就看出來到底出了什麼問題，且該怎麼修正嗎？就連我這個稍有經驗的電腦使用者都不一定知道該怎麼修，更何況是一般使用者？</p>
+<p>也因此，一個好的錯誤訊息要讓使用者知道這是怎麼了，和應該怎麼修。就以上面的錯誤訊息為例，我們可以寫得更加具體：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">判斷權杖時發生錯誤。可能是因為閒置過久，或是沒有權限所致。</span><br></pre></td></tr></table></figure>
+
+<p>首先，前面的「具體錯誤」是給了解系統的人看的，這樣使用者詢問這些人時，他們才能清楚是哪個環節出錯。而後面的可能發生原因，就是給使用者看的。也因此，我們要盡可能避開專有名詞，用使用者能看懂的字眼，去告訴使用者大概是怎麼了。</p>
+<p>現在使用者知道問題的可能原因了。但是，使用者知道原因，卻不知道怎麼修，這樣仍然不是合格的錯誤訊息。所以我們也要給出可能的解決方法。首先，我們先看解決方法的反例：</p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-7.png" alt="Microsoft 詞彙庫中的反例"></p>
+<p>「請聯絡您的系統管理員。」絕對不是解決方法，事實上 Microsoft 之前很喜歡使用「聯絡管理員」這種推卸責任的話語來掩蓋他們懶著寫解決方法的事實。</p>
+<p>但是聯絡管理員真的有用嗎？事實上不少使用者自己就是「系統管理員」，難道是要聯絡自己嗎？所以解決方法的撰寫，要盡可能讓使用者能夠自己解決，而不是一直推卸。就以上面的錯誤訊息來說，我們可以改寫成這樣：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">判斷權杖時發生錯誤。可能是因為閒置過久，或是沒有權限所致。請嘗試重新登入您的帳戶，或重新以有權限存取此系統的帳戶登入。</span><br></pre></td></tr></table></figure>
+
+<p>比起最一開始的錯誤訊息，我們讓開發者更好判斷錯誤的本因、讓使用者更好理解問題的可能原因以及怎麼解決，這樣便是最適合使用者和系統管理員的錯誤訊息。</p>
+<h2 id="不需要就不要寫"><a href="#不需要就不要寫" class="headerlink" title="不需要就不要寫"></a>不需要就不要寫</h2><p>時間寶貴，別浪費時間在沒人用的功能上。寫太多功能，除了程式本身會變得十分臃腫，也會使核心功能的維護時間被寫新功能的開發時間佔據，導致程式日漸不穩定。</p>
+<p>此外，不要一股腦把所有能拿到的東西都塞進去使用者介面裡面，因為使用者不需要也看不懂，放太多只會讓介面變得十分混亂。舉個現實中的例子，假如你拿到這些資料：</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// kb/s</span></span><br><span class="line">  currentSpeed: <span class="number">500</span>, <span class="comment">// 目前速度</span></span><br><span class="line">  <span class="comment">// byte</span></span><br><span class="line">  totalSize: <span class="number">100000000</span>, <span class="comment">// 總計大小</span></span><br><span class="line">  <span class="comment">// byte</span></span><br><span class="line">  gotSize: <span class="number">300000</span>, <span class="comment">// 收到的大小</span></span><br><span class="line">  respHeader: &#123; <span class="comment">// 伺服器回應的 header</span></span><br><span class="line">    server: <span class="string">&#x27;blah&#x27;</span>,</span><br><span class="line">    cookies: &#123;&#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  reqHeader: &#123; <span class="comment">// 用戶端要求的 header</span></span><br><span class="line">    userAgent: <span class="string">&#x27;???&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>一個不好的使用者介面會把目前速度、總計大小、已下載的大小、伺服器和用戶端的回應放上去，甚至還會幫忙算 ETA 和經過時間，但是使用者真的需要這些資料嗎？</p>
+<p>如果只是單純的遊戲下載器，我們只要告訴使用者目前進度和 ETA 就好。而如果是瀏覽器下載器，也不用精確到把詳細的回應告訴使用者。</p>
+<p>所以，請秉持著「有需要再寫」原則，可以看看<a href="/golden-circle">〈用 Golden Circle 從初衷找出需求〉</a>，了解怎麼利用輔助工具幫你找到最需要的核心功能。</p>
+
+
+<div class="article-footer fs14"><section id="license"><div class="header"><span>授權條款</span></div><div class="body"><p>本文採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">姓名標示-非商業性-相同方式分享 4.0 國際</a> 授權條款。轉載請標示來源。</p>
+</div></section></div>
+
+</article>
+
+<div class="related-wrap" id="read-next"><section class="header cap theme"><span>接下來閱讀</span></section><section class="body"><div class="post-title h2"><a href="../golden-circle/">用 Golden Circle 從初衷找出需求</a></div><div class="post-title fs14"><a href="../vba-selectionchange/">上一篇：VBA 筆記：選取事件</a></div></section></div>
+
+
+
+
+
+
+
+
+      
+<footer class="page-footer fs12"><hr><div><p>本網誌所有文章除特別聲明外，均採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 授權條款。轉載請註明出處。</p>
+<p>本站由 <a href="https://blog.pan93.tk/">@pan93412</a> 建立，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.1.0">Stellar</a> 作為主題。</p>
+</div></footer>
+
+      <div class='float-panel mobile-only blur' style='display:none'>
+  <button type='button' class='sidebar-toggle mobile' onclick='sidebar.toggle()'>
+    <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301"><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15302"></path><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15303"></path></svg>
+  </button>
+</div>
+
+    </div>
+  </div>
+  <div class='scripts'>
+    <script type="text/javascript">
+  stellar = {
+    // 懒加载 css https://github.com/filamentgroup/loadCSS
+    loadCSS: (href, before, media, attributes) => {
+      var doc = window.document;
+      var ss = doc.createElement("link");
+      var ref;
+      if (before) {
+        ref = before;
+      } else {
+        var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
+        ref = refs[refs.length - 1];
+      }
+      var sheets = doc.styleSheets;
+      if (attributes) {
+        for (var attributeName in attributes) {
+          if (attributes.hasOwnProperty(attributeName)) {
+            ss.setAttribute(attributeName, attributes[attributeName]);
+          }
+        }
+      }
+      ss.rel = "stylesheet";
+      ss.href = href;
+      ss.media = "only x";
+      function ready(cb) {
+        if (doc.body) {
+          return cb();
+        }
+        setTimeout(function () {
+          ready(cb);
+        });
+      }
+      ready(function () {
+        ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
+      });
+      var onloadcssdefined = function (cb) {
+        var resolvedHref = ss.href;
+        var i = sheets.length;
+        while (i--) {
+          if (sheets[i].href === resolvedHref) {
+            return cb();
+          }
+        }
+        setTimeout(function () {
+          onloadcssdefined(cb);
+        });
+      };
+      function loadCB() {
+        if (ss.addEventListener) {
+          ss.removeEventListener("load", loadCB);
+        }
+        ss.media = media || "all";
+      }
+      if (ss.addEventListener) {
+        ss.addEventListener("load", loadCB);
+      }
+      ss.onloadcssdefined = onloadcssdefined;
+      onloadcssdefined(loadCB);
+      return ss;
+    },
+
+    // 从 butterfly 和 volantis 获得灵感
+    loadScript: (src, opt) => new Promise((resolve, reject) => {
+      var script = document.createElement('script')
+      script.src = src
+      if (opt) {
+        for (let key of Object.keys(opt)) {
+          script[key] = opt[key]
+        }
+      } else {
+        // 默认异步，如果需要同步，第二个参数传入 {} 即可
+        script.async = true
+      }
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    }),
+
+    // https://github.com/jerryc127/hexo-theme-butterfly
+    jQuery: (fn) => {
+      if (typeof jQuery === 'undefined') {
+        stellar.loadScript(stellar.plugins.jQuery).then(fn)
+      } else {
+        fn()
+      }
+    }
+  };
+  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.1.0';
+  stellar.config = {
+    date_suffix: {
+      just: '剛剛',
+      min: '分鐘前',
+      hour: '小時前',
+      day: '天前',
+      month: '個月前',
+    },
+  };
+
+  // required plugins (only load if needs)
+  stellar.plugins = {
+    jQuery: '../https:/cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js',
+    sitesjs: '../js/plugins/sites.js',
+    friendsjs: '../js/plugins/friends.js',
+  };
+
+  // optional plugins
+  if ('true' == 'true') {
+    stellar.plugins.lazyload = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js","transition":"blur"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.swiper = Object.assign({"enable":true,"css":"https://unpkg.com/swiper/swiper-bundle.min.css","js":"https://unpkg.com/swiper/swiper-bundle.min.js"});
+  }
+  if ('' == 'true') {
+    stellar.plugins.scrollreveal = Object.assign({"enable":null,"js":"https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js","distance":"8px","duration":500,"interval":100,"scale":1});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+</script>
+
+<!-- required -->
+
+  
+<script src="../js/main.js" async></script>
+
+
+
+<!-- optional -->
+
+
+
+<!-- inject -->
+
+
+  </div>
+</body>
+</html>

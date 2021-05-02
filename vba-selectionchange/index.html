@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang='zh-TW'>
+
+<head>
+  <meta name="generator" content="Hexo 5.4.0">
+  <meta charset="utf-8">
+  
+
+  <meta http-equiv='x-dns-prefetch-control' content='on' />
+  <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+
+  <meta name="renderer" content="webkit">
+  <meta name="force-rendering" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="HandheldFriendly" content="True" >
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>VBA 筆記：選取事件 - pan.blog</title>
+
+  
+    <meta name="description" content="有天我突然想寫一個 Excel 按鈕，但是又不想要做一個 Form，而想到最好的辦法，就是按 Excel 中的格子。那該怎麼做，才可以做出這種偽按鈕呢？">
+<meta property="og:type" content="article">
+<meta property="og:title" content="VBA 筆記：選取事件">
+<meta property="og:url" content="https://blog.pan93.tk/vba-selectionchange/index.html">
+<meta property="og:site_name" content="pan.blog">
+<meta property="og:description" content="有天我突然想寫一個 Excel 按鈕，但是又不想要做一個 Form，而想到最好的辦法，就是按 Excel 中的格子。那該怎麼做，才可以做出這種偽按鈕呢？">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-5.png">
+<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-6.png">
+<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-9.png">
+<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-10.png">
+<meta property="article:published_time" content="2020-10-18T15:40:43.000Z">
+<meta property="article:modified_time" content="2021-05-02T18:58:40.503Z">
+<meta property="article:author" content="pan93412">
+<meta property="article:tag" content="vba">
+<meta property="article:tag" content="事件">
+<meta property="article:tag" content="選取">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blog.pan93.tk/vba-selectionchange/image-5.png">
+  
+  
+
+  <!-- feed -->
+  
+
+  
+    
+<link rel="stylesheet" href="../css/main.css">
+
+  
+
+  
+    
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK8EPCLBY6"></script>
+    
+      <script src="/gtag.js"></script>
+    
+  
+</head>
+
+<body>
+  
+
+
+  <div class='l_body' id='start'>
+    <aside class='l_left'>
+    
+
+<header class='header'>
+  <div class='logo-wrap'>
+  
+  
+    <a class='title' href='../index.html'>
+      pan.blog
+    </a>
+  
+</div>
+
+  <nav class="menu dis-select"></nav>
+</header>
+
+<div class='widgets'>
+  
+    
+      
+      
+<div class="widget-wrap" id="toc"><div class="widget-header h4 dis-select"><span class="name">本文目錄</span></div><div class="widget-body fs14 post"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8E%9F%E7%90%86%E6%80%9D%E8%80%83"><span class="toc-text">原理思考</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Excel-%E4%B8%AD%EF%BC%8C%E6%8C%89%E4%B8%80%E4%B8%8B%E5%84%B2%E5%AD%98%E6%A0%BC%E4%BB%A3%E8%A1%A8%EF%BC%9F"><span class="toc-text">Excel 中，按一下儲存格代表？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%82%A3%E6%80%8E%E9%BA%BC%E7%9F%A5%E9%81%93%E4%BD%BF%E7%94%A8%E8%80%85%E9%81%B8%E5%8F%96%E4%BA%86%E4%BB%80%E9%BA%BC%EF%BC%9F"><span class="toc-text">那怎麼知道使用者選取了什麼？</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%AD%A3%E6%96%87"><span class="toc-text">正文</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BB%BA%E7%AB%8B%E6%8E%A5%E6%94%B6%E4%BA%8B%E4%BB%B6%E7%9A%84%E5%AD%90%E7%A8%8B%E5%BC%8F"><span class="toc-text">建立接收事件的子程式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%86%E8%A7%A3%E5%AD%90%E7%A8%8B%E5%BC%8F%E7%9A%84%E7%B5%90%E6%A7%8B"><span class="toc-text">了解子程式的結構</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BD%BF%E7%94%A8%E4%B8%8A%E7%9A%84%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A0%85"><span class="toc-text">使用上的注意事項</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AF%A6%E4%BD%9C%EF%BC%9A%E9%96%8B%E9%97%9C%E6%8C%89%E9%88%95"><span class="toc-text">實作：開關按鈕</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%8E%E9%BA%BC%E7%9F%A5%E9%81%93%E4%BD%BF%E7%94%A8%E8%80%85%E6%8C%89%E4%BA%86%E5%93%AA%E9%A1%86%E6%8C%89%E9%88%95%EF%BC%9F"><span class="toc-text">怎麼知道使用者按了哪顆按鈕？</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%96%84%E7%94%A8-Switch-Case"><span class="toc-text">善用 Switch Case</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BE%97%E7%9F%A5%E4%BD%BF%E7%94%A8%E8%80%85%E6%8C%89%E7%9A%84%E5%84%B2%E5%AD%98%E6%A0%BC"><span class="toc-text">得知使用者按的儲存格</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%93%E6%8C%89%E9%88%95%E6%96%87%E5%AD%97%E8%AE%8A%E7%B2%97"><span class="toc-text">讓按鈕文字變粗</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%88%90%E5%93%81"><span class="toc-text">成品</span></a></li></ol></li></ol></div></div></div>
+
+    
+  
+</div>
+
+
+    </aside>
+    <div class='l_main'>
+      
+
+      
+
+
+  <div class='bread-nav fs12'>
+  
+    
+    <div id='breadcrumb'>
+      <a class='cap breadcrumb' href='/'>首頁</a>
+      <span class="sep"></span>
+      <a class='cap breadcrumb' href='/'>網誌</a>
+      
+        <span class="sep"></span>
+        <a class="cap breadcrumb-link" href="../categories/Developments/">Developments</a>
+      
+    </div>
+    <div id='post-meta'>
+      發布於&nbsp;<time datetime='2020-10-18T15:40:43.000Z'>2020-10-18</time>
+    </div>
+  
+  </div>
+
+
+<article class='content md post'>
+<h1 class="article-title"><span>VBA 筆記：選取事件</span></h1>
+<p>有天我突然想寫一個 Excel 按鈕，但是又不想要做一個 Form，而想到最好的辦法，就是按 Excel 中的格子。那該怎麼做，才可以做出這種偽按鈕呢？</p>
+<span id="more"></span>
+<h2 id="原理思考"><a href="#原理思考" class="headerlink" title="原理思考"></a>原理思考</h2><h3 id="Excel-中，按一下儲存格代表？"><a href="#Excel-中，按一下儲存格代表？" class="headerlink" title="Excel 中，按一下儲存格代表？"></a>Excel 中，按一下儲存格代表？</h3><p>就是選取「單一」儲存格。就跟你拖曳選取一堆儲存格、選取整整一行或一列所代表的含意是相同的。</p>
+<h3 id="那怎麼知道使用者選取了什麼？"><a href="#那怎麼知道使用者選取了什麼？" class="headerlink" title="那怎麼知道使用者選取了什麼？"></a>那怎麼知道使用者選取了什麼？</h3><p>用 VBA 的事件 (Event)。只要使用者做了什麼動作（觸發），Excel 都會通知你發生新事件，告訴你使用者做了什麼。</p>
+<p>首先，Excel 遇到新事件時，會先看看你有沒有在指定的地方放下動作（Sub，子程式），如果沒放就等同忽略，而有放就會觸發（Trigger）這個動作。所以我們只要知道「選取儲存格後該在哪裡接收事件」，就完成了。</p>
+<h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="建立接收事件的子程式"><a href="#建立接收事件的子程式" class="headerlink" title="建立接收事件的子程式"></a>建立接收事件的子程式</h3><p>VBA 中有一個跟儲存格變更有關的事件，叫做 <code>Worksheet_SelectionChange</code>，長得像這樣：</p>
+<p><code>Private Sub Worksheet\_SelectionChange(ByVal Target As Range)</code></p>
+<p>別急著複製。VBA 其實有提供一個非常簡單的事件選取工具。首先開啟 VBA 編輯器，找到你想要監聽的工作表，然後按一下上方的 [(一般)]，之後選擇 [Worksheet]。</p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-5.png" alt="按一下 [專案] 中的其中一個工作表之後，在彈出來的畫面中按一下 [(一般)]，之後按下 [Worksheet]。"></p>
+<p>選擇 Worksheet</p>
+<p>然後選擇 [SelectionChange]，搞定！</p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-6.png" alt="接著，找到旁邊的下拉框，選擇 [SelectionChange]。"></p>
+<p>選擇 SelectionChange</p>
+<h3 id="了解子程式的結構"><a href="#了解子程式的結構" class="headerlink" title="了解子程式的結構"></a>了解子程式的結構</h3><p>首先，我們來看看產生的程式碼。</p>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> Worksheet_SelectionChange(<span class="keyword">ByVal</span> Target <span class="keyword">As</span> Range)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>
+
+<p>你會發現到裡面出現了非常多奇怪的東西。什麼是 <code>Private</code> 和 <code>ByVal</code>？<code>Target</code> 是什麼？<code>As Range</code> 又是什麼東西？</p>
+<p>首先，每個工作表都有自己獨立的事件，也就是你在 A 工作表選取東西，不干 B 工作表的事。如果用 <code>Public</code>，就代表 A 工作表的事件也會影響其他工作表。這不應該發生。而 <code>Private</code> 就可以限定這個事件是 A 工作表 only 的。</p>
+<p>而 <code>ByVal</code> 則需要一點資料結構的知識。VBA 傳遞參數有兩種形式，一個是 <code>ByVal</code>，建立物件的副本，另一個則是 <code>ByRef</code>，傳遞指向原物件的參考。有興趣可以看看〈<a target="_blank" rel="noopener" href="https://www.lanrenexcel.com/vba-byval-byref-basic/">VBA 中 ByVal 和 ByRef 的基础用法和区别</a>〉。</p>
+<p><code>Target</code> 則是你選取的儲存格。<code>As Range</code> 代表這是一個儲存格範圍 (Range) 類型的物件。舉凡 <code>.Range()</code>、<code>.Cells()</code> 所回傳的物件都是 <code>Range</code>，只是平常不會去特別宣告而已。</p>
+<h3 id="使用上的注意事項"><a href="#使用上的注意事項" class="headerlink" title="使用上的注意事項"></a>使用上的注意事項</h3><p>首先，選取任何儲存格都會觸發這個事件，所以記得判斷儲存格的內容。</p>
+<p>此外，如果使用者拖曳選取，那我們就無法正確判斷該觸發的按紐。除了用 <code>foreach</code> 掃描所有使用者選取的儲存格外，你也可以用 <code>.Cells(1,1)</code> 強制指定我們要的儲存格是最左上角那個。</p>
+<h2 id="實作：開關按鈕"><a href="#實作：開關按鈕" class="headerlink" title="實作：開關按鈕"></a>實作：開關按鈕</h2><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-9.png" alt="三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。"></p>
+<p>我希望上圖範例中，按一下 ON 就讓 ON 變粗，按 OFF 就讓 OFF 變粗，那該怎麼做呢？首先，我們先在 Excel 製作如圖中的按鈕，然後開啟 VBA 編輯器並建立選取事件。</p>
+<h3 id="怎麼知道使用者按了哪顆按鈕？"><a href="#怎麼知道使用者按了哪顆按鈕？" class="headerlink" title="怎麼知道使用者按了哪顆按鈕？"></a>怎麼知道使用者按了哪顆按鈕？</h3><p>我們可以從 <code>.Address</code> 取得。就像這樣：</p>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Target.Cells(<span class="number">1</span>, <span class="number">1</span>).Address</span><br></pre></td></tr></table></figure>
+
+<p><code>.Address</code> 會回傳如 <code>$A$1</code> 的絕對座標。而我們可以發現範例中「ON」和「OFF」分別位於 E3 和 F3，所以我們就可以寫出如這樣的偽程式碼：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">如果 使用者按的儲存格是 $E$3 就</span><br><span class="line">  把 $E$3 變粗</span><br><span class="line">  把 $F$3 還原</span><br><span class="line">反之，如果 使用者按的儲存格是 $F$3 就</span><br><span class="line">  把 $F$3 變粗</span><br><span class="line">  把 $E$3 還原</span><br></pre></td></tr></table></figure>
+
+<p>那我們要怎麼寫出好看的「如果」敘述句，跟怎麼實作把字型變粗呢？</p>
+<h3 id="善用-Switch-Case"><a href="#善用-Switch-Case" class="headerlink" title="善用 Switch Case"></a>善用 Switch Case</h3><p>像上面那個偽程式碼，我們就可以寫成這樣：</p>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> <span class="keyword">Case</span> [使用者按的儲存格]</span><br><span class="line">    <span class="keyword">Case</span> <span class="string">&quot;$E$3&quot;</span></span><br><span class="line">      <span class="comment">&#x27;&lt;按下 ON 時的動作&gt;</span></span><br><span class="line">    <span class="keyword">Case</span> <span class="string">&quot;$F$3&quot;</span></span><br><span class="line">      <span class="comment">&#x27;&lt;按下 OFF 時的動作&gt;</span></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Select</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="得知使用者按的儲存格"><a href="#得知使用者按的儲存格" class="headerlink" title="得知使用者按的儲存格"></a>得知使用者按的儲存格</h3><p>首先〈了解子程式的結構〉這裡我們就提過 <code>Target</code> 是使用者選擇的儲存格，而為了要確保我們判斷的儲存格只有一個，防止莫名其妙的 bug，我們用 <code>.Cells(1,1)</code> 限定要判斷的儲存格是最左上角那個。</p>
+<p>而跟〈怎麼知道使用者按了哪顆按鈕？〉介紹到的 <code>.Address</code> 結合，就長這樣：</p>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Target.Cells(<span class="number">1</span>, <span class="number">1</span>).Address</span><br></pre></td></tr></table></figure>
+
+<p>放進去〈善用 Switch Case〉的程式碼吧！</p>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> <span class="keyword">Case</span> Target.Cells(<span class="number">1</span>, <span class="number">1</span>).Address</span><br><span class="line">    <span class="keyword">Case</span> <span class="string">&quot;$E$3&quot;</span></span><br><span class="line">      <span class="comment">&#x27;&lt;按下 ON 時的動作&gt;</span></span><br><span class="line">    <span class="keyword">Case</span> <span class="string">&quot;$F$3&quot;</span></span><br><span class="line">      <span class="comment">&#x27;&lt;按下 OFF 時的動作&gt;</span></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Select</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="讓按鈕文字變粗"><a href="#讓按鈕文字變粗" class="headerlink" title="讓按鈕文字變粗"></a>讓按鈕文字變粗</h3><p>VBA 要讓字型變粗，會用到的屬性就是 <code>.Font.Bold</code>。把屬性設成 <code>True</code> 就變粗，<code>False</code> 就還原。以下程式碼可以讓 E3 儲存格的字型變粗。</p>
+<figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Range(<span class="string">&quot;E3&quot;</span>).Font.Bold = <span class="literal">True</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h3><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> Worksheet_SelectionChange(<span class="keyword">ByVal</span> Target <span class="keyword">As</span> Range)</span><br><span class="line">   <span class="keyword">Select</span> <span class="keyword">Case</span> Target.Cells(<span class="number">1</span>, <span class="number">1</span>).Address</span><br><span class="line">        <span class="keyword">Case</span> <span class="string">&quot;$E$3&quot;</span></span><br><span class="line">            Range(<span class="string">&quot;E3&quot;</span>).Font.Bold = <span class="literal">True</span></span><br><span class="line">            Range(<span class="string">&quot;F3&quot;</span>).Font.Bold = <span class="literal">False</span></span><br><span class="line">        <span class="keyword">Case</span> <span class="string">&quot;$F$3&quot;</span></span><br><span class="line">            Range(<span class="string">&quot;F3&quot;</span>).Font.Bold = <span class="literal">True</span></span><br><span class="line">            Range(<span class="string">&quot;E3&quot;</span>).Font.Bold = <span class="literal">False</span></span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">Select</span></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>
+
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-10.png" alt="三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。而「OFF」按下去會變粗。"></p>
+
+
+<div class="article-footer fs14"><section id="license"><div class="header"><span>授權條款</span></div><div class="body"><p>本文採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">姓名標示-非商業性-相同方式分享 4.0 國際</a> 授權條款。轉載請標示來源。</p>
+</div></section></div>
+
+</article>
+
+<div class="related-wrap" id="read-next"><section class="header cap theme"><span>接下來閱讀</span></section><section class="body"><div class="post-title h2"><a href="../ux-1/">DevLog：使用者體驗 (1)</a></div><div class="post-title fs14"><a href="../feeling-bad-continuously/">上一篇：陰影持續中。</a></div></section></div>
+
+
+
+
+
+
+
+
+      
+<footer class="page-footer fs12"><hr><div><p>本網誌所有文章除特別聲明外，均採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 授權條款。轉載請註明出處。</p>
+<p>本站由 <a href="https://blog.pan93.tk/">@pan93412</a> 建立，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.1.0">Stellar</a> 作為主題。</p>
+</div></footer>
+
+      <div class='float-panel mobile-only blur' style='display:none'>
+  <button type='button' class='sidebar-toggle mobile' onclick='sidebar.toggle()'>
+    <svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="15301"><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 2.3 26.8 24.6 47.5 51.6 47.6h416.5v4z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15302"></path><path d="M566.407 808.3c26.9-0.1 49.3-20.8 51.6-47.6-1.9-27.7-23.9-49.7-51.6-51.6h-412.6c-28.2-1.4-52.6 19.5-55.5 47.6 1.9 27.7 23.9 49.7 51.6 51.6h416.5z m309.3-249.9c26.9-0.1 49.3-20.8 51.6-47.6-2.2-26.8-24.6-47.5-51.6-47.6h-721.9c-27.7-2.8-52.5 17.4-55.3 45.1-0.1 0.8-0.1 1.7-0.2 2.5 0.9 27.2 23.6 48.5 50.7 47.6H875.707z m-103.1-245.9c26.9-0.1 49.3-20.8 51.6-47.6-0.4-28.3-23.2-51.1-51.5-51.6h-618.9c-29.5-1.1-54.3 21.9-55.5 51.4v0.2c1.4 27.8 25.2 49.2 53 47.8 0.8 0 1.7-0.1 2.5-0.2h618.8z" p-id="15303"></path></svg>
+  </button>
+</div>
+
+    </div>
+  </div>
+  <div class='scripts'>
+    <script type="text/javascript">
+  stellar = {
+    // 懒加载 css https://github.com/filamentgroup/loadCSS
+    loadCSS: (href, before, media, attributes) => {
+      var doc = window.document;
+      var ss = doc.createElement("link");
+      var ref;
+      if (before) {
+        ref = before;
+      } else {
+        var refs = (doc.body || doc.getElementsByTagName("head")[0]).childNodes;
+        ref = refs[refs.length - 1];
+      }
+      var sheets = doc.styleSheets;
+      if (attributes) {
+        for (var attributeName in attributes) {
+          if (attributes.hasOwnProperty(attributeName)) {
+            ss.setAttribute(attributeName, attributes[attributeName]);
+          }
+        }
+      }
+      ss.rel = "stylesheet";
+      ss.href = href;
+      ss.media = "only x";
+      function ready(cb) {
+        if (doc.body) {
+          return cb();
+        }
+        setTimeout(function () {
+          ready(cb);
+        });
+      }
+      ready(function () {
+        ref.parentNode.insertBefore(ss, before ? ref : ref.nextSibling);
+      });
+      var onloadcssdefined = function (cb) {
+        var resolvedHref = ss.href;
+        var i = sheets.length;
+        while (i--) {
+          if (sheets[i].href === resolvedHref) {
+            return cb();
+          }
+        }
+        setTimeout(function () {
+          onloadcssdefined(cb);
+        });
+      };
+      function loadCB() {
+        if (ss.addEventListener) {
+          ss.removeEventListener("load", loadCB);
+        }
+        ss.media = media || "all";
+      }
+      if (ss.addEventListener) {
+        ss.addEventListener("load", loadCB);
+      }
+      ss.onloadcssdefined = onloadcssdefined;
+      onloadcssdefined(loadCB);
+      return ss;
+    },
+
+    // 从 butterfly 和 volantis 获得灵感
+    loadScript: (src, opt) => new Promise((resolve, reject) => {
+      var script = document.createElement('script')
+      script.src = src
+      if (opt) {
+        for (let key of Object.keys(opt)) {
+          script[key] = opt[key]
+        }
+      } else {
+        // 默认异步，如果需要同步，第二个参数传入 {} 即可
+        script.async = true
+      }
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    }),
+
+    // https://github.com/jerryc127/hexo-theme-butterfly
+    jQuery: (fn) => {
+      if (typeof jQuery === 'undefined') {
+        stellar.loadScript(stellar.plugins.jQuery).then(fn)
+      } else {
+        fn()
+      }
+    }
+  };
+  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.1.0';
+  stellar.config = {
+    date_suffix: {
+      just: '剛剛',
+      min: '分鐘前',
+      hour: '小時前',
+      day: '天前',
+      month: '個月前',
+    },
+  };
+
+  // required plugins (only load if needs)
+  stellar.plugins = {
+    jQuery: '../https:/cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js',
+    sitesjs: '../js/plugins/sites.js',
+    friendsjs: '../js/plugins/friends.js',
+  };
+
+  // optional plugins
+  if ('true' == 'true') {
+    stellar.plugins.lazyload = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js","transition":"blur"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.swiper = Object.assign({"enable":true,"css":"https://unpkg.com/swiper/swiper-bundle.min.css","js":"https://unpkg.com/swiper/swiper-bundle.min.js"});
+  }
+  if ('' == 'true') {
+    stellar.plugins.scrollreveal = Object.assign({"enable":null,"js":"https://cdn.jsdelivr.net/npm/scrollreveal@4.0.9/dist/scrollreveal.min.js","distance":"8px","duration":500,"interval":100,"scale":1});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+</script>
+
+<!-- required -->
+
+  
+<script src="../js/main.js" async></script>
+
+
+
+<!-- optional -->
+
+
+
+<!-- inject -->
+
+
+  </div>
+</body>
+</html>
