@@ -3,9 +3,8 @@ title: 淺談翻譯弊病 (1)
 tags:
   - l10n
   - translate
-id: '256'
 categories:
-  - - Translating
+  - Translating
 date: 2020-10-16 17:05:02
 ---
 

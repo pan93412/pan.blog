@@ -3,15 +3,17 @@ title: 還是先別想 macOS 相關的事情好了
 tags:
   - buy
   - hackintosh
+  - macintosh
   - mac
   - windows
-id: '333'
 categories:
-  - - The thoughts
+  - The thoughts
 date: 2020-10-23 00:53:27
 ---
 
 自從週三第一次碰到 MacBook Air 之後，就對 macOS 非常癡迷。但是，我的電腦既裝不下黑蘋果，也不太可能在剛升級 Windows 筆電不久後要求父母贊助我買 MacBook Air 的經費。
+
+<!-- more -->
 
 因此，這段時間我挺頹廢，把得來不易的空閒時間全拿去看 Apple 產品望梅止渴，和滑 B 站麻痺自己。這也是最近為何我沒繼續更新 blog 的原因之一，一方面是作業有點多，另一方面就是因為這件事。
 
