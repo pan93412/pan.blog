@@ -1,0 +1,5 @@
+welcome:
+  layout: markdown
+  title: 欢迎欢迎
+  content:
+    - 这里写的内容会覆盖主题配置文件中的
