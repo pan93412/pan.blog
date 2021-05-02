@@ -1,17 +1,18 @@
 ---
 title: Avg85 計畫失敗了。
 tags: []
-id: '510'
 categories:
-  - - The thoughts
+  - The thoughts
 date: 2021-01-19 16:59:24
 ---
 
 **真如 7 小時前的預測般，搞砸了。**
 
-* * *
+<!-- more -->
 
-![圖像裡可能有螢幕和筆記型電腦](https://scontent.ftpe2-2.fna.fbcdn.net/v/t1.0-9/140535074_2847715225498039_6876086175925447169_o.jpg?_nc_cat=101&ccb=2&_nc_sid=8bfeb9&_nc_ohc=uJIPIEz8V3kAX_j0GQr&_nc_ht=scontent.ftpe2-2.fna&oh=254f8d4ee1a3d2c16b77acc61f25d234&oe=602DDC4F)
+---
+
+![Avg85 失敗了。](avg85-failed.jpg)
 
 國文、數學墊底，即便有英文和歷史 carry 仍挽救不了這個局勢。國文既然都墊底了，文筆應該也毋須裝得很好了。數學果然是不適合我吧，第一次段考的 71 分果然是假象。
 
