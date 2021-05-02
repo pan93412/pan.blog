@@ -1,5 +1,6 @@
 welcome:
   layout: markdown
-  title: 欢迎欢迎
+  title: 嗨嗨～
   content:
-    - 这里写的内容会覆盖主题配置文件中的
+    - 這裡是 Pan93412 的心情筆記。
+    - 有設定防爬蟲，是個比較低調的個人網誌。
