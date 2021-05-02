@@ -106,3 +106,8 @@ theme: stellar
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+inject:
+  head:
+    - <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK8EPCLBY6"></script>
+    - <script src="/gtag.js"></script>
