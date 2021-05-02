@@ -1,23 +1,24 @@
 ---
 title: To the committer of 4e50b58.
-tags: []
-id: '553'
+tags:
+  - drakeet
+  - secret
 categories:
-  - - Secrets
+  - Secrets
 date: 2021-02-05 17:45:53
 ---
 
 嗨，Drakeet。我們超過 20 個月沒說上任何話了吧。
 
-* * *
+---
 
-![](https://blog.pan93.tk/wp-content/uploads/2021/02/截圖-2021-02-05-下午5.04.36-1024x892.png)
+![之前傳的 GitHub Pull Request 清單](截圖-2021-02-05-下午5.04.36.png)
 
 想當年我是 2018 年 5 月下旬發了第一個本地化修正 Patch，而也剛好是在一年後，你和我們幾個人發生些見解上的衝突，因此你封鎖我了。你同時把我當初本地化的心血也一起重置了，當時我憤恨不平。
 
-![](https://blog.pan93.tk/wp-content/uploads/2021/02/截圖-2021-02-05-下午5.33.31.png)
+![被 drakeet 封鎖的截圖](截圖-2021-02-05-下午5.33.31.png)
 
-![](https://blog.pan93.tk/wp-content/uploads/2021/02/截圖-2021-02-05-下午5.35.42-1024x378.png)
+![drakeet 洗掉的 commits](截圖-2021-02-05-下午5.35.42.png)
 
 20 個月後，我無聊翻看 duangsuse 之前的文章記錄，發現到我和你 2019 的時候，有著不少共通點——常用現成的東西、會害怕被攻擊，還有，都不太理科。
 
