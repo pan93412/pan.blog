@@ -9,7 +9,10 @@ jobs:
   pages:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: 簽出版本庫
+        uses: actions/checkout@v2
+      - name: 簽出子模組 (submodule)
+        uses: textbook/git-checkout-submodule-action@master
       - name: 使用 Node 14.x
         uses: actions/setup-node@v1
         with:
