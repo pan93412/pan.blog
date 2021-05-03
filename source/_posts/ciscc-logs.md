@@ -12,7 +12,7 @@ CISCC 是個用在 CISC（中學資訊討論群）的抱怨 (Complain) 系統。
 
 ## 開發動機
 
-![CISC, #行政人員討論區 (2021/1/2)](截圖-2021-01-03-上午1.38.54.png)
+![CISC, #行政人員討論區 (2021/1/2)](截圖-2021-01-03-上午1.38.54.webp)
 
 CISC, #行政人員討論區 (2021/1/2)
 
@@ -20,11 +20,11 @@ CISC, #行政人員討論區 (2021/1/2)
 
 ## 結構圖
 
-![用來描述 2020/1/3 時，ciscc 架構多亂的方塊圖 (2020/1/3)](image.png)
+![用來描述 2020/1/3 時，ciscc 架構多亂的方塊圖 (2020/1/3)](image.webp)
 
 用來描述 2020/1/3 時，ciscc 架構多亂的方塊圖 (2020/1/3)
 
-![但實際產出的 CISCC 架構沒有這麼亂啦 (2020/1/20)](ciscc-arch.png)
+![但實際產出的 CISCC 架構沒有這麼亂啦 (2020/1/20)](ciscc-arch.webp)
 
 但實際產出的 CISCC 架構沒有這麼亂啦 (2020/1/20)
 
@@ -39,23 +39,23 @@ CISC, #行政人員討論區 (2021/1/2)
 
 ## GitHub 貢獻紀錄
 
-{% image 截圖-2021-01-03-上午1.44.48.png width:1024px %}
+{% image 截圖-2021-01-03-上午1.44.48.webp width:1024px %}
 
 GitHub 上 pan93412 在 2021/1 的貢獻紀錄 (2021/1/3)
 
-{% image image-6.png width:1024px %}
+{% image image-6.webp width:1024px %}
 
 pan93412/ciscc-frontend 的截圖，截至當時仍有 1 個問題尚未解決，如圖。(2020/1/20)
 
-{% image image-3.png width:1024px %}
+{% image image-3.webp width:1024px %}
 
 pan93412/ciscc-discord 的截圖，截至當時仍有 1 個問題尚未解決，如圖。(2020/1/20)
 
-{% image image-1.png width:1024px %}
+{% image image-1.webp width:1024px %}
 
 pan93412/ciscc-api 的截圖，截至當時仍有 1 個問題尚未解決，如圖。(2020/1/20)
 
-{% image image-2.png width:1024px %}
+{% image image-2.webp width:1024px %}
 
 pan93412/ciscc-docker 的截圖。(2020/1/20)
 
@@ -78,17 +78,17 @@ pan93412/ciscc-docker 的截圖。(2020/1/20)
 - [ciscc-api 把先前幾個 bugs，例如 CORS 問題、預先定義頻道 ID、IP 不正確問題、Rate Limit 太短等問題都修正後，彙整成一個 version 後釋出。也更新了 VPS 的上線版本。](https://github.com/pan93412/ciscc-api/compare/c825b4854da49ed4cb78333b777d4044efb596ab%5E...master)
 - [ciscc-frontend 也是，但修正幅度比較不大。主要就是發文時鎖定「送出」按鈕，以及使錯誤訊息更友善。](https://github.com/pan93412/ciscc-frontend/compare/e23f86382dbd7937044ebeb2174127be7532a23d...master)
 
-{% image 截圖-2021-01-20-下午8.38.26.png width:1024px %}
+{% image 截圖-2021-01-20-下午8.38.26.webp width:1024px %}
 
 ciscc-api: 截至 2020/1/8 的新增提交 (2020/1/20)
 
-{% image 截圖-2021-01-20-下午8.40.01.png width:1024px %}
+{% image 截圖-2021-01-20-下午8.40.01.webp width:1024px %}
 
 ciscc-frontend: 截至 2020/1/8 的新增提交 (2020/1/20)
 
 ### 2020/1/5
 
-{% image 截圖-2021-01-20-下午8.26.05.png width:1024px %}
+{% image 截圖-2021-01-20-下午8.26.05.webp width:1024px %}
 
 Discord 1/5 剛上線時的首幾個訊息 (2020/1/20)
 
@@ -108,22 +108,22 @@ Discord 1/5 剛上線時的首幾個訊息 (2020/1/20)
 
 - ciscc-discord 完工。
 
-{% image 截圖-2021-01-02-上午1.57.03.png width:1024px %}
+{% image 截圖-2021-01-02-上午1.57.03.webp width:1024px %}
 
 ciscc-discord 命令清單文件的擷圖 (2020/1/2)
 
-{% image 截圖-2021-01-02-上午2.37.21.png width:1024px %}
+{% image 截圖-2021-01-02-上午2.37.21.webp width:1024px %}
 
 ciscc-discord 可以正常設定預設發言平台了 (2020/1/2)
 
-{% image 截圖-2021-01-02-上午2.37.24.png width:1024px %}
+{% image 截圖-2021-01-02-上午2.37.24.webp width:1024px %}
 
 ciscc-discord 設定預設發言平台後的終端機畫面 (2020/1/2)
 
-{% image 截圖-2021-01-02-下午8.51.11.png width:1024px %}
+{% image 截圖-2021-01-02-下午8.51.11.webp width:1024px %}
 
 ciscc-api 可以用 POST 傳送訊息了 (2020/1/2)
 
-{% image 截圖-2021-01-02-下午8.57.18.png width:1024px %}
+{% image 截圖-2021-01-02-下午8.57.18.webp width:1024px %}
 
 ciscc-api 加入了 Rate Limit (2020/1/2)

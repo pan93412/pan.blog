@@ -33,13 +33,13 @@ VBA 中有一個跟儲存格變更有關的事件，叫做 `Worksheet_SelectionC
 
 別急著複製。VBA 其實有提供一個非常簡單的事件選取工具。首先開啟 VBA 編輯器，找到你想要監聽的工作表，然後按一下上方的 \[(一般)\]，之後選擇 \[Worksheet\]。
 
-![按一下 [專案] 中的其中一個工作表之後，在彈出來的畫面中按一下 [(一般)]，之後按下 [Worksheet]。](image-5.png)
+![按一下 [專案] 中的其中一個工作表之後，在彈出來的畫面中按一下 [(一般)]，之後按下 [Worksheet]。](image-5.webp)
 
 選擇 Worksheet
 
 然後選擇 \[SelectionChange\]，搞定！
 
-![接著，找到旁邊的下拉框，選擇 [SelectionChange]。](image-6.png)
+![接著，找到旁邊的下拉框，選擇 [SelectionChange]。](image-6.webp)
 
 選擇 SelectionChange
 
@@ -69,7 +69,7 @@ End Sub
 
 ## 實作：開關按鈕
 
-![三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。](image-9.png)
+![三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。](image-9.webp)
 
 我希望上圖範例中，按一下 ON 就讓 ON 變粗，按 OFF 就讓 OFF 變粗，那該怎麼做呢？首先，我們先在 Excel 製作如圖中的按鈕，然後開啟 VBA 編輯器並建立選取事件。
 
@@ -151,4 +151,4 @@ Private Sub Worksheet_SelectionChange(ByVal Target As Range)
 End Sub
 ```
 
-![三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。而「OFF」按下去會變粗。](image-10.png)
+![三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。而「OFF」按下去會變粗。](image-10.webp)

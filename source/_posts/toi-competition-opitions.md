@@ -46,16 +46,16 @@ get_something(id) {
 
 最後是逐個擊破（分而治，D&C）和貪婪演算法 (Greedy Method)，雖然一開始沒聽懂，但後來自己回家找了 Wikipedia 之後就看懂了。也是個自己寫程式偶爾會想到，但沒發覺是個演算法的東西。
 
-{% image 20201115_115247.jpg height:500px %}
-{% image 20201115_115345.jpg height:500px %}
-{% image 20201115_115415.jpg height:500px %}
-{% image 20201115_115448.jpg height:500px %}
+{% image 20201115_115247.webp height:500px %}
+{% image 20201115_115345.webp height:500px %}
+{% image 20201115_115415.webp height:500px %}
+{% image 20201115_115448.webp height:500px %}
 
 培訓課程的筆記
 
 ## 比賽的過程與收穫
 
-{% image INFOP1.png height:700px %}
+{% image INFOP1.webp height:700px %}
 
 雖然跟上次一樣，看不懂題目，或是看懂卻不會做，但其實我還是有一些額外的收穫。
 
