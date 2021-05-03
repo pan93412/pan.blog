@@ -27,18 +27,18 @@
 <meta property="og:site_name" content="pan.blog">
 <meta property="og:description" content="有天我突然想寫一個 Excel 按鈕，但是又不想要做一個 Form，而想到最好的辦法，就是按 Excel 中的格子。那該怎麼做，才可以做出這種偽按鈕呢？">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-5.png">
-<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-6.png">
-<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-9.png">
-<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-10.png">
+<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-5.webp">
+<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-6.webp">
+<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-9.webp">
+<meta property="og:image" content="https://blog.pan93.tk/vba-selectionchange/image-10.webp">
 <meta property="article:published_time" content="2020-10-18T15:40:43.000Z">
-<meta property="article:modified_time" content="2021-05-03T04:35:31.173Z">
+<meta property="article:modified_time" content="2021-05-03T22:47:39.183Z">
 <meta property="article:author" content="pan93412">
 <meta property="article:tag" content="vba">
 <meta property="article:tag" content="事件">
 <meta property="article:tag" content="選取">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://blog.pan93.tk/vba-selectionchange/image-5.png">
+<meta name="twitter:image" content="https://blog.pan93.tk/vba-selectionchange/image-5.webp">
   
   
 
@@ -129,10 +129,10 @@
 <h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="建立接收事件的子程式"><a href="#建立接收事件的子程式" class="headerlink" title="建立接收事件的子程式"></a>建立接收事件的子程式</h3><p>VBA 中有一個跟儲存格變更有關的事件，叫做 <code>Worksheet_SelectionChange</code>，長得像這樣：</p>
 <p><code>Private Sub Worksheet\_SelectionChange(ByVal Target As Range)</code></p>
 <p>別急著複製。VBA 其實有提供一個非常簡單的事件選取工具。首先開啟 VBA 編輯器，找到你想要監聽的工作表，然後按一下上方的 [(一般)]，之後選擇 [Worksheet]。</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-5.png" alt="按一下 [專案] 中的其中一個工作表之後，在彈出來的畫面中按一下 [(一般)]，之後按下 [Worksheet]。"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-5.webp" alt="按一下 [專案] 中的其中一個工作表之後，在彈出來的畫面中按一下 [(一般)]，之後按下 [Worksheet]。"></p>
 <p>選擇 Worksheet</p>
 <p>然後選擇 [SelectionChange]，搞定！</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-6.png" alt="接著，找到旁邊的下拉框，選擇 [SelectionChange]。"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-6.webp" alt="接著，找到旁邊的下拉框，選擇 [SelectionChange]。"></p>
 <p>選擇 SelectionChange</p>
 <h3 id="了解子程式的結構"><a href="#了解子程式的結構" class="headerlink" title="了解子程式的結構"></a>了解子程式的結構</h3><p>首先，我們來看看產生的程式碼。</p>
 <figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> Worksheet_SelectionChange(<span class="keyword">ByVal</span> Target <span class="keyword">As</span> Range)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>
@@ -143,7 +143,7 @@
 <p><code>Target</code> 則是你選取的儲存格。<code>As Range</code> 代表這是一個儲存格範圍 (Range) 類型的物件。舉凡 <code>.Range()</code>、<code>.Cells()</code> 所回傳的物件都是 <code>Range</code>，只是平常不會去特別宣告而已。</p>
 <h3 id="使用上的注意事項"><a href="#使用上的注意事項" class="headerlink" title="使用上的注意事項"></a>使用上的注意事項</h3><p>首先，選取任何儲存格都會觸發這個事件，所以記得判斷儲存格的內容。</p>
 <p>此外，如果使用者拖曳選取，那我們就無法正確判斷該觸發的按紐。除了用 <code>foreach</code> 掃描所有使用者選取的儲存格外，你也可以用 <code>.Cells(1,1)</code> 強制指定我們要的儲存格是最左上角那個。</p>
-<h2 id="實作：開關按鈕"><a href="#實作：開關按鈕" class="headerlink" title="實作：開關按鈕"></a>實作：開關按鈕</h2><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-9.png" alt="三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。"></p>
+<h2 id="實作：開關按鈕"><a href="#實作：開關按鈕" class="headerlink" title="實作：開關按鈕"></a>實作：開關按鈕</h2><p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-9.webp" alt="三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。"></p>
 <p>我希望上圖範例中，按一下 ON 就讓 ON 變粗，按 OFF 就讓 OFF 變粗，那該怎麼做呢？首先，我們先在 Excel 製作如圖中的按鈕，然後開啟 VBA 編輯器並建立選取事件。</p>
 <h3 id="怎麼知道使用者按了哪顆按鈕？"><a href="#怎麼知道使用者按了哪顆按鈕？" class="headerlink" title="怎麼知道使用者按了哪顆按鈕？"></a>怎麼知道使用者按了哪顆按鈕？</h3><p>我們可以從 <code>.Address</code> 取得。就像這樣：</p>
 <figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Target.Cells(<span class="number">1</span>, <span class="number">1</span>).Address</span><br></pre></td></tr></table></figure>
@@ -167,7 +167,7 @@
 
 <h3 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h3><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> Worksheet_SelectionChange(<span class="keyword">ByVal</span> Target <span class="keyword">As</span> Range)</span><br><span class="line">   <span class="keyword">Select</span> <span class="keyword">Case</span> Target.Cells(<span class="number">1</span>, <span class="number">1</span>).Address</span><br><span class="line">        <span class="keyword">Case</span> <span class="string">&quot;$E$3&quot;</span></span><br><span class="line">            Range(<span class="string">&quot;E3&quot;</span>).Font.Bold = <span class="literal">True</span></span><br><span class="line">            Range(<span class="string">&quot;F3&quot;</span>).Font.Bold = <span class="literal">False</span></span><br><span class="line">        <span class="keyword">Case</span> <span class="string">&quot;$F$3&quot;</span></span><br><span class="line">            Range(<span class="string">&quot;F3&quot;</span>).Font.Bold = <span class="literal">True</span></span><br><span class="line">            Range(<span class="string">&quot;E3&quot;</span>).Font.Bold = <span class="literal">False</span></span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">Select</span></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure>
 
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-10.png" alt="三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。而「OFF」按下去會變粗。"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-10.webp" alt="三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。而「OFF」按下去會變粗。"></p>
 
 
 <div class="article-footer fs14"><section id="license"><div class="header"><span>授權條款</span></div><div class="body"><p>本文採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">姓名標示-非商業性-相同方式分享 4.0 國際</a> 授權條款。轉載請標示來源。</p>

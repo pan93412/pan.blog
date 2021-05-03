@@ -27,16 +27,16 @@
 <meta property="og:site_name" content="pan.blog">
 <meta property="og:description" content="貢獻了一個新東西到某個 GitHub 儲存庫，其中主要是讓程式更適合使用者。有許多開發者常常犯下類似「錯誤訊息太艱深難懂」、「以為使用者會需要，但其實沒必要的」的錯誤，而這篇文章我會詳談為何我覺得開發者為何不應該犯這些錯誤。">
 <meta property="og:locale" content="zh_TW">
-<meta property="og:image" content="https://blog.pan93.tk/ux-1/image-7.png">
+<meta property="og:image" content="https://blog.pan93.tk/ux-1/image-7.webp">
 <meta property="article:published_time" content="2020-10-17T16:20:37.000Z">
-<meta property="article:modified_time" content="2021-05-03T04:35:31.173Z">
+<meta property="article:modified_time" content="2021-05-03T22:47:39.183Z">
 <meta property="article:author" content="pan93412">
 <meta property="article:tag" content="epf">
 <meta property="article:tag" content="JavaScript">
 <meta property="article:tag" content="Node.js">
 <meta property="article:tag" content="Vue.js">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://blog.pan93.tk/ux-1/image-7.png">
+<meta name="twitter:image" content="https://blog.pan93.tk/ux-1/image-7.webp">
   
   
 
@@ -134,7 +134,7 @@
 
 <p>首先，前面的「具體錯誤」是給了解系統的人看的，這樣使用者詢問這些人時，他們才能清楚是哪個環節出錯。而後面的可能發生原因，就是給使用者看的。也因此，我們要盡可能避開專有名詞，用使用者能看懂的字眼，去告訴使用者大概是怎麼了。</p>
 <p>現在使用者知道問題的可能原因了。但是，使用者知道原因，卻不知道怎麼修，這樣仍然不是合格的錯誤訊息。所以我們也要給出可能的解決方法。首先，我們先看解決方法的反例：</p>
-<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-7.png" alt="Microsoft 詞彙庫中的反例"></p>
+<p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-7.webp" alt="Microsoft 詞彙庫中的反例"></p>
 <p>「請聯絡您的系統管理員。」絕對不是解決方法，事實上 Microsoft 之前很喜歡使用「聯絡管理員」這種推卸責任的話語來掩蓋他們懶著寫解決方法的事實。</p>
 <p>但是聯絡管理員真的有用嗎？事實上不少使用者自己就是「系統管理員」，難道是要聯絡自己嗎？所以解決方法的撰寫，要盡可能讓使用者能夠自己解決，而不是一直推卸。就以上面的錯誤訊息來說，我們可以改寫成這樣：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">判斷權杖時發生錯誤。可能是因為閒置過久，或是沒有權限所致。請嘗試重新登入您的帳戶，或重新以有權限存取此系統的帳戶登入。</span><br></pre></td></tr></table></figure>
