@@ -1,2 +1,4 @@
 prependRoot: true
 postAsset: true
+breaks: false
+lazyload: true
