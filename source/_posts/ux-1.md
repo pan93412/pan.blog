@@ -8,6 +8,7 @@ tags:
 categories:
   - Developments
 date: 2020-10-18 00:20:37
+updated: 2020-10-18 00:20:37
 ---
 
 [貢獻了一個新東西到某個 GitHub 儲存庫](https://github.com/qier222/YesPlayMusic/pull/9)，其中主要是讓程式更適合使用者。有許多開發者常常犯下類似「錯誤訊息太艱深難懂」、「以為使用者會需要，但其實沒必要的」的錯誤，而這篇文章我會詳談為何我覺得開發者為何不應該犯這些錯誤。

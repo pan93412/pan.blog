@@ -4,6 +4,7 @@ tags: []
 categories:
   - The thoughts
 date: 2021-01-19 16:59:24
+updated: 2021-01-19 16:59:24
 ---
 
 **真如 7 小時前的預測般，搞砸了。**

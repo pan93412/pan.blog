@@ -10,6 +10,7 @@ tags:
 categories:
   - The thoughts
 date: 2021-04-01 15:48:42
+updated: 2021-04-01 15:48:42
 ---
 
 **I failed my English in the nutshell.** Feels pretty bad in this April fools day.

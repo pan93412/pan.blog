@@ -4,6 +4,7 @@ tags: []
 categories:
   - The thoughts
 date: 2021-04-13 10:06:20
+updated: 2021-04-13 10:06:20
 ---
 
 這篇文章是我在生日當天發生的種種事件。

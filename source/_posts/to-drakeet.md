@@ -6,6 +6,7 @@ tags:
 categories:
   - Secrets
 date: 2021-02-05 17:45:53
+updated: 2021-02-05 17:45:53
 ---
 
 嗨，Drakeet。我們超過 20 個月沒說上任何話了吧。

@@ -7,6 +7,7 @@ tags:
 categories:
   - The thoughts
 date: 2020-11-26 15:27:12
+updated: 2020-11-26 15:27:12
 ---
 
 這大概是我高二以來最 crazy 的故事了。

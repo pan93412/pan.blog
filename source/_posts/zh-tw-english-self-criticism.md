@@ -4,6 +4,7 @@ tags: []
 categories:
   - The thoughts
 date: 2021-04-01 16:12:09
+updated: 2021-04-01 16:12:09
 ---
 
 從[英文版](/english-self-criticism)翻譯而來。

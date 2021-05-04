@@ -8,6 +8,7 @@ tags:
 categories:
   - The thoughts
 date: 2021-04-16 09:10:13
+updated: 2021-04-16 09:10:13
 ---
 
 假如集體使人不快樂，**為何要**？

@@ -11,6 +11,7 @@ categories:
   - Developments
   - The thoughts
 date: 2020-11-02 17:51:12
+updated: 2020-11-02 17:51:12
 ---
 
 **SMHS Dev Team 的草創專案—SMHS 學習歷程解疑網已經被我封存了**。這意味著不僅僅是我對於 smhs 學生對於校內資源的使用度死心，也意味著陪伴我整個高一下的 smhs-dev-team 的中止。

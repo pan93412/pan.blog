@@ -9,6 +9,7 @@ tags:
 categories:
   - The thoughts
 date: 2020-10-23 00:53:27
+updated: 2020-10-23 00:53:27
 ---
 
 自從週三第一次碰到 MacBook Air 之後，就對 macOS 非常癡迷。但是，我的電腦既裝不下黑蘋果，也不太可能在剛升級 Windows 筆電不久後要求父母贊助我買 MacBook Air 的經費。

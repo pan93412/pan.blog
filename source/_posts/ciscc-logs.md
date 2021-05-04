@@ -4,6 +4,7 @@ tags: []
 categories:
   - Developments
 date: 2021-01-20 21:01:23
+updated: 2021-01-20 21:01:23
 ---
 
 CISCC 是個用在 CISC（中學資訊討論群）的抱怨 (Complain) 系統。在我 MacBook Air 歸還前，我決定把我的開發紀錄都放在我的 Blog 上。

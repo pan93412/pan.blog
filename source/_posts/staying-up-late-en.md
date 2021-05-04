@@ -1,6 +1,7 @@
 ---
 title: Stay up late.
 date: 2021-5-5 4:11:36
+updated: 2021-5-5 4:11:36
 categories:
   - The thoughts
 ---
