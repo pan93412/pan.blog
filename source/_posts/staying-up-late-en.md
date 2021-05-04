@@ -7,6 +7,8 @@ categories:
 
 People always said, "don't stay up late." Meanwhile, teachers always assign lots of assignments and tests. That is ridiculous to sleep on time while making sure prepared for every test.
 
+<!-- more -->
+
 Some people said, "Why not do them in the morning?" Hard. I tried to wake up at 5 A.M, even the 4:30 A.M, I found it impossible sometimes to do all of the assignments. Whereas some people said, "Why not do them in breaking time, or the common one - after class?" Well, we are not always energetic. I prefer to take a nap after class. Meanwhile, we prefer the leisure activities to do them all in the whole after-class time. Our energy is limited, not unlimited. We are not a robot exactly.
 
 So the only choice is to do them by staying up late.
