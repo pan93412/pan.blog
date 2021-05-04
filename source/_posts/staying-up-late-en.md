@@ -17,4 +17,4 @@ I prefer to develop my learning way, for example, do a mindmap from the learning
 
 The "Master Framework for the 12-year Basic Education Curriculum Guidelines" hopes us develop our capabilities whereas still assigning lots of homework. I thought we, in these guidelines, are thought as a robot.
 
-I support the ideal milestones these guidelines want to reach, but it is too ideal. It should give us enough time to develop our capabilities, but it DIDN'T. If I had done it, I would have had the time to develop my hobbies with nothing disturbed me. It is still better than the old one in the result for me, though.
+Actually, I support the ideal milestones these guidelines want to reach, but it is too ideal. It should give us enough time to develop our capabilities, but it DIDN'T. If it had done it, I would have had the time to develop my hobbies with nothing disturbed me. It is still better than the old one in the result for me, though.
