@@ -1,7 +1,7 @@
 ---
 title: Some Bad Memories (1) (EN)
 date: 2021-5-5 11:12:00
-updated: 2021-5-5 12:36:00
+updated: 2021-5-5 17:19:10
 categories:
   - The thoughts
 ---
@@ -12,7 +12,7 @@ These are mostly writing-as-I-thinking. Don't expect any structure in this artic
 
 <!-- more -->
 
-## Bulling From 4 Years Old
+## The Bullies at 4 Years Old
 
 My parents told me that I've transferred to many schools when I am an elementary school student because of the bullies. According to my parents, not only the students but the teacher told me that I'm a freak just because I'm very bad at handling social.
 
@@ -36,7 +36,7 @@ Until now, he never made an apology to me. All he gave me is the trauma. I thoug
 
 I will never trust any Identity Authentication anymore.
 
-## And now?
+## And Now?
 
 Sharing with some friends and teachers, I feel better now. Thanks to them who listened to my stories and gave me suggestions. But I am still afraid of those who engaged in the above events.
 
