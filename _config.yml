@@ -111,3 +111,11 @@ inject:
   head:
     - <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK8EPCLBY6"></script>
     - <script src="/gtag.js"></script>
+
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  content_limit: 200
+  autodiscovery: true

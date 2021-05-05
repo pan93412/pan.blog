@@ -6,3 +6,8 @@ welcome:
     - 有設定防爬蟲，是個比較低調的個人網誌。<br>
     - 網站剛遷移完成，可能會漏掉一些圖片或是格式跑版，
     - 也請幫忙檢查一下，謝謝 ❤️
+# Recent update
+recent:
+  layout: recent
+  rss: /atom.xml # npm i hexo-generator-feed
+  limit: 5 # Count of posts
