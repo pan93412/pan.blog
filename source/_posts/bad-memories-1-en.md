@@ -24,9 +24,9 @@ Maybe I was Asperger syndrome (AS) before? I don't know. All I know is that I am
 
 I was a kid (exactly a brat) then. For a kid, it is better to NOT bully him though it is annoying. Wounding a child will let a child hurt very much and irreversibly.
 
-But a large number of the member in YSITD, a Telegram group, often attacked me with speech. They said to me, a 12-year-old kid, the garbage that should NEVER be existed in the world.
+But a large number of the member in YSITD, a Telegram group, often attacked me with speech. They said to me, a 12-year-old kid, I'm the garbage that should NEVER be existed in the world.
 
-Every time I share my discoveries, they said me "SHUT UP" almost every time. It made me afraid to express my thoughts since I am afraid to hear any "SHUT UP", "FUCK OFF" and "KILL YOURSELF".
+Every time I share my discoveries, they said me "SHUT UP" almost every time. It made me afraid to express my thoughts now, since I am afraid to hear any "SHUT UP", "FUCK OFF" and "KILL YOURSELF".
 
 ## Identity Authentications (實名認證) are NOT Trustable
 
