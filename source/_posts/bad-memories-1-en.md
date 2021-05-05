@@ -1,7 +1,7 @@
 ---
 title: Some Bad Memories (1) (EN)
 date: 2021-5-5 11:12:00
-updated: 2021-5-5 17:19:10
+updated: 2021-5-5 21:28:24
 categories:
   - The thoughts
 ---
