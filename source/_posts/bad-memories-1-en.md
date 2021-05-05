@@ -32,7 +32,9 @@ Every time I share my discoveries, they said me "SHUT UP" almost every time. It 
 
 In addition to this, one of the YSITD members owned my personal information, such as my address, my phone number, my real name, and my identity card. He made some of them public, and said: "Shut the fuck up or I will share more." I, a 13-year-old boy, was afraid.
 
-Until now, he never made an apology to me. All he gave me is the trauma.
+Until now, he never made an apology to me. All he gave me is the trauma. I thought the data source of those are from one of the service I authenticated.
+
+I will never trust any Identity Authentication anymore.
 
 ## And now?
 
