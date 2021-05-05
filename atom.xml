@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>pan.blog</title>
+  
+  <subtitle>pan93412 的想法。</subtitle>
+  <link href="https://blog.pan93.tk/atom.xml" rel="self"/>
+  
+  <link href="https://blog.pan93.tk/"/>
+  <updated>2021-05-04T22:28:09.000Z</updated>
+  <id>https://blog.pan93.tk/</id>
+  
+  <author>
+    <name>pan93412</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>熬夜。</title>
+    <link href="https://blog.pan93.tk/staying-up-late-zh/"/>
+    <id>https://blog.pan93.tk/staying-up-late-zh/</id>
+    <published>2021-05-04T22:28:09.000Z</published>
+    <updated>2021-05-04T22:28:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>大家總說「不要熬夜」，卻派非常多的功課與考試。要保證「準時就寢」，又要保證「每個考試都準備妥當」，實在是個笑話。</p><span id="more"></span><p>有些人說「為何不早上做？」我常常 5 點甚至 4 點半摸黑起床寫作業，然而這點時間不一定每次都能把功課都全部寫完。有些人說「為什麼不要在下課，或是在正常學生都覺得理所當然的『放學』時間完成？」但我們總有累的時候呀！我習慣在放學後小睡一下。同時，比起一次把作業寫完，我（們）更習慣在其中安插休憩時間。畢竟，我們不是精力無限的機器人，我們是精力有限的人類。</p><p>唯一剩下的選擇，就只有熬夜趕完功課。</p><hr><p>我習慣用我自己的學習方式。例如擷取學習內容，打造自己的心智圖。既要維持這種學習方式，又要準時完成功課與報告，實在有些窒礙難行。尤其是我忙比賽的那一段日子——「一天內」同時完成四件事情⋯⋯布萊恩的「不可能的任務」還比較容易實行。</p><p>「108 課綱」希望我們開發自己的潛能，卻還是派發大量的學習內容。在「108 課綱」下的我們，似乎是被當機器人了。實際上我支持這些課綱想達成的理想，但不覺得太理想了嗎？探索志向需要足夠的時間，108 課綱有給嗎？如果 108 課綱有給，我還得時刻擔心沒空寫完作業的問題？</p><p>不過就產出的內容而言，108 課綱還是仍然比 99 課綱還好一點點啦。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;大家總說「不要熬夜」，卻派非常多的功課與考試。要保證「準時就寢」，又要保證「每個考試都準備妥當」，實在是個笑話。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Stay up late.</title>
+    <link href="https://blog.pan93.tk/staying-up-late-en/"/>
+    <id>https://blog.pan93.tk/staying-up-late-en/</id>
+    <published>2021-05-04T20:11:36.000Z</published>
+    <updated>2021-05-04T20:11:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>People always said, “don’t stay up late.” Meanwhile, teachers always assign lots of assignments and tests. That is ridiculous to sleep on time while making sure prepared for every test.</p><span id="more"></span><p>Some people said, “Why not do them in the morning?” Hard. I tried to wake up at 5 A.M, even the 4:30 A.M, I found it impossible sometimes to do all of the assignments. Whereas some people said, “Why not do them in breaking time, or the common one - after class?” Well, we are not always energetic. I prefer to take a nap after class. Meanwhile, we prefer the leisure activities to do them all in the whole after-class time. Our energy is limited, not unlimited. We are not a robot exactly.</p><p>So the only choice is to do them by staying up late.</p><hr><p>I prefer to develop my learning way, for example, do a mindmap from the learning content. To maintain my learning way while completing the assignments and reports on time is slightly impossible. Especially the time when I was busying on my contests, it is pretty hard to maintain those four things in a row in ONE DAY.</p><p>The “Master Framework for the 12-year Basic Education Curriculum Guidelines” hopes us develop our capabilities whereas still assigning lots of homework. I thought we, in these guidelines, are thought as a robot.</p><p>Actually, I support the ideal milestones these guidelines want to reach, but it is too ideal. It should give us enough time to develop our capabilities, but it DIDN’T. If it had done it, I would have had the time to develop my hobbies with nothing disturbed me. It is still better than the old one in the result for me, though.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;People always said, “don’t stay up late.” Meanwhile, teachers always assign lots of assignments and tests. That is ridiculous to sleep on time while making sure prepared for every test.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>為何退租 VPS。</title>
+    <link href="https://blog.pan93.tk/cancel-my-vps/"/>
+    <id>https://blog.pan93.tk/cancel-my-vps/</id>
+    <published>2021-05-04T04:28:52.000Z</published>
+    <updated>2021-05-04T04:28:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>是時候退租自己的 Contabo VPS 了。這台主機陪了我 7 個月，陪伴我寫了非常多篇文章，要跟它分離，著實不捨。</p><span id="more"></span><p>然而，我思考了很久，除了放部落格和一些很沒必要的服務之外，我真想不到這筆支出的必要性。很多東西都可以用免費的服務代替，真的沒有必要為了這幾個服務和所謂的情感，每三個月花 500 多續租下去。</p><p>這讓我想到「極簡主義」——斷捨離造就乾淨，依依不捨只會佔據空間。我的主機不也一樣——為什麼要因為情感而租沒必要的東西呢？依依不捨也難道不是徒增支出的浪費和主機商資源的浪費？</p><p>支出這種東西，理性大於感性會比較好。退租吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;是時候退租自己的 Contabo VPS 了。這台主機陪了我 7 個月，陪伴我寫了非常多篇文章，要跟它分離，著實不捨。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    <category term="school" scheme="https://blog.pan93.tk/categories/The-thoughts/school/"/>
+    
+    
+    <category term="school" scheme="https://blog.pan93.tk/tags/school/"/>
+    
+    <category term="vps" scheme="https://blog.pan93.tk/tags/vps/"/>
+    
+    <category term="contabo" scheme="https://blog.pan93.tk/tags/contabo/"/>
+    
+    <category term="thought" scheme="https://blog.pan93.tk/tags/thought/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>這是一篇 Hexo 測試文。</title>
+    <link href="https://blog.pan93.tk/test-hexo/"/>
+    <id>https://blog.pan93.tk/test-hexo/</id>
+    <published>2021-05-03T04:27:00.000Z</published>
+    <updated>2021-05-03T04:27:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>測試手機是否可以發文。如果可以，那就可以用 Notion 或<br>HackMD 在手機寫作了！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;測試手機是否可以發文。如果可以，那就可以用 Notion 或&lt;br&gt;HackMD 在手機寫作了！&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="未分類" scheme="https://blog.pan93.tk/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>為什麼我的程式不能引人注目？</title>
+    <link href="https://blog.pan93.tk/catch-audience-eye/"/>
+    <id>https://blog.pan93.tk/catch-audience-eye/</id>
+    <published>2021-04-30T10:25:47.000Z</published>
+    <updated>2021-04-30T10:25:47.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>為什麼 Authouse 最後科展沒有得名？</p><p>Authouse 簡言之，就是單純的「資訊顯示站」。說句實話，這種東西已經被「發明」無數遍了，了無新意。我們自認為 Authouse 的特色幾乎都在底層，不過使用者在乎底層嗎？</p><span id="more"></span><hr><p>你說 Authouse 有完整的前後端分離、有完整的 API 設計、底層用了設計模式和 OOP——然後呢？使用者關心的是他能不能操控家居、能不能有什麼更創新的表現。誰會買一個只能看溫度、濕度和 PM2.5 的偵測球？使用者也不會想看程式碼寫得多好看吧。</p><p>你說 Authouse 開放原始碼、API 開放、任何人都能寫 Authouse 的擴充程式——然後呢？使用者只想要開箱即用，不會有人想花時間幫你寫程式。即便你的程式碼寫得再好維護，說實話也真的沒人想看；即便你的 API 寫得再怎麼完整，說實話也不會有人想花時間為一個毫無新意的專案開發程式。</p><p>第一印象就不好了，何談接下來的使用？</p><hr><p>其實這也可以延伸到我的小論文——CircleStream 上面。CircleStream 是一個仿照 Clubhouse，但底層「聲網」是自己打造的程式。我自認為這個「底層自己開發的 Clubhouse」可以很受歡迎，但誰在乎底層啊？最重要的是有沒有創新的功能，不是底層到底寫得多好。這也難怪這篇小論文只有佳作（甲等）——毫無新意的專案，根本不能引人興趣。</p><p>我該做的，是不要再花時間琢磨那些很不必要的東西——例如寫測試、例如寫 logging、例如過度使用設計模式。一個程式要真正贏得使用者的喜好，重點絕對不是程式碼寫得多好。相反，程式碼就算寫得再不好，只要功能足夠吸引人，勢必也能帶來流量。我該改進的，不只是程式碼的問題——最重要的是，拋開所有的工程問題，真正用「創意」去贏得使用者的喝采。</p><p>共勉之。</p><p><em>同步發表於個人 FB：<a href="https://www.facebook.com/pan93412TW/posts/2919325251670369">https://www.facebook.com/pan93412TW/posts/2919325251670369</a></em></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;為什麼 Authouse 最後科展沒有得名？&lt;/p&gt;
+&lt;p&gt;Authouse 簡言之，就是單純的「資訊顯示站」。說句實話，這種東西已經被「發明」無數遍了，了無新意。我們自認為 Authouse 的特色幾乎都在底層，不過使用者在乎底層嗎？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/Developments/The-thoughts/"/>
+    
+    
+    <category term="program" scheme="https://blog.pan93.tk/tags/program/"/>
+    
+    <category term="eye" scheme="https://blog.pan93.tk/tags/eye/"/>
+    
+    <category term="catching" scheme="https://blog.pan93.tk/tags/catching/"/>
+    
+    <category term="thoughts" scheme="https://blog.pan93.tk/tags/thoughts/"/>
+    
+    <category term="developments" scheme="https://blog.pan93.tk/tags/developments/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我不會去畢旅。</title>
+    <link href="https://blog.pan93.tk/give-up-a-trip/"/>
+    <id>https://blog.pan93.tk/give-up-a-trip/</id>
+    <published>2021-04-20T09:38:32.000Z</published>
+    <updated>2021-04-20T09:38:32.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>首先，畢旅價格 4K 並不是個小數目，我勢必要衡量過去所能帶來的效益。但在我看過行程之後，感覺對邊緣人來說無論是換成夜市還是百貨公司都不好玩。此外，我覺得我過去會很不開心。</p><p>我在班上的人際關係已經搞得夠差了：天知道原因為何。可能是我跟朋友的各種話題都不重疊，也可能是我之前的種種行徑惹人不爽。感覺現在被那些行徑反噬也是活該，但我其實也有所改進，不至於需要無止盡的記仇。</p><p>回到原題，所以為什麼不去？因為過去對我的效益一點都不高——可謂沒有，在家裡寫程式都比較快樂。有人說畢旅可以成倍改進同學間的感情，但我跟同學間的感情已經是負數了，「成倍」之後不會更差嗎？有人說不去畢旅就會沒照片放，但我覺得不放總比放臭臉好。有人說不去等於不合群，我總覺得<strong>你們排擠我也挺合群的呀？</strong></p><span id="more"></span><p>我的新座位被安排在一群不認識，甚至不喜歡我的人旁邊。我曾經嘗試融入他們，卻被冷嘲熱諷甚至被說「閉嘴」。每個人都以為我想太多，對這種玩笑的敏感度太高——然而不是，我覺得這完全踰越了我的底線，這就是赤裸裸的排擠，不是「不要想太多」這個敷衍的話可以帶過的。</p><p>回到 4/16 某位同學的生日，很多人送禮物甚至唱慶祝歌。那天的氣氛很好，除了我——我有對外公告的生日無人關心，某位同學少人提及的生日卻很多人記得。我在她生日前一直以為是他們真的不會記別人生日。我錯了，他們只是不願理我。這也難怪我在新座位可以受到這麼嚴重的排擠——因為他們就是希望我不存在啊！</p><p>看著他們慶祝，和樂融融的樣子，讓我再次陷入自閉。我小時候是個開朗的人，直到被網路、同學甚至是朋友唾棄。在換了座位認清事實後，我曾經想過休學——寧可放棄大學的門票，也不要跟他們那群猴子在一起。然而休學不可能。我也想過更換座位——寧願搬到世界上最安靜的座位，也不願意讓我座位的四面八方都是那些唾棄我的人。然而這也不可能——因為沒座位可換。</p><p>我可以說，我最近情緒低落，有八成的原因都是因為同儕。所以畢旅我自然就不想去了——我去那邊受什麼氣呢？去那邊我搞不好要繼續承受語言上的攻擊，甚至被直接、明顯的排擠。</p><p>所以，我不去了。人類本能，就是保護自己。我不是抖 M，我不用去花四千塊體驗平時就感受到的排擠。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;首先，畢旅價格 4K 並不是個小數目，我勢必要衡量過去所能帶來的效益。但在我看過行程之後，感覺對邊緣人來說無論是換成夜市還是百貨公司都不好玩。此外，我覺得我過去會很不開心。&lt;/p&gt;
+&lt;p&gt;我在班上的人際關係已經搞得夠差了：天知道原因為何。可能是我跟朋友的各種話題都不重疊，也可能是我之前的種種行徑惹人不爽。感覺現在被那些行徑反噬也是活該，但我其實也有所改進，不至於需要無止盡的記仇。&lt;/p&gt;
+&lt;p&gt;回到原題，所以為什麼不去？因為過去對我的效益一點都不高——可謂沒有，在家裡寫程式都比較快樂。有人說畢旅可以成倍改進同學間的感情，但我跟同學間的感情已經是負數了，「成倍」之後不會更差嗎？有人說不去畢旅就會沒照片放，但我覺得不放總比放臭臉好。有人說不去等於不合群，我總覺得&lt;strong&gt;你們排擠我也挺合群的呀？&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+    <category term="thoughts" scheme="https://blog.pan93.tk/tags/thoughts/"/>
+    
+    <category term="trip" scheme="https://blog.pan93.tk/tags/trip/"/>
+    
+    <category term="give" scheme="https://blog.pan93.tk/tags/give/"/>
+    
+    <category term="up" scheme="https://blog.pan93.tk/tags/up/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>該集體嗎？</title>
+    <link href="https://blog.pan93.tk/be-separated/"/>
+    <id>https://blog.pan93.tk/be-separated/</id>
+    <published>2021-04-16T01:10:13.000Z</published>
+    <updated>2021-04-16T01:10:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>假如集體使人不快樂，<strong>為何要</strong>？</p><span id="more"></span><p>我們上午在看別人打球。我對體育活動一向沒有任何興趣，然而我得為了「集體」下去看打球 <strong>3 個小時</strong>。我之前已經忍耐過 2 天，早就受到 80 分貝的噪音洗禮 6 個小時，但今天我再也受不住那令我崩潰的叫聲、那令我不適的環境。那裡對我來講是個折磨，我卻被集體的枷鎖制約，無法離開這個地獄，回到安靜的地方，做些對我有意義的事情。但在我內心崩潰的同時，旁邊的同學看得津津有味，絲毫沒有想離開的慾望。我不停尋覓著想離開的人，然而半個同班的都沒找到——彷彿班上除了我之外，沒有一個人不喜歡看球賽。</p><p>假如那時我可以破開「集體」的制約，那多好啊！然而我害怕我擅自離開，會影響其他人對我的觀感。但論觀感影響，難道認真看球賽就有辦法提升觀感嗎？對他們來講或許是義務，是個 Nonsense 的笑話。但離開就會降低觀感嗎？反而有可能會，他們可能會認為我是個不「集體」的人。但身為一個班上的超級邊緣甚至被排擠的人，我又有什麼理由去維持那些無作用的觀感呢？難道我之前兩次看完球賽，別人給我的觀感有變好嗎？前兩次認真看比賽，難道我有因此脫離「邊緣」的標籤嗎？看球賽無好處只有壞處，我看下去的意義是什麼？</p><p>我最後選擇離開。集體什麼的，<strong>管他去死</strong>。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;假如集體使人不快樂，&lt;strong&gt;為何要&lt;/strong&gt;？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+    <category term="學校" scheme="https://blog.pan93.tk/tags/%E5%AD%B8%E6%A0%A1/"/>
+    
+    <category term="集體" scheme="https://blog.pan93.tk/tags/%E9%9B%86%E9%AB%94/"/>
+    
+    <category term="school" scheme="https://blog.pan93.tk/tags/school/"/>
+    
+    <category term="group" scheme="https://blog.pan93.tk/tags/group/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2021/04/12 發生的種種事情</title>
+    <link href="https://blog.pan93.tk/investigation-on-210412/"/>
+    <id>https://blog.pan93.tk/investigation-on-210412/</id>
+    <published>2021-04-13T02:06:20.000Z</published>
+    <updated>2021-04-13T02:06:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>這篇文章是我在生日當天發生的種種事件。</p><span id="more"></span><hr><p>4/12 是我測試有沒有成為邊緣人的利器。</p><p>倘若我在班級有受到一絲關注，我勢必會收到來自同班的一些祝賀訊息。其實我沒有病到要每個人祝賀我，我只想測試我是否還有受到一絲關心。</p><p>國小和國中時，我是個不折不扣的邊緣人——何止如此，甚至還是個被霸凌者。不只如此，我國中時也發生過<a href="/bully">生日被肉搜的不好回憶</a>，也曾經發過非常多篇感嘆這件事的文章——就此可知，生日測試一直都沒通過。整件事情是直到高一才有所好轉，但高二似乎又急轉直下。</p><p>回歸原題。這篇文章是我在生日當天發生的種種事件。</p><hr><p>現實中 4/12 是個星期一，有 10 個小時要跟同學相處。</p><p>早在 4/6，我就發布了一個透露我自己生日的限時動態。我猜測那些現實的朋友應該已經知曉了我的生日。4/12 當天，我又傳了一次，期許自己生日的消息能夠受到一絲關注。</p><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="Instagram-story-1.webp" style="height:300px;"/></div></div><p>然而我早上我過得不是很好——早晨我讀英文雜誌讀到遲到，還遇到早自修的<a href="/no-society">吵雜環境</a>，甚至還被某些人針對，實在悶悶不樂。</p><p>與此同時，截至放學只有四位好友願意跟我說句生日快樂。即使有接近 80% 的人知道我生日的消息，卻只有 12.5% 的人願意理會。我總認為，自己幫助別人這麼多，別人生日的時候我也會傳則訊息祝賀——換到自己，就沒有這種待遇。</p><p>當天我就開了個 Podcast 跟幾位朋友聊天。他們某些人也有類似的遭遇。或許是因為我是邊緣人吧。生日少人關心，或許也是邊緣人的宿命——即使付出再多，也不會有人在乎他們。最後，我朋友安慰了我，也跟我說了句「別把熱臉敷在冷屁股上」——別再認為自己付出的東西能獲得相應的回報。我也想通了：測試失敗就失敗吧。不要為了這種事情傷了一整天的心情。</p><h2 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h2><p>我在網路收到非常多網友的祝福——至少有十幾封吧。所以生日測試其實也不算完全失敗。</p><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image-86288876-16181967151934718054117975015040.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image-1138464423-16181967364038468261108193598653.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image-617003021-1618196816511629731491906360255.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image-611229598-16181968298356185267010011281806.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image1103916445-16182015358182040726317795923921.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image1989049901-16182060371368304281863277620442.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image1031084366-16182184778178171336312831331315.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image-1232694018-16182184954325397581749281962124.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image1540221246-16182188046071689042314419137690.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image1077014341-16182726436395623299899102437274.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image2088771078-16182726851654142522844302952558.webp" style="height:300px;"/></div></div>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;這篇文章是我在生日當天發生的種種事件。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>施予後得到了 0。</title>
+    <link href="https://blog.pan93.tk/gave-all-got-none/"/>
+    <id>https://blog.pan93.tk/gave-all-got-none/</id>
+    <published>2021-04-12T07:16:04.000Z</published>
+    <updated>2021-04-12T07:16:04.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>我很常幫助別人，也很常給予別人精神上的支持。舉個例子，別人生日的時候我常常會傳句「生日快樂」；別人需要幫忙的時候，我有能力就伸出援手——雖說一點都不特別，但我一直認為「只要我用心對待別人，別人也會用心對待我」。</p><span id="more"></span><p>但今天我感受到人性的冷漠。沒有人願意幫我小忙，也沒人對我說「生日快樂」，自己所幫的一切都像是進入了無底洞——一個不會有回聲的洞。</p><p>有點難過。</p><hr><p>不要抓錯重點，我不是為了「生日快樂」而憤恨，我只是覺得自己用心做的一切都被當作理所當然，沒得到任何回報而難過。就像是一個工具兼邊緣人。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;我很常幫助別人，也很常給予別人精神上的支持。舉個例子，別人生日的時候我常常會傳句「生日快樂」；別人需要幫忙的時候，我有能力就伸出援手——雖說一點都不特別，但我一直認為「只要我用心對待別人，別人也會用心對待我」。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+    <category term="birthday" scheme="https://blog.pan93.tk/tags/birthday/"/>
+    
+    <category term="loner" scheme="https://blog.pan93.tk/tags/loner/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>討厭社交。</title>
+    <link href="https://blog.pan93.tk/no-society/"/>
+    <id>https://blog.pan93.tk/no-society/</id>
+    <published>2021-04-09T01:17:56.000Z</published>
+    <updated>2021-04-09T01:17:56.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>我討厭吵雜的環境、涌動的人群和髒亂的地方。但我走不得。我必須為了合群，忍受這樣的環境。</p><span id="more"></span><p>我身心俱疲，但看著大家都享受這樣的環境，我也不敢暗自離開。我害怕因此被貼上不合群的標籤－－任性、自我中心和難以理解。</p><p>但再合群下去，崩潰也就離我不遠。真的想在一個單獨的角落做著自己喜歡的事情。但我相信沒人可以理解這種行為，也只會覺得我是個怪人，只好作罷。</p><p>討厭社交。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;我討厭吵雜的環境、涌動的人群和髒亂的地方。但我走不得。我必須為了合群，忍受這樣的環境。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+    <category term="社交" scheme="https://blog.pan93.tk/tags/%E7%A4%BE%E4%BA%A4/"/>
+    
+    <category term="討厭" scheme="https://blog.pan93.tk/tags/%E8%A8%8E%E5%8E%AD/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>「又」考砸了——針對這次考試，我英文考試結果的自我檢討</title>
+    <link href="https://blog.pan93.tk/zh-tw-english-self-criticism/"/>
+    <id>https://blog.pan93.tk/zh-tw-english-self-criticism/</id>
+    <published>2021-04-01T08:12:09.000Z</published>
+    <updated>2021-04-01T08:12:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>從<a href="/english-self-criticism">英文版</a>翻譯而來。</p><p><strong>簡言之，我英文考砸了。</strong>這個愚人節，我的心情真的很糟糕。</p><span id="more"></span><p><em>更新 (2021/4/1): 數學、英文和地理都<strong>死光</strong>了。真的很難受。</em></p><p>其實我是真的有點嚇到。我每科花了非常多時間在讀。就以英文為例，我花很多時間重讀我之前考試卷中的每一個單字、片語和句子，再把那些我不太會的部分放到我的心智圖中。</p><p>理論上這應該會大幅提升我的英文成績，它也確實讓我搞懂那些我以前不懂的單字，但閱讀這些考卷並輸入到我的心智圖是件很耗時間的事情，而我的時間沒多到可以容納這麼一隻時間怪獸。</p><p>而且，有個東西把我寶貴的時間佔掉了非常多，那就是「完成 All in One」。我早該忽略 All in One——應該把我的心智圖計畫擺在第一順位，考完試之後再完成它。畢竟，All in One 不是我學習計畫的一部分。</p><p>我唯一讀完的只有課本第二課和一本雜誌。無庸置疑，即使我花了這麼多時間，還是沒得以擺脫「考砸」這個詞。不過撇除考試，這還是一個好習慣啦。</p><p>所以這次我學到的就是：「假如時間不夠，永遠不要嘗試新的學習路線」和「不是每個好習慣都能立即見效」。或許這個習慣以後我可以保持下去，但對於重要的考試——傳統穩定的路線才是最上策。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;從&lt;a href=&quot;/english-self-criticism&quot;&gt;英文版&lt;/a&gt;翻譯而來。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;簡言之，我英文考砸了。&lt;/strong&gt;這個愚人節，我的心情真的很糟糕。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Failed AGAIN — The self-criticism against my English result in this exam</title>
+    <link href="https://blog.pan93.tk/english-self-criticism/"/>
+    <id>https://blog.pan93.tk/english-self-criticism/</id>
+    <published>2021-04-01T07:48:42.000Z</published>
+    <updated>2021-04-01T07:48:42.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>I failed my English in the nutshell.</strong> Feels pretty bad in this April fools day.</p><span id="more"></span><p><em>Updated (4/1/2021): Math, English and Geography are ALL failed. I feel pretty bad.</em></p><p>Actually, I am shocked since I took a lot of time on every subject. Take English as an example, I took a lot of time to re-read every word, phrase, and sentence in my previous test papers, then extracted those I was not good at into my mindmap.</p><p>Generally, it will improve my English pretty lot and it indeed let me understand those words that I never figure out, but reading these papers and keying into my mind-map is also time-consumed work, and I don’t have enough time to accommodate such a time monster.</p><p>And there is something that occupied my precious time VERY MUCH: “complete the All in One “ - I should ignore All in One, place my mindmap project in the first, then finally complete All in One after I completed this exam. After all, All in One is not in my learning project.</p><p>The only thing I read completely is Lesson 2 in the textbook and a magazine. So I failed naturally, though I took very much time. Put this exam aside, it is a good habit though.</p><p>So I learned in this experience: “<em>Never try a new way to learn if time lacks</em>,” and “<em>not every good habit takes effect immediately.</em>“ Maybe this good habit I could keep doing afterward, but for the important exam - <strong>it is better to use the classical but stable way</strong>.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;I failed my English in the nutshell.&lt;/strong&gt; Feels pretty bad in this April fools day.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+    <category term="criticism" scheme="https://blog.pan93.tk/tags/criticism/"/>
+    
+    <category term="English" scheme="https://blog.pan93.tk/tags/English/"/>
+    
+    <category term="exam" scheme="https://blog.pan93.tk/tags/exam/"/>
+    
+    <category term="failed" scheme="https://blog.pan93.tk/tags/failed/"/>
+    
+    <category term="result" scheme="https://blog.pan93.tk/tags/result/"/>
+    
+    <category term="self" scheme="https://blog.pan93.tk/tags/self/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>垃圾立可帶毀我作文。</title>
+    <link href="https://blog.pan93.tk/blame-a-broken-twink/"/>
+    <id>https://blog.pan93.tk/blame-a-broken-twink/</id>
+    <published>2021-03-31T03:15:57.000Z</published>
+    <updated>2021-03-31T03:15:57.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>這次作文大概是寫得最糟糕的一次了。</strong>考作文的那天早上，我出門走到校門口，才發現忘記更換立可帶的補充帶。</p><span id="more"></span><p>考作文沒立可帶，就像是劃卡沒帶鉛筆，數學沒計算機一樣令人絕望。因此我到教室的當下，我立刻問了每位朋友，看有沒有多出來的立可帶。幸運的是我有找到一個立可帶——雖然是壞掉的立可帶，但聊勝於無——因此我就借走這個立可帶了。</p><p>沒想到，這才是噩夢的開始。原本測試的時候就發現它有點難用，但我以為我自己可以 handle 住。但直到考試開始，我要修正作文錯字的時候，才發現<strong>這玩意根本就不能用</strong>。這立可帶一直不斷地卡住，不斷地脫帶，我原想把這立可帶砸了，但想到這是考試，我選擇忍了下來。考試 55 分鐘，我花了 40 分鐘在解決立可帶的問題。</p><p>最後十五分鐘，我不忍了。我直接把原本寫的，被立可帶蹂躪到難以閱讀的作文段落打了個大叉，然後重寫一篇。至於新作文的錯字呢？我直接用原子筆塗掉了，我寧願讓考卷充滿劃記，也不願再碰那個浪費我寶貴時間的立可帶。</p><p>考試尾聲，我花了 15 分鐘，完成了一篇勉強能看的作文——畢竟是 15 分鐘速成作品，我不對這篇作文抱任何期望。只願我能藉由伊拉克狀的考試卷，讓看我卷子的人給我一些憐憫。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;這次作文大概是寫得最糟糕的一次了。&lt;/strong&gt;考作文的那天早上，我出門走到校門口，才發現忘記更換立可帶的補充帶。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+    <category term="article" scheme="https://blog.pan93.tk/tags/article/"/>
+    
+    <category term="blame" scheme="https://blog.pan93.tk/tags/blame/"/>
+    
+    <category term="broken" scheme="https://blog.pan93.tk/tags/broken/"/>
+    
+    <category term="twink" scheme="https://blog.pan93.tk/tags/twink/"/>
+    
+    <category term="作文" scheme="https://blog.pan93.tk/tags/%E4%BD%9C%E6%96%87/"/>
+    
+    <category term="立可帶" scheme="https://blog.pan93.tk/tags/%E7%AB%8B%E5%8F%AF%E5%B8%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>FB Posts - 為何我覺得資訊教育非常失敗？</title>
+    <link href="https://blog.pan93.tk/not-only-algorithms/"/>
+    <id>https://blog.pan93.tk/not-only-algorithms/</id>
+    <published>2021-03-10T09:38:53.000Z</published>
+    <updated>2021-03-10T09:38:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>看到某篇關於資訊補習的評論。我覺得台灣教給國高中生的真的只有「演算法」的部分。</p><span id="more"></span><p>首先，為什麼你會開始學程式？我相信有些人是因為覺得當駭客很厲害，所以去學了資安和系統底層；有些人是想寫網頁，所以去學了 PHP、HTML 和 JS；有些人是想要學怎麼寫遊戲，所以去學了 C# 和 Unity——寫程式本來就是出自興趣，為何要為了什麼鬼職涯發展而用「逼」的？</p><p>再來，數學不好的人真的就不能寫程式嗎？Of course NOT。像我自己就是數學不好的程式設計師，但我還不是照樣寫出高穩定、漂亮的程式？你說演算法需要數學，但演算法這種東西我 Google 一下就有了，我為何要花時間為了考試「背誦」那些程式碼？但問題是台灣教育灌輸給學生的只有偏理論的「演算法」，變相讓擁有程式才能，但數學不好的人放棄寫程式。</p><p>所以當我看到「資訊」變成一門只側重 Computer Science 的學科，變成一門還得補習的「數理課」，我覺得資訊教育徹底失敗了。我認為「資訊」該帶給學生的是自己搜尋資料及學習的能力，而不是背誦演算法的能力；不應該讓他變成一門「不會演算法就 pass 不了」的課，這應該是發展自己興趣的職涯探索課。我很慶幸我程式是自學的，至少我能看到程式設計的全貌，而不是看到資訊課演算法而放棄程式這條路。</p><p>這道理同樣可以套用在其他科目或領域上。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;看到某篇關於資訊補習的評論。我覺得台灣教給國高中生的真的只有「演算法」的部分。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+    <category term="thought" scheme="https://blog.pan93.tk/tags/thought/"/>
+    
+    <category term="education" scheme="https://blog.pan93.tk/tags/education/"/>
+    
+    <category term="facebook" scheme="https://blog.pan93.tk/tags/facebook/"/>
+    
+    <category term="information" scheme="https://blog.pan93.tk/tags/information/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>To the committer of 4e50b58.</title>
+    <link href="https://blog.pan93.tk/to-drakeet/"/>
+    <id>https://blog.pan93.tk/to-drakeet/</id>
+    <published>2021-02-05T09:45:53.000Z</published>
+    <updated>2021-02-05T09:45:53.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>嗨，Drakeet。我們超過 20 個月沒說上任何話了吧。</p><hr><p><img src="%E6%88%AA%E5%9C%96-2021-02-05-%E4%B8%8B%E5%8D%885.04.36.webp" alt="之前傳的 GitHub Pull Request 清單"></p><p>想當年我是 2018 年 5 月下旬發了第一個本地化修正 Patch，而也剛好是在一年後，你和我們幾個人發生些見解上的衝突，因此你封鎖我了。你同時把我當初本地化的心血也一起重置了，當時我憤恨不平。</p><p><img src="%E6%88%AA%E5%9C%96-2021-02-05-%E4%B8%8B%E5%8D%885.33.31.webp" alt="被 drakeet 封鎖的截圖"></p><p><img src="%E6%88%AA%E5%9C%96-2021-02-05-%E4%B8%8B%E5%8D%885.35.42.webp" alt="drakeet 洗掉的 commits"></p><p>20 個月後，我無聊翻看 duangsuse 之前的文章記錄，發現到我和你 2019 的時候，有著不少共通點——常用現成的東西、會害怕被攻擊，還有，都不太理科。</p><p>正是因為這些相似處，我同情你當時的遭遇，並想重新認識你。因此，我決定用最蠢的方法讓你能夠看到這封信——回到那熟悉的 GitHub Repository，用著熟悉的工具，做回那些年我常做的事情，並且著手撰寫這封稍短的信。</p><p>希望你能接受這個 PR，並且解除我們之間的隔閡——歡迎傳 Telegram 訊息給我，我沒封鎖你。也歡迎在這篇底下留幾段話。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;嗨，Drakeet。我們超過 20 個月沒說上任何話了吧。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img src=&quot;%E6%88%AA%E5%9C%96-2021-02-05-%E4%B8%8B%E5%8D%885.04.36.webp&quot; alt=&quot;之前傳的 GitHub Pull Request 清單&quot;&gt;&lt;/p&gt;
+&lt;p&gt;想當年我是 2018 年 5 月下旬發了第一個本地化修正 Patch，而也剛好是在</summary>
+      
+    
+    
+    
+    <category term="Secrets" scheme="https://blog.pan93.tk/categories/Secrets/"/>
+    
+    
+    <category term="drakeet" scheme="https://blog.pan93.tk/tags/drakeet/"/>
+    
+    <category term="secret" scheme="https://blog.pan93.tk/tags/secret/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CISCC 抱怨系統的開發日誌與心得</title>
+    <link href="https://blog.pan93.tk/ciscc-logs/"/>
+    <id>https://blog.pan93.tk/ciscc-logs/</id>
+    <published>2021-01-20T13:01:23.000Z</published>
+    <updated>2021-01-20T13:01:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>CISCC 是個用在 CISC（中學資訊討論群）的抱怨 (Complain) 系統。在我 MacBook Air 歸還前，我決定把我的開發紀錄都放在我的 Blog 上。</p><span id="more"></span><h2 id="開發動機"><a href="#開發動機" class="headerlink" title="開發動機"></a>開發動機</h2><p><img src="%E6%88%AA%E5%9C%96-2021-01-03-%E4%B8%8A%E5%8D%881.38.54.webp" alt="CISC, #行政人員討論區 (2021/1/2)"></p><p>CISC, #行政人員討論區 (2021/1/2)</p><p>其實會想開發 CISCC，主要是因為我在 CISC 偶爾會想靠北某些事情，但是我自己靠北不想要暴露自己的身份，也不想要辦一個假的 Discord 帳戶搞這種事情，再加上我最近都沒有可以上傳到學習歷程的專案，所以就著手開始撰寫這個專案。</p><h2 id="結構圖"><a href="#結構圖" class="headerlink" title="結構圖"></a>結構圖</h2><p><img src="image.webp" alt="用來描述 2020/1/3 時，ciscc 架構多亂的方塊圖 (2020/1/3)"></p><p>用來描述 2020/1/3 時，ciscc 架構多亂的方塊圖 (2020/1/3)</p><p><img src="ciscc-arch.webp" alt="但實際產出的 CISCC 架構沒有這麼亂啦 (2020/1/20)"></p><p>但實際產出的 CISCC 架構沒有這麼亂啦 (2020/1/20)</p><p>我預計寫三個元件：</p><ul><li><code>ciscc-discord</code>: ciscc 跟 Discord 相關的地方</li><li><code>ciscc-api</code>: ciscc 的 API，與 <code>ciscc-discord</code> 和 <code>ciscc-frontend</code> 串接的橋樑</li><li><code>ciscc-frontend</code>: ciscc 的網頁前端，也就是發文的地方啦！</li><li><code>ciscc-docker</code>: 用 Docker 將 ciscc 這三個元件容器化並整合。</li></ul><p>而截至 2020/1/3，完成度最高的是 <code>ciscc-discord</code>，其次是 <code>ciscc-api</code>，<code>ciscc-frontend</code> 尚未動工。2020/1/8 時已全數完工，並穩定上線。</p><h2 id="GitHub-貢獻紀錄"><a href="#GitHub-貢獻紀錄" class="headerlink" title="GitHub 貢獻紀錄"></a>GitHub 貢獻紀錄</h2><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-03-上午1.44.48.webp" style="width:1024px;"/></div></div><p>GitHub 上 pan93412 在 2021/1 的貢獻紀錄 (2021/1/3)</p><div class="tag-plugin image"><div class="image-bg"><img src="image-6.webp" style="width:1024px;"/></div></div><p>pan93412/ciscc-frontend 的截圖，截至當時仍有 1 個問題尚未解決，如圖。(2020/1/20)</p><div class="tag-plugin image"><div class="image-bg"><img src="image-3.webp" style="width:1024px;"/></div></div><p>pan93412/ciscc-discord 的截圖，截至當時仍有 1 個問題尚未解決，如圖。(2020/1/20)</p><div class="tag-plugin image"><div class="image-bg"><img src="image-1.webp" style="width:1024px;"/></div></div><p>pan93412/ciscc-api 的截圖，截至當時仍有 1 個問題尚未解決，如圖。(2020/1/20)</p><div class="tag-plugin image"><div class="image-bg"><img src="image-2.webp" style="width:1024px;"/></div></div><p>pan93412/ciscc-docker 的截圖。(2020/1/20)</p><h2 id="目前使用的-Tech-Stack"><a href="#目前使用的-Tech-Stack" class="headerlink" title="目前使用的 Tech Stack"></a>目前使用的 Tech Stack</h2><ul><li><code>ciscc-discord</code>: <code>discord.js</code> w/ <code>TypeScript</code></li><li><code>ciscc-api</code>: <code>Nest.js</code> w/ <code>TypeScript</code></li><li><code>ciscc-frontend</code>: Native JavaScript w/ <code>Webpack</code> w/ <code>TypeScript</code></li></ul><h2 id="Notes-Progress-Report"><a href="#Notes-Progress-Report" class="headerlink" title="Notes / Progress Report"></a>Notes / Progress Report</h2><h3 id="2021-1-14-2021-1-16"><a href="#2021-1-14-2021-1-16" class="headerlink" title="2021/1/14 ~ 2021/1/16"></a>2021/1/14 ~ 2021/1/16</h3><ul><li><a href="https://github.com/pan93412/ciscc-discord/compare/952ece53564e0bef9c78e5d5586533b27f753a28%5E...master">睽違 9 天後，ciscc-discord 終於更新了！</a>😆 不過這次不是我的功勞，是 <a href="https://github.com/pan93412/ciscc-discord/commits?author=ChAoSUnItY">ChAoSUnItY</a> 大大的！他幫我修正了幾個陳年 bug，就比如說可以利用 ciscc 平台亂標人，還有時區錯誤的問題。我也順便把幾個註釋上的問題更新了。</li><li>但是我還沒有更新 VPS 上的版本，抽空更新。</li></ul><h3 id="2021-1-8"><a href="#2021-1-8" class="headerlink" title="2021/1/8"></a>2021/1/8</h3><ul><li>這個時候我已經拿到 MacBook Pro 了。可以繼續開發了！</li><li><a href="https://github.com/pan93412/ciscc-api/compare/c825b4854da49ed4cb78333b777d4044efb596ab%5E...master">ciscc-api 把先前幾個 bugs，例如 CORS 問題、預先定義頻道 ID、IP 不正確問題、Rate Limit 太短等問題都修正後，彙整成一個 version 後釋出。也更新了 VPS 的上線版本。</a></li><li><a href="https://github.com/pan93412/ciscc-frontend/compare/e23f86382dbd7937044ebeb2174127be7532a23d...master">ciscc-frontend 也是，但修正幅度比較不大。主要就是發文時鎖定「送出」按鈕，以及使錯誤訊息更友善。</a></li></ul><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-20-下午8.38.26.webp" style="width:1024px;"/></div></div><p>ciscc-api: 截至 2020/1/8 的新增提交 (2020/1/20)</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-20-下午8.40.01.webp" style="width:1024px;"/></div></div><p>ciscc-frontend: 截至 2020/1/8 的新增提交 (2020/1/20)</p><h3 id="2020-1-5"><a href="#2020-1-5" class="headerlink" title="2020/1/5"></a>2020/1/5</h3><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-20-下午8.26.05.webp" style="width:1024px;"/></div></div><p>Discord 1/5 剛上線時的首幾個訊息 (2020/1/20)</p><ul><li>CISCC 移轉到我的 VPS 了！超棒的，運作幾乎正常。但 CSRF 還是有點問題，Safari 偶爾會卡住不讓發文。</li><li>ciscc-api 已經設定好 Rate Limit，部分解決短時間大量垃圾訊息問題。此外也解決了 CSRF 的問題，CSRF 是跨站保護，雖原意是防止未認可網站存取內部 API，但同時，如果未正確設定 CSRF，會導致正常的瀏覽器無法使用這個 API。我的做法是直接放行所有網站，未來考慮利用設定檔的形式限定可存取這個 API 的網站。</li></ul><h3 id="2020-1-4"><a href="#2020-1-4" class="headerlink" title="2020/1/4"></a>2020/1/4</h3><ul><li>ciscc-frontend、ciscc-api 和 ciscc-docker 完工，準備明天上線。</li></ul><h3 id="2020-1-3"><a href="#2020-1-3" class="headerlink" title="2020/1/3"></a>2020/1/3</h3><ul><li>ciscc-discord 的部分，已經能正常發文，訊息也很正確！理論上已經可以穩定使用了。</li><li>ciscc-api 的部分，也是差不多完成了。但是我之後可能需要搭配 token 機制，防止被濫用，當作群發垃圾訊息的地方。傳統的做法是 CSRF Token，但是 ciscc-frontend 是純前端，不能直接注入 CSRF Token，如果是透過 API 拿 CSRF，就完全失去 CSRF 的意義，變得多此一舉又沒有防禦效果。這部分需要再多加思考。</li></ul><h3 id="2020-1-2"><a href="#2020-1-2" class="headerlink" title="2020/1/2"></a>2020/1/2</h3><ul><li>ciscc-discord 完工。</li></ul><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-02-上午1.57.03.webp" style="width:1024px;"/></div></div><p>ciscc-discord 命令清單文件的擷圖 (2020/1/2)</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-02-上午2.37.21.webp" style="width:1024px;"/></div></div><p>ciscc-discord 可以正常設定預設發言平台了 (2020/1/2)</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-02-上午2.37.24.webp" style="width:1024px;"/></div></div><p>ciscc-discord 設定預設發言平台後的終端機畫面 (2020/1/2)</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-02-下午8.51.11.webp" style="width:1024px;"/></div></div><p>ciscc-api 可以用 POST 傳送訊息了 (2020/1/2)</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-02-下午8.57.18.webp" style="width:1024px;"/></div></div><p>ciscc-api 加入了 Rate Limit (2020/1/2)</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;CISCC 是個用在 CISC（中學資訊討論群）的抱怨 (Complain) 系統。在我 MacBook Air 歸還前，我決定把我的開發紀錄都放在我的 Blog 上。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Avg85 計畫失敗了。</title>
+    <link href="https://blog.pan93.tk/avg85-failed/"/>
+    <id>https://blog.pan93.tk/avg85-failed/</id>
+    <published>2021-01-19T08:59:24.000Z</published>
+    <updated>2021-01-19T08:59:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>真如 7 小時前的預測般，搞砸了。</strong></p><span id="more"></span><hr><p><img src="avg85-failed.webp" alt="Avg85 失敗了。"></p><p>國文、數學墊底，即便有英文和歷史 carry 仍挽救不了這個局勢。國文既然都墊底了，文筆應該也毋須裝得很好了。數學果然是不適合我吧，第一次段考的 71 分果然是假象。</p><p>說著這次一定要考好，結果考得卻不甚理想。明明萬事俱備，什麼題目都算過了，大概就國文是沒掌握到學習方法，但是也努力過了。這次的結果，根本不知從哪裡改進。不知道是原形畢露，該怪罪自己的智商；還是自己平時的努力不夠？或許該學會的，是該扎實地學習，別鑽漏洞吧。</p><p>不過轉念想想，或許成績就跟鄒衍的「五德終始說」、前幾次段考的好壞轉變一樣，有盛必有衰，或許下次會因為這次的教訓而更加努力。但願如此。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;真如 7 小時前的預測般，搞砸了。&lt;/strong&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>未成年在 Upwork 活該拿不回錢。</title>
+    <link href="https://blog.pan93.tk/upwork-withdraw/"/>
+    <id>https://blog.pan93.tk/upwork-withdraw/</id>
+    <published>2021-01-10T16:05:13.000Z</published>
+    <updated>2021-01-10T16:05:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h2><p>我因未通過身份驗證，無法領回自己已經在 Upwork 賺到的錢。理由是未滿 18 歲，但是 Upwork 事先沒有任何明確的標示，即使我沒看 ToS 錯在先，但這樣使我覺得很不公平。</p><span id="more"></span><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>我大概 11 月左右想為自己購置一台效能更高的電腦，而看中了 MacBook。想著「自己的東西自己賺」，我決定找一個 Freelancer 平台賺取筆電的錢。</p><p>在看過國內和國外的 Freelancer 自由業平台之後，我決定了聲稱 Microsoft 都在使用的 <strong>Upwork</strong>。註冊時 Upwork 完全沒有年齡確認，我當初以為 Upwork 開放給未成年使用。註冊要求確認 ToS 的部分，<strong>我沒認真看卻勾選「我同意」了</strong>，我沒想過幾天後我會因此想痛罵我自己。</p><p>自介填完後，我便開始尋找工作。其中一個 $50 USD 的案子我接成了，並且對方也著實把案子交給我了。案子做了一陣子後，跳出了一個小提示：</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.41.51.webp" style="width:1024px;"/></div></div><p>在 2020 年 12 月 9 日前驗證您的身份後，就能繼續在 Upwork 找尋工作機會。(2021-1-10)</p><p>按下「Get started」認證後，我卻卡關了。</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.42.30.webp" style="width:1024px;"/></div></div><p>生日 &gt; 您必須至少有 18 歲。 (2021-1-10)</p><p>如字面意思所示，我不滿 18 歲所以過不了。但是案子都接了，甚至都快寫完了，我便沒在 Upwork 按下「Withdraw」收回案子了。做完之後，對方也撥給我錢了，<strong>我才發現到沒驗證會拿不回錢</strong>（withdraw earning）。但是我當時認為是自己是看錯了，就等 Upwork 在我設定的 12 月底把錢匯進去我的 PayPal 帳戶。</p><p>結果 12 月底我上 PayPal 看餘額，結果跟 Upwork 所說如出一轍：</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.31.24.webp" style="width:1024px;"/></div></div><p>PayPal 的餘額資訊 (2021-1-10)</p><p>Upwork 真的把我的錢扣押了，而我自己去手動 withdraw，結果當然是失敗了。</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.53.25.webp" style="width:1024px;"/></div></div><p>帳戶已凍結 —— 您的金融帳戶已被凍結。如要繼續，請聯絡客戶支援。(2021-1-10)</p><p>其實，在我發現我身分證過不了之後，我花了不少時間上網查 Workaround。但是就我查的資料，大部分都是喊說「為什麼 Upwork 不開放 18 歲以下的人使用？」，而沒有一個像我，早就已經註冊，已經接到案子且正在做，而過不了身分驗證的 case。</p><p>而 Upwork 的 ToS，就是我跳過的那個，有說「18 歲以下法人不能使用 Upwork」，但是極度不顯眼，而且註冊時也沒任何除 ToS 之外提到 18+ only 的文字——或許這是常識，可惜我當時沒有這常識。</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.30.14.webp" style="width:1024px;"/></div></div><p>Quora 早就有人提過，但我後來才看到。(2020-1-10)</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.27.17.webp" style="width:1024px;"/></div></div><p>我漏看的 ToS (2020-1-10)</p><p>就算是我違反了 ToS，但首先我沒搞洗錢，我的自介也很誠實說了我是個高二生。Upwork 在顯示「需要驗證」之前，毫無提及我的行為哪裡有問題，所有甲方也未發現這個問題。再加上我當時也是剛開始使用這種平台，對於這種平台的限制不甚清楚。所以完全不知道未成年用不了 Upwork，在我發現帳戶會被凍結時，他都撥給我錢了，是要怎麼挽救？</p><p>更何況 Upwork 不允許我和甲方在 Upwork 外交易——換句話說，我要嘛放棄 50 美元，要嘛被 Upwork 扣押到 18 歲，對於我來講實在很不公平。Upwork 應該在註冊時就加上「年齡確認」，最至少，我開始 propose 第一個案子的時候就應該提醒我進行身份驗證，而不是等到案子都接了，甚至都動工一陣子了，才說「需要驗證」。</p><p>最後，雖然 $50 USD 不是很大，而且我只接成一個案子，所以影響沒有很大。但是，這也意味著我付出的成果，在我成年前是拿不回報酬了。撰寫這篇文章，只是為了告訴一些原先想要在 Upwork 接案的青少年注意年齡問題，順便靠北 Upwork。</p><p>BTW，後來我買成 MacBook Pro (M1) 了，超級香，下次另外撰寫一篇 MBP 心得。此外我已經在 Fiverr 重新開張自己的店舖 (?) 了，希望看到這篇文章的人能幫我宣傳一下：<a href="http://fiverr.com/pan93412">http://fiverr.com/pan93412</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;TL-DR&quot;&gt;&lt;a href=&quot;#TL-DR&quot; class=&quot;headerlink&quot; title=&quot;TL;DR&quot;&gt;&lt;/a&gt;TL;DR&lt;/h2&gt;&lt;p&gt;我因未通過身份驗證，無法領回自己已經在 Upwork 賺到的錢。理由是未滿 18 歲，但是 Upwork 事先沒有任何明確的標示，即使我沒看 ToS 錯在先，但這樣使我覺得很不公平。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>評論：「行」，還是「列」？</title>
+    <link href="https://blog.pan93.tk/row-column-in-taiwanese/"/>
+    <id>https://blog.pan93.tk/row-column-in-taiwanese/</id>
+    <published>2021-01-09T05:48:50.000Z</published>
+    <updated>2021-01-09T05:48:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>很高興我的數學老師有正確解釋「列」跟「行」。他的解釋很好——大部分人常會說「一列車廂」，而列車在你眼前都是橫向移動，所以「列」是橫的。畢竟你不會站在行駛中的列車前，看到的必定都是左到右移動，而且台灣沒人講「一行火車」。</p><span id="more"></span><p>不過在觀察同儕間的回答時，我發現到一堆人認為「列」是行，「行」是列。不知道是搞不清楚，還是受到中國那邊的用詞影響呢？</p><p>所以，我在翻某些針對普羅大眾的軟體時，我都會盡可能不要提到這兩個字，保持「row」和「column」，因為對於某些不清楚這些用詞的人，硬塞正確的用法會造成誤解。</p><p>當然，如果是針對部分現代被中國文化影響較重的青少年，就例如我段落開頭說到的那個案例。那些人可能也不知道 row 和 column 是什麼，所以我就比較傾向保持中國那邊的講法，也就是 row = 行，column = 列。因為這要解釋起來太麻煩了，且多數人相信中國的用法才是正確的。</p><p>但是這樣治標不治本，台灣應該加強台灣本土用詞的教育與指正。而非放行中國用詞，讓新一代年輕人帶著從抖音、微信學來的用詞到處跑。</p><p>本文<a href="https://www.facebook.com/pan93412TW/posts/2840954056174156">同步發表於「Yi-Jyun Pan」的 Facebook</a>。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;很高興我的數學老師有正確解釋「列」跟「行」。他的解釋很好——大部分人常會說「一列車廂」，而列車在你眼前都是橫向移動，所以「列」是橫的。畢竟你不會站在行駛中的列車前，看到的必定都是左到右移動，而且台灣沒人講「一行火車」。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    <category term="Translating" scheme="https://blog.pan93.tk/categories/The-thoughts/Translating/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>26c4b0d544d6bf188b3808d449c3a2efccbabf4d</title>
+    <link href="https://blog.pan93.tk/26c4b0d/"/>
+    <id>https://blog.pan93.tk/26c4b0d/</id>
+    <published>2021-01-08T18:17:44.000Z</published>
+    <updated>2021-01-08T18:17:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="%E6%88%AA%E5%9C%96-2021-01-09-%E4%B8%8A%E5%8D%882.02.52.webp" alt="從 Dock 移除 Discord"></p><p>我已經知道我在某些人眼裡，超級噁心。</p><span id="more"></span><p>我會提及那些事情，正是因為我自以為我們夠熟了，所以才公開了那些訊息背後的傳送者。但我錯了。<strong>他們不會原諒我的。</strong></p><p>我真應該抹去我所有存在的紀錄，把自己網路上的一切完全重置之後，重新以新的身份開始新的生活。</p><p>因為 Pan93412 太惡名昭彰了。</p><p>我真應該反覆提醒自己，只要覺得不對勁就不能繼續聊下去。否則，原本的偽裝都會一瞬間打回原型。因為偽裝太噁心了，以致於即便是多好的人，都會覺得我是個王八蛋。</p><p>正是如此，我真應該斷開與社會的一切聯繫，繼續寫著自己的程式，繼續孤獨一人，不要加入任何社交，否則只會原形畢露。</p><p>我真應該離開那充滿罪惡的地方，還有那個讓我發展罪惡的地方⋯⋯ 或許，地球就是那個讓我發展作惡的地方？</p><p>我應該從這世界消失吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;%E6%88%AA%E5%9C%96-2021-01-09-%E4%B8%8A%E5%8D%882.02.52.webp&quot; alt=&quot;從 Dock 移除 Discord&quot;&gt;&lt;/p&gt;
+&lt;p&gt;我已經知道我在某些人眼裡，超級噁心。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Skeletons" scheme="https://blog.pan93.tk/categories/Skeletons/"/>
+    
+    
+  </entry>
+  
+</feed>
