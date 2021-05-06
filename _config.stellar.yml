@@ -5,3 +5,7 @@ article:
     enable: false
     title: 推薦文章
     max_count: 5
+comments:
+  service: utterances # utterances
+  utterances:
+    repo: pan93412/pan.blog-comments
