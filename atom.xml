@@ -6,7 +6,7 @@
   <link href="https://blog.pan93.tk/atom.xml" rel="self"/>
   
   <link href="https://blog.pan93.tk/"/>
-  <updated>2021-05-06T07:10:02.000Z</updated>
+  <updated>2021-05-09T14:21:40.000Z</updated>
   <id>https://blog.pan93.tk/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>終究是老了啊。</title>
+    <link href="https://blog.pan93.tk/17-older/"/>
+    <id>https://blog.pan93.tk/17-older/</id>
+    <published>2021-05-09T13:24:58.000Z</published>
+    <updated>2021-05-09T14:21:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>因緣際會下，我重新翻譯一些 GNU 軟體。翻的過程中，我突然覺得自己老了——想當初自己第一次翻這些東西的時候，才不過是國二。想當初我翻這些東西的時候，我是個狂熱的開源支持者。現在呢⋯⋯這些今昔對比，讓我想到許多故事。</p><span id="more"></span><h2 id="時間"><a href="#時間" class="headerlink" title="時間"></a>時間</h2><p>當初我有個朋友跟我說道「我不想要成年，我不想滿 18 歲。」我當年 14，我慶幸自己年輕。現在我 17，我的想法跟他一樣——我不再如當年年輕，或許跟他也有類似的感慨吧：</p><p><strong>以前期待變成大人，現在的我反而不想。</strong></p><p>那些千禧年誕生的 00 後學生都快大學畢業了；那些 2010 年出生的孩子，都離國中不遠了；那些我國中認為的屁孩，都快成為一個國中生了。</p><p>受到《名偵探柯南》的影響，10 歲的我十分憧憬高中的生活。時間一轉就來到高中了，我卻沒掌握住時間，我任這個我當初憧憬的時光隨我而去。不過，<strong>時間流逝，我後悔以前，難道把握得住未來嗎？</strong></p><h2 id="事物"><a href="#事物" class="headerlink" title="事物"></a>事物</h2><p>重看 2019 的跨年影片，當年我用的是當初最引以為傲的 Arch Linux，搭配我最喜歡的 KDE 環境。現在我用了我當初最厭惡的 macOS，甚至樂在其中，非常喜歡。當年我什麼都要用開源的，非開源不用，甚至還會貢獻翻譯給開源軟體。現在我早不在乎這些——算是對當初執著的放棄吧。就像是我當初非完整正體中文不用，現在我一點也不在乎這些。</p><p>以前我在 Telegram 必去一個群組——YSITD。像是孩子對媽媽的依戀吧。我每申辦一次 Telegram，我必加入這個群組，只要我被踢出這個群組，我便會十分難過——那個群組不希望我進來，我卻盼望能夠進去這個群組。現在呢？我雖然留著這個群組，裡面的訊息我不再關注——像是青春期的孩子逐漸脫離對母親的依戀，我也脫離了這個群組。</p><p>此外，小時候有一個抱枕我非常喜歡，甚至它壞掉我還會嚎啕大哭。現在呢？它早不翼而飛，我也早不關注</p><p>這些事物、執著、群組和抱枕，跟著時光一樣離我而去。</p><p>以前我覺得理所當然，必定持續的東西，最後無一更迭。事情不可能永遠持續、朋友不可能永遠在一起、歲月永遠不可能停下腳步。</p><p>唯一留下來的，大概只剩回憶和記錄了吧。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;因緣際會下，我重新翻譯一些 GNU 軟體。翻的過程中，我突然覺得自己老了——想當初自己第一次翻這些東西的時候，才不過是國二。想當初我翻這些東西的時候，我是個狂熱的開源支持者。現在呢⋯⋯這些今昔對比，讓我想到許多故事。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+    <category term="意識流" scheme="https://blog.pan93.tk/tags/%E6%84%8F%E8%AD%98%E6%B5%81/"/>
+    
+  </entry>
   
   <entry>
     <title>畢旅還是 SITCON？</title>
@@ -481,25 +502,6 @@
     
     
     <summary type="html">&lt;p&gt;&lt;strong&gt;真如 7 小時前的預測般，搞砸了。&lt;/strong&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>未成年在 Upwork 活該拿不回錢。</title>
-    <link href="https://blog.pan93.tk/upwork-withdraw/"/>
-    <id>https://blog.pan93.tk/upwork-withdraw/</id>
-    <published>2021-01-10T16:05:13.000Z</published>
-    <updated>2021-01-10T16:05:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h2><p>我因未通過身份驗證，無法領回自己已經在 Upwork 賺到的錢。理由是未滿 18 歲，但是 Upwork 事先沒有任何明確的標示，即使我沒看 ToS 錯在先，但這樣使我覺得很不公平。</p><span id="more"></span><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>我大概 11 月左右想為自己購置一台效能更高的電腦，而看中了 MacBook。想著「自己的東西自己賺」，我決定找一個 Freelancer 平台賺取筆電的錢。</p><p>在看過國內和國外的 Freelancer 自由業平台之後，我決定了聲稱 Microsoft 都在使用的 <strong>Upwork</strong>。註冊時 Upwork 完全沒有年齡確認，我當初以為 Upwork 開放給未成年使用。註冊要求確認 ToS 的部分，<strong>我沒認真看卻勾選「我同意」了</strong>，我沒想過幾天後我會因此想痛罵我自己。</p><p>自介填完後，我便開始尋找工作。其中一個 $50 USD 的案子我接成了，並且對方也著實把案子交給我了。案子做了一陣子後，跳出了一個小提示：</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.41.51.webp" style="width:1024px;"/></div></div><p>在 2020 年 12 月 9 日前驗證您的身份後，就能繼續在 Upwork 找尋工作機會。(2021-1-10)</p><p>按下「Get started」認證後，我卻卡關了。</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.42.30.webp" style="width:1024px;"/></div></div><p>生日 &gt; 您必須至少有 18 歲。 (2021-1-10)</p><p>如字面意思所示，我不滿 18 歲所以過不了。但是案子都接了，甚至都快寫完了，我便沒在 Upwork 按下「Withdraw」收回案子了。做完之後，對方也撥給我錢了，<strong>我才發現到沒驗證會拿不回錢</strong>（withdraw earning）。但是我當時認為是自己是看錯了，就等 Upwork 在我設定的 12 月底把錢匯進去我的 PayPal 帳戶。</p><p>結果 12 月底我上 PayPal 看餘額，結果跟 Upwork 所說如出一轍：</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.31.24.webp" style="width:1024px;"/></div></div><p>PayPal 的餘額資訊 (2021-1-10)</p><p>Upwork 真的把我的錢扣押了，而我自己去手動 withdraw，結果當然是失敗了。</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.53.25.webp" style="width:1024px;"/></div></div><p>帳戶已凍結 —— 您的金融帳戶已被凍結。如要繼續，請聯絡客戶支援。(2021-1-10)</p><p>其實，在我發現我身分證過不了之後，我花了不少時間上網查 Workaround。但是就我查的資料，大部分都是喊說「為什麼 Upwork 不開放 18 歲以下的人使用？」，而沒有一個像我，早就已經註冊，已經接到案子且正在做，而過不了身分驗證的 case。</p><p>而 Upwork 的 ToS，就是我跳過的那個，有說「18 歲以下法人不能使用 Upwork」，但是極度不顯眼，而且註冊時也沒任何除 ToS 之外提到 18+ only 的文字——或許這是常識，可惜我當時沒有這常識。</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.30.14.webp" style="width:1024px;"/></div></div><p>Quora 早就有人提過，但我後來才看到。(2020-1-10)</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.27.17.webp" style="width:1024px;"/></div></div><p>我漏看的 ToS (2020-1-10)</p><p>就算是我違反了 ToS，但首先我沒搞洗錢，我的自介也很誠實說了我是個高二生。Upwork 在顯示「需要驗證」之前，毫無提及我的行為哪裡有問題，所有甲方也未發現這個問題。再加上我當時也是剛開始使用這種平台，對於這種平台的限制不甚清楚。所以完全不知道未成年用不了 Upwork，在我發現帳戶會被凍結時，他都撥給我錢了，是要怎麼挽救？</p><p>更何況 Upwork 不允許我和甲方在 Upwork 外交易——換句話說，我要嘛放棄 50 美元，要嘛被 Upwork 扣押到 18 歲，對於我來講實在很不公平。Upwork 應該在註冊時就加上「年齡確認」，最至少，我開始 propose 第一個案子的時候就應該提醒我進行身份驗證，而不是等到案子都接了，甚至都動工一陣子了，才說「需要驗證」。</p><p>最後，雖然 $50 USD 不是很大，而且我只接成一個案子，所以影響沒有很大。但是，這也意味著我付出的成果，在我成年前是拿不回報酬了。撰寫這篇文章，只是為了告訴一些原先想要在 Upwork 接案的青少年注意年齡問題，順便靠北 Upwork。</p><p>BTW，後來我買成 MacBook Pro (M1) 了，超級香，下次另外撰寫一篇 MBP 心得。此外我已經在 Fiverr 重新開張自己的店舖 (?) 了，希望看到這篇文章的人能幫我宣傳一下：<a href="http://fiverr.com/pan93412">http://fiverr.com/pan93412</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;h2 id=&quot;TL-DR&quot;&gt;&lt;a href=&quot;#TL-DR&quot; class=&quot;headerlink&quot; title=&quot;TL;DR&quot;&gt;&lt;/a&gt;TL;DR&lt;/h2&gt;&lt;p&gt;我因未通過身份驗證，無法領回自己已經在 Upwork 賺到的錢。理由是未滿 18 歲，但是 Upwork 事先沒有任何明確的標示，即使我沒看 ToS 錯在先，但這樣使我覺得很不公平。&lt;/p&gt;</summary>
     
     
     
