@@ -1,7 +1,7 @@
 ---
 title: 心態的轉變。
 date: 2021-05-29 20:53:00
-updated: 2021-05-29 21:26:15
+updated: 2021-05-29 21:33:16
 categories:
   - The thoughts
 tags:
@@ -43,3 +43,7 @@ tags:
     畢竟我就是一台
     掉落地上，任人踩踏
     的紙飛機。
+
+---
+
+日常感嘆，不要過度擔心。同步發表於 Facebook 和個人 blog：https://blog.pan93.tk/a-changing-life
