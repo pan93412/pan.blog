@@ -3,11 +3,12 @@ welcome:
   title: 嗨嗨～
   content:
     - 這裡是 Pan93412 的心情筆記。
-    - 有設定防爬蟲，是個比較低調的個人網誌。<br>
+    - 有設定防爬蟲，是個比較低調的個人網誌。
+    -
     - 網站剛遷移完成，可能會漏掉一些圖片或是格式跑版，
-    - 也請幫忙檢查一下，謝謝 ❤️<br><br>
-    - <code>pain.code</code> 這個名字是 Yami Odymel 的建議，
-    - 在此感謝。
+    - 也請幫忙檢查一下，謝謝 ❤️
+    -
+    - <code>pain.code</code> 這個名字是 Yami Odymel 的建議，在此感謝。
 # Recent update
 recent:
   layout: recent
