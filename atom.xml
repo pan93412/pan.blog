@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>pain.blog</title>
+  <title>pan.blog</title>
   
-  <subtitle>pan93412 的想法。</subtitle>
+  <subtitle>pan93412 的筆記本。</subtitle>
   <link href="https://blog.pan93.tk/atom.xml" rel="self"/>
   
   <link href="https://blog.pan93.tk/"/>
-  <updated>2021-05-29T13:33:16.000Z</updated>
+  <updated>2021-05-04T04:28:52.000Z</updated>
   <id>https://blog.pan93.tk/</id>
   
   <author>
@@ -15,149 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>心態的轉變。</title>
-    <link href="https://blog.pan93.tk/a-changing-life/"/>
-    <id>https://blog.pan93.tk/a-changing-life/</id>
-    <published>2021-05-29T12:53:00.000Z</published>
-    <updated>2021-05-29T13:33:16.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>總覺得人的心態是會不停轉變的。</p><p>七歲的時候，當時 Microsoft 大行其道。我爸問我自己以後想成為什麼，我說我以後想去 Google 工作——那時 Google 尚沒崛起，也沒變壞；現在，我恨透 Google，擁抱了當時拋棄的 Microsoft。</p><p>十歲的時候，我學會了 Batch，我當時滿足於此，相信自己是這世界上最強的人；現在，我認識更多比我更厲害（甚至更年輕）的人，我深感自卑——一山原來還有一山高，原來我一點都不厲害，甚至是個瑕疵品。</p><p>十一歲的時候，我認識了一群陪我玩遊戲（Minecraft）的朋友。當時是暑假，我跟他們玩得十分快樂，而當時的我，深信我可以永遠跟他們在一起；現在，我跟那些朋友大多已不再聯絡，我也踏入了截然不同的圈子，也差不多那段時間，我也失去了不少摯友。</p><p>十四歲的時候，我以為我是英文奇才——我當時翻譯了非常多軟體，自以為我在英文方面頗有造詣，甚至規劃了「去英文系也不錯」這條根本毫無邏輯的路線；現在，我發現我根本打不贏其他人，一切夢想都是海市蜃樓。</p><p>十五歲的時候，我認為我對自由軟體信仰是真誠，忠心不二的。當時我相信我永遠都會支持自由軟體，只要非自由軟體都不用。我甚至還加入了一個自由軟體組織（KDE e.V.），並熱烈參與他們社群的活動；現在，我早就拋棄初心——用著當時唾棄的 macOS，配著一大堆不自由的軟體，甚至早就不再關注那個我曾經引以為傲的組織。</p><p>十六歲的時候，我初接觸設計。我以為我非常會設計，甚至覺得自己是一個很「藝術」的人，可以試走設計相關科系；在真正參與突破框架的設計嘗試後，我才發現我一點都不厲害——我在設計上毫無天份。</p><p>直到現在，我才認清「原來事物真的不是一成不變的」。我嘗試甚至相信的每樣東西，最後都是以失敗或放棄收尾。或許我最適合活在夢裡吧——既然現實屢屢受挫，不如承認自己是 loser，活在夢裡，過著幻想的成功生活吧。</p><hr><p>發現到文章越寫越悲觀，笑死。有時候重新回顧自己的歷程，才發現到我的人生原以為是一場喜劇，背後卻有一抹哀傷。看到那些成功人士互捧，我總覺得自己唯一的歸屬是成為一個什麼也不突出的失敗人士。</p><p>真要用一個形象化的譬喻對我當前的人生下個結論，那應該就是：</p><pre><code>我是一台紙飛機，自以為可以翱翔萬里，卻掉落地上，任人踩踏。我幻想著自己可以成為一台客機、戰鬥機甚至是一隻自由翱翔的鳥但終究最後，都是幻想，畢竟我就是一台掉落地上，任人踩踏的紙飛機。</code></pre><hr><p>日常感嘆，不要過度擔心。同步發表於 Facebook 和個人 blog：<a href="https://blog.pan93.tk/a-changing-life">https://blog.pan93.tk/a-changing-life</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;總覺得人的心態是會不停轉變的。&lt;/p&gt;
-&lt;p&gt;七歲的時候，當時 Microsoft 大行其道。我爸問我自己以後想成為什麼，我說我以後想去 Google 工作——那時 Google 尚沒崛起，也沒變壞；現在，我恨透 Google，擁抱了當時拋棄的 Microsoft。&lt;/p&gt;
-&lt;p&gt;十歲的時候，我學會了 Batch，我當時滿足於此，相信自己是這世界上最強的人；現在，我認識更多比我更厲害（甚至更</summary>
-      
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-    <category term="心態" scheme="https://blog.pan93.tk/tags/%E5%BF%83%E6%85%8B/"/>
-    
-    <category term="轉變" scheme="https://blog.pan93.tk/tags/%E8%BD%89%E8%AE%8A/"/>
-    
-    <category term="失敗" scheme="https://blog.pan93.tk/tags/%E5%A4%B1%E6%95%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>終究是老了啊。</title>
-    <link href="https://blog.pan93.tk/17-older/"/>
-    <id>https://blog.pan93.tk/17-older/</id>
-    <published>2021-05-09T13:24:58.000Z</published>
-    <updated>2021-05-09T14:21:40.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>因緣際會下，我重新翻譯一些 GNU 軟體。翻的過程中，我突然覺得自己老了——想當初自己第一次翻這些東西的時候，才不過是國二。想當初我翻這些東西的時候，我是個狂熱的開源支持者。現在呢⋯⋯這些今昔對比，讓我想到許多故事。</p><span id="more"></span><h2 id="時間"><a href="#時間" class="headerlink" title="時間"></a>時間</h2><p>當初我有個朋友跟我說道「我不想要成年，我不想滿 18 歲。」我當年 14，我慶幸自己年輕。現在我 17，我的想法跟他一樣——我不再如當年年輕，或許跟他也有類似的感慨吧：</p><p><strong>以前期待變成大人，現在的我反而不想。</strong></p><p>那些千禧年誕生的 00 後學生都快大學畢業了；那些 2010 年出生的孩子，都離國中不遠了；那些我國中認為的屁孩，都快成為一個國中生了。</p><p>受到《名偵探柯南》的影響，10 歲的我十分憧憬高中的生活。時間一轉就來到高中了，我卻沒掌握住時間，我任這個我當初憧憬的時光隨我而去。不過，<strong>時間流逝，我後悔以前，難道把握得住未來嗎？</strong></p><h2 id="事物"><a href="#事物" class="headerlink" title="事物"></a>事物</h2><p>重看 2019 的跨年影片，當年我用的是當初最引以為傲的 Arch Linux，搭配我最喜歡的 KDE 環境。現在我用了我當初最厭惡的 macOS，甚至樂在其中，非常喜歡。當年我什麼都要用開源的，非開源不用，甚至還會貢獻翻譯給開源軟體。現在我早不在乎這些——算是對當初執著的放棄吧。就像是我當初非完整正體中文不用，現在我一點也不在乎這些。</p><p>以前我在 Telegram 必去一個群組——YSITD。像是孩子對媽媽的依戀吧。我每申辦一次 Telegram，我必加入這個群組，只要我被踢出這個群組，我便會十分難過——那個群組不希望我進來，我卻盼望能夠進去這個群組。現在呢？我雖然留著這個群組，裡面的訊息我不再關注——像是青春期的孩子逐漸脫離對母親的依戀，我也脫離了這個群組。</p><p>此外，小時候有一個抱枕我非常喜歡，甚至它壞掉我還會嚎啕大哭。現在呢？它早不翼而飛，我也早不關注</p><p>這些事物、執著、群組和抱枕，跟著時光一樣離我而去。</p><p>以前我覺得理所當然，必定持續的東西，最後無一更迭。事情不可能永遠持續、朋友不可能永遠在一起、歲月永遠不可能停下腳步。</p><p>唯一留下來的，大概只剩回憶和記錄了吧。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;因緣際會下，我重新翻譯一些 GNU 軟體。翻的過程中，我突然覺得自己老了——想當初自己第一次翻這些東西的時候，才不過是國二。想當初我翻這些東西的時候，我是個狂熱的開源支持者。現在呢⋯⋯這些今昔對比，讓我想到許多故事。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-    <category term="意識流" scheme="https://blog.pan93.tk/tags/%E6%84%8F%E8%AD%98%E6%B5%81/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>畢旅還是 SITCON？</title>
-    <link href="https://blog.pan93.tk/choose-the-trip-to-go/"/>
-    <id>https://blog.pan93.tk/choose-the-trip-to-go/</id>
-    <published>2021-05-06T04:21:04.000Z</published>
-    <updated>2021-05-06T07:10:02.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://blog.pan93.tk/give-up-a-trip/">我當初選擇了沒去畢旅</a>。但是我一直沒解釋我真正沒去的核心原因。主要原因是「我想參加 SITCON」。</p><p>如果不知道這個活動，就先當作一個我很想去的活動吧。那邊會有許多我沒見過的網友，裡面的主題我也有興趣——我甚至還把票都搶好了。</p><p>去年 7 月我就想去 SITCON 了。然而因為當時高鐵票太貴、缺少朋友等等的諸多因素，我最後只得把票拱手讓人。今年我終於又成功搶到一次票了，我當然是要去去開闊眼界。</p><p>但 SITCON 在台北，我在高雄，光車錢就要預估一千五了。再加上我打算去個兩天兩夜，需要飯錢還有遊樂的錢。算了算，去 SITCON 要花的錢，與畢旅相差無幾。</p><p>這也就讓我需要用機會成本，考慮哪個活動比較值得。</p><p>論畢旅的話。首先上一篇就講了，我猜想我過去勢必會後悔。不過在我拒絕之後思索了幾個小時，總感覺不去也會後悔。然而如果我選擇要去，我勢必要放棄掉 SITCON 這個活動——畢竟不可能為了休憩活動花掉我筆電 1/4 的價錢。</p><p>不去畢旅可能會後悔，但我真的想去 SITCON。難以抉擇啊⋯⋯</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.pan93.tk/give-up-a-trip/&quot;&gt;我當初選擇了沒去畢旅&lt;/a&gt;。但是我一直沒解釋我真正沒去的核心原因。主要原因是「我想參加 SITCON」。&lt;/p&gt;
-&lt;p&gt;如果不知道這個活動，就先當作一個我很想去的活動吧。那邊會有許多我沒見過的網友，裡面的主題我也有興趣——我甚至還把票都搶好了。&lt;/p&gt;
-&lt;p&gt;去年 7 月我就想去 SITCON </summary>
-      
-    
-    
-    
-    <category term="school" scheme="https://blog.pan93.tk/categories/school/"/>
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/school/The-thoughts/"/>
-    
-    
-    <category term="thought" scheme="https://blog.pan93.tk/tags/thought/"/>
-    
-    <category term="sitcon" scheme="https://blog.pan93.tk/tags/sitcon/"/>
-    
-    <category term="trip" scheme="https://blog.pan93.tk/tags/trip/"/>
-    
-    <category term="choose" scheme="https://blog.pan93.tk/tags/choose/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Some Bad Memories (1) (EN)</title>
-    <link href="https://blog.pan93.tk/bad-memories-1-en/"/>
-    <id>https://blog.pan93.tk/bad-memories-1-en/</id>
-    <published>2021-05-05T03:12:00.000Z</published>
-    <updated>2021-05-05T13:28:24.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>The story is mostly from <a href="http://blog.pan93.tk/bully/">《我在網路上被霸凌和爆個資的日子》</a>, which is my first article that was published here. In addition to these, I also added my recent mind to this. I will partially translate this to Chinese though it has been published somewhere.</p><p>These are mostly writing-as-I-thinking. Don’t expect any structure in this article. I just note these events in English.</p><span id="more"></span><h2 id="The-Bullies-at-4-Years-Old"><a href="#The-Bullies-at-4-Years-Old" class="headerlink" title="The Bullies at 4 Years Old"></a>The Bullies at 4 Years Old</h2><p>My parents told me that I’ve transferred to many schools when I am an elementary school student because of the bullies. According to my parents, not only the students but the teacher told me that I’m a freak just because I’m bad at socializing.</p><p>For example, when everyone discussing the cartoon they watched yesterday, I always said something computer-related. Failed to be melted, I suffered the bullies.</p><p>Maybe I was Autism Spectrum Disorder (ASD) before? I don’t know. All I know is that I am still a loner until now.</p><h2 id="No-Mercy-for-a-13-year-old-Child"><a href="#No-Mercy-for-a-13-year-old-Child" class="headerlink" title="No Mercy for a 13-year-old Child"></a>No Mercy for a 13-year-old Child</h2><p>I was a kid (exactly a brat) then. For a kid, it is better to NOT bully him though it is annoying. Wounding a child will let a child hurt very much and irreversibly.</p><p>But a large number of the member in YSITD, a Telegram group, often attacked me with speech. They called me, a 12-year-old kid, a piece of trash that should NEVER be existed.</p><p>Every time I share my discoveries, they said me “SHUT UP” almost every time. It made me afraid to express my thoughts now, since I am afraid to hear any “SHUT UP”, “FUCK OFF” and “KILL YOURSELF”.</p><h2 id="Identity-Authentications-實名認證-are-NOT-Trustable"><a href="#Identity-Authentications-實名認證-are-NOT-Trustable" class="headerlink" title="Identity Authentications (實名認證) are NOT Trustable"></a>Identity Authentications (實名認證) are NOT Trustable</h2><p>In addition to this, one of the YSITD members owned my personal information, such as my address, my phone number, my real name, and my identity card. He released some of them, and said: “Shut the fuck up or I will share more.” I, a 13-year-old boy, was afraid.</p><p>Until now, he never made an apology to me. All he gave me is the trauma. I thought the data source of those are from one of the service I authenticated.</p><p>I won’t trust no Identity Authentication no more.</p><h2 id="And-Now"><a href="#And-Now" class="headerlink" title="And Now?"></a>And Now?</h2><p>Sharing with some friends and teachers, I feel better now. Thanks to them who listened to my stories and gave me suggestions. But I am still afraid of those who engaged in the above events.</p><p>Until now, NONE of all the mentions above said “sorry” to me.</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;The story is mostly from &lt;a href=&quot;http://blog.pan93.tk/bully/&quot;&gt;《我在網路上被霸凌和爆個資的日子》&lt;/a&gt;, which is my first article that was published here. In addition to these, I also added my recent mind to this. I will partially translate this to Chinese though it has been published somewhere.&lt;/p&gt;
-&lt;p&gt;These are mostly writing-as-I-thinking. Don’t expect any structure in this article. I just note these events in English.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>熬夜。</title>
-    <link href="https://blog.pan93.tk/staying-up-late-zh/"/>
-    <id>https://blog.pan93.tk/staying-up-late-zh/</id>
-    <published>2021-05-04T22:28:09.000Z</published>
-    <updated>2021-05-04T22:28:09.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>大家總說「不要熬夜」，卻派非常多的功課與考試。要保證「準時就寢」，又要保證「每個考試都準備妥當」，實在是個笑話。</p><span id="more"></span><p>有些人說「為何不早上做？」我常常 5 點甚至 4 點半摸黑起床寫作業，然而這點時間不一定每次都能把功課都全部寫完。有些人說「為什麼不要在下課，或是在正常學生都覺得理所當然的『放學』時間完成？」但我們總有累的時候呀！我習慣在放學後小睡一下。同時，比起一次把作業寫完，我（們）更習慣在其中安插休憩時間。畢竟，我們不是精力無限的機器人，我們是精力有限的人類。</p><p>唯一剩下的選擇，就只有熬夜趕完功課。</p><hr><p>我習慣用我自己的學習方式。例如擷取學習內容，打造自己的心智圖。既要維持這種學習方式，又要準時完成功課與報告，實在有些窒礙難行。尤其是我忙比賽的那一段日子——「一天內」同時完成四件事情⋯⋯布萊恩的「不可能的任務」還比較容易實行。</p><p>「108 課綱」希望我們開發自己的潛能，卻還是派發大量的學習內容。在「108 課綱」下的我們，似乎是被當機器人了。實際上我支持這些課綱想達成的理想，但不覺得太理想了嗎？探索志向需要足夠的時間，108 課綱有給嗎？如果 108 課綱有給，我還得時刻擔心沒空寫完作業的問題？</p><p>不過就產出的內容而言，108 課綱還是仍然比 99 課綱還好一點點啦。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;大家總說「不要熬夜」，卻派非常多的功課與考試。要保證「準時就寢」，又要保證「每個考試都準備妥當」，實在是個笑話。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Stay up late.</title>
-    <link href="https://blog.pan93.tk/staying-up-late-en/"/>
-    <id>https://blog.pan93.tk/staying-up-late-en/</id>
-    <published>2021-05-04T20:11:36.000Z</published>
-    <updated>2021-05-05T09:16:34.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>People always said, “don’t stay up late.” But teachers always assign lots of assignments and tests. It is ridiculous to sleep on time while making sure every test are well-prepared.</p><span id="more"></span><p>Some people said, “Why not do them in the morning?” It is hard. I tried to wake up at 5 A.M, even the 4:30 A.M, I found it impossible sometimes to do all of the assignments; Some people said, “Why not do them in breaking time, or the common one - after class?” Well, we are not always energetic. I prefer to take a nap after class. Meanwhile, we prefer the leisure activities to do them all in the whole after-class time. Our energy is limited, not unlimited. We are not a robot exactly.</p><p>So the only choice is to do them by staying up late.</p><hr><p>I prefer to develop my learning way, for example, make a mindmap from the learning content. To maintain my learning way while completing the assignments and reports on time is slightly impossible. Especially the time when I was busying on my contests, it is pretty hard to maintain those four things in a row in ONE DAY.</p><p>The “Master Framework for the 12-year Basic Education Curriculum Guidelines” hopes us develop our capabilities whereas still assigning lots of homework. I thought we, in these guidelines, are thought as a robot.</p><p>Actually, I support the ideal milestones these guidelines want to reach, but it is too ideal. It should give us enough time to develop our capabilities, but it DIDN’T. If it had done it, I would have had the time to develop my hobbies with nothing disturbed me.</p><p>It is still better than the old one in the result for me, though.</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;People always said, “don’t stay up late.” But teachers always assign lots of assignments and tests. It is ridiculous to sleep on time while making sure every test are well-prepared.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>為何退租 VPS。</title>
@@ -244,104 +101,6 @@
   </entry>
   
   <entry>
-    <title>我不會去畢旅。</title>
-    <link href="https://blog.pan93.tk/give-up-a-trip/"/>
-    <id>https://blog.pan93.tk/give-up-a-trip/</id>
-    <published>2021-04-20T09:38:32.000Z</published>
-    <updated>2021-04-20T09:38:32.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>首先，畢旅價格 4K 並不是個小數目，我勢必要衡量過去所能帶來的效益。但在我看過行程之後，感覺對邊緣人來說無論是換成夜市還是百貨公司都不好玩。此外，我覺得我過去會很不開心。</p><p>我在班上的人際關係已經搞得夠差了：天知道原因為何。可能是我跟朋友的各種話題都不重疊，也可能是我之前的種種行徑惹人不爽。感覺現在被那些行徑反噬也是活該，但我其實也有所改進，不至於需要無止盡的記仇。</p><p>回到原題，所以為什麼不去？因為過去對我的效益一點都不高——可謂沒有，在家裡寫程式都比較快樂。有人說畢旅可以成倍改進同學間的感情，但我跟同學間的感情已經是負數了，「成倍」之後不會更差嗎？有人說不去畢旅就會沒照片放，但我覺得不放總比放臭臉好。有人說不去等於不合群，我總覺得<strong>你們排擠我也挺合群的呀？</strong></p><span id="more"></span><p>我的新座位被安排在一群不認識，甚至不喜歡我的人旁邊。我曾經嘗試融入他們，卻被冷嘲熱諷甚至被說「閉嘴」。每個人都以為我想太多，對這種玩笑的敏感度太高——然而不是，我覺得這完全踰越了我的底線，這就是赤裸裸的排擠，不是「不要想太多」這個敷衍的話可以帶過的。</p><p>回到 4/16 某位同學的生日，很多人送禮物甚至唱慶祝歌。那天的氣氛很好，除了我——我有對外公告的生日無人關心，某位同學少人提及的生日卻很多人記得。我在她生日前一直以為是他們真的不會記別人生日。我錯了，他們只是不願理我。這也難怪我在新座位可以受到這麼嚴重的排擠——因為他們就是希望我不存在啊！</p><p>看著他們慶祝，和樂融融的樣子，讓我再次陷入自閉。我小時候是個開朗的人，直到被網路、同學甚至是朋友唾棄。在換了座位認清事實後，我曾經想過休學——寧可放棄大學的門票，也不要跟他們那群猴子在一起。然而休學不可能。我也想過更換座位——寧願搬到世界上最安靜的座位，也不願意讓我座位的四面八方都是那些唾棄我的人。然而這也不可能——因為沒座位可換。</p><p>我可以說，我最近情緒低落，有八成的原因都是因為同儕。所以畢旅我自然就不想去了——我去那邊受什麼氣呢？去那邊我搞不好要繼續承受語言上的攻擊，甚至被直接、明顯的排擠。</p><p>所以，我不去了。人類本能，就是保護自己。我不是抖 M，我不用去花四千塊體驗平時就感受到的排擠。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;首先，畢旅價格 4K 並不是個小數目，我勢必要衡量過去所能帶來的效益。但在我看過行程之後，感覺對邊緣人來說無論是換成夜市還是百貨公司都不好玩。此外，我覺得我過去會很不開心。&lt;/p&gt;
-&lt;p&gt;我在班上的人際關係已經搞得夠差了：天知道原因為何。可能是我跟朋友的各種話題都不重疊，也可能是我之前的種種行徑惹人不爽。感覺現在被那些行徑反噬也是活該，但我其實也有所改進，不至於需要無止盡的記仇。&lt;/p&gt;
-&lt;p&gt;回到原題，所以為什麼不去？因為過去對我的效益一點都不高——可謂沒有，在家裡寫程式都比較快樂。有人說畢旅可以成倍改進同學間的感情，但我跟同學間的感情已經是負數了，「成倍」之後不會更差嗎？有人說不去畢旅就會沒照片放，但我覺得不放總比放臭臉好。有人說不去等於不合群，我總覺得&lt;strong&gt;你們排擠我也挺合群的呀？&lt;/strong&gt;&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-    <category term="thoughts" scheme="https://blog.pan93.tk/tags/thoughts/"/>
-    
-    <category term="trip" scheme="https://blog.pan93.tk/tags/trip/"/>
-    
-    <category term="give" scheme="https://blog.pan93.tk/tags/give/"/>
-    
-    <category term="up" scheme="https://blog.pan93.tk/tags/up/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>該集體嗎？</title>
-    <link href="https://blog.pan93.tk/be-separated/"/>
-    <id>https://blog.pan93.tk/be-separated/</id>
-    <published>2021-04-16T01:10:13.000Z</published>
-    <updated>2021-04-16T01:10:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>假如集體使人不快樂，<strong>為何要</strong>？</p><span id="more"></span><p>我們上午在看別人打球。我對體育活動一向沒有任何興趣，然而我得為了「集體」下去看打球 <strong>3 個小時</strong>。我之前已經忍耐過 2 天，早就受到 80 分貝的噪音洗禮 6 個小時，但今天我再也受不住那令我崩潰的叫聲、那令我不適的環境。那裡對我來講是個折磨，我卻被集體的枷鎖制約，無法離開這個地獄，回到安靜的地方，做些對我有意義的事情。但在我內心崩潰的同時，旁邊的同學看得津津有味，絲毫沒有想離開的慾望。我不停尋覓著想離開的人，然而半個同班的都沒找到——彷彿班上除了我之外，沒有一個人不喜歡看球賽。</p><p>假如那時我可以破開「集體」的制約，那多好啊！然而我害怕我擅自離開，會影響其他人對我的觀感。但論觀感影響，難道認真看球賽就有辦法提升觀感嗎？對他們來講或許是義務，是個 Nonsense 的笑話。但離開就會降低觀感嗎？反而有可能會，他們可能會認為我是個不「集體」的人。但身為一個班上的超級邊緣甚至被排擠的人，我又有什麼理由去維持那些無作用的觀感呢？難道我之前兩次看完球賽，別人給我的觀感有變好嗎？前兩次認真看比賽，難道我有因此脫離「邊緣」的標籤嗎？看球賽無好處只有壞處，我看下去的意義是什麼？</p><p>我最後選擇離開。集體什麼的，<strong>管他去死</strong>。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;假如集體使人不快樂，&lt;strong&gt;為何要&lt;/strong&gt;？&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-    <category term="學校" scheme="https://blog.pan93.tk/tags/%E5%AD%B8%E6%A0%A1/"/>
-    
-    <category term="集體" scheme="https://blog.pan93.tk/tags/%E9%9B%86%E9%AB%94/"/>
-    
-    <category term="school" scheme="https://blog.pan93.tk/tags/school/"/>
-    
-    <category term="group" scheme="https://blog.pan93.tk/tags/group/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>2021/04/12 發生的種種事情</title>
-    <link href="https://blog.pan93.tk/investigation-on-210412/"/>
-    <id>https://blog.pan93.tk/investigation-on-210412/</id>
-    <published>2021-04-13T02:06:20.000Z</published>
-    <updated>2021-04-13T02:06:20.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>這篇文章是我在生日當天發生的種種事件。</p><span id="more"></span><hr><p>4/12 是我測試有沒有成為邊緣人的利器。</p><p>倘若我在班級有受到一絲關注，我勢必會收到來自同班的一些祝賀訊息。其實我沒有病到要每個人祝賀我，我只想測試我是否還有受到一絲關心。</p><p>國小和國中時，我是個不折不扣的邊緣人——何止如此，甚至還是個被霸凌者。不只如此，我國中時也發生過<a href="/bully">生日被肉搜的不好回憶</a>，也曾經發過非常多篇感嘆這件事的文章——就此可知，生日測試一直都沒通過。整件事情是直到高一才有所好轉，但高二似乎又急轉直下。</p><p>回歸原題。這篇文章是我在生日當天發生的種種事件。</p><hr><p>現實中 4/12 是個星期一，有 10 個小時要跟同學相處。</p><p>早在 4/6，我就發布了一個透露我自己生日的限時動態。我猜測那些現實的朋友應該已經知曉了我的生日。4/12 當天，我又傳了一次，期許自己生日的消息能夠受到一絲關注。</p><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="Instagram-story-1.webp" style="height:300px;"/></div></div><p>然而我早上我過得不是很好——早晨我讀英文雜誌讀到遲到，還遇到早自修的<a href="/no-society">吵雜環境</a>，甚至還被某些人針對，實在悶悶不樂。</p><p>與此同時，截至放學只有四位好友願意跟我說句生日快樂。即使有接近 80% 的人知道我生日的消息，卻只有 12.5% 的人願意理會。我總認為，自己幫助別人這麼多，別人生日的時候我也會傳則訊息祝賀——換到自己，就沒有這種待遇。</p><p>當天我就開了個 Podcast 跟幾位朋友聊天。他們某些人也有類似的遭遇。或許是因為我是邊緣人吧。生日少人關心，或許也是邊緣人的宿命——即使付出再多，也不會有人在乎他們。最後，我朋友安慰了我，也跟我說了句「別把熱臉敷在冷屁股上」——別再認為自己付出的東西能獲得相應的回報。我也想通了：測試失敗就失敗吧。不要為了這種事情傷了一整天的心情。</p><h2 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h2><p>我在網路收到非常多網友的祝福——至少有十幾封吧。所以生日測試其實也不算完全失敗。</p><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image-86288876-16181967151934718054117975015040.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image-1138464423-16181967364038468261108193598653.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image-617003021-1618196816511629731491906360255.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image-611229598-16181968298356185267010011281806.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image1103916445-16182015358182040726317795923921.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image1989049901-16182060371368304281863277620442.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image1031084366-16182184778178171336312831331315.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image-1232694018-16182184954325397581749281962124.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image1540221246-16182188046071689042314419137690.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image1077014341-16182726436395623299899102437274.webp" style="height:300px;"/></div></div><div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img src="image_editor_output_image2088771078-16182726851654142522844302952558.webp" style="height:300px;"/></div></div>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;這篇文章是我在生日當天發生的種種事件。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>施予後得到了 0。</title>
-    <link href="https://blog.pan93.tk/gave-all-got-none/"/>
-    <id>https://blog.pan93.tk/gave-all-got-none/</id>
-    <published>2021-04-12T07:16:04.000Z</published>
-    <updated>2021-04-12T07:16:04.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>我很常幫助別人，也很常給予別人精神上的支持。舉個例子，別人生日的時候我常常會傳句「生日快樂」；別人需要幫忙的時候，我有能力就伸出援手——雖說一點都不特別，但我一直認為「只要我用心對待別人，別人也會用心對待我」。</p><span id="more"></span><p>但今天我感受到人性的冷漠。沒有人願意幫我小忙，也沒人對我說「生日快樂」，自己所幫的一切都像是進入了無底洞——一個不會有回聲的洞。</p><p>有點難過。</p><hr><p>不要抓錯重點，我不是為了「生日快樂」而憤恨，我只是覺得自己用心做的一切都被當作理所當然，沒得到任何回報而難過。就像是一個工具兼邊緣人。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;我很常幫助別人，也很常給予別人精神上的支持。舉個例子，別人生日的時候我常常會傳句「生日快樂」；別人需要幫忙的時候，我有能力就伸出援手——雖說一點都不特別，但我一直認為「只要我用心對待別人，別人也會用心對待我」。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-    <category term="birthday" scheme="https://blog.pan93.tk/tags/birthday/"/>
-    
-    <category term="loner" scheme="https://blog.pan93.tk/tags/loner/"/>
-    
-  </entry>
-  
-  <entry>
     <title>討厭社交。</title>
     <link href="https://blog.pan93.tk/no-society/"/>
     <id>https://blog.pan93.tk/no-society/</id>
@@ -361,88 +120,6 @@
     <category term="社交" scheme="https://blog.pan93.tk/tags/%E7%A4%BE%E4%BA%A4/"/>
     
     <category term="討厭" scheme="https://blog.pan93.tk/tags/%E8%A8%8E%E5%8E%AD/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>「又」考砸了——針對這次考試，我英文考試結果的自我檢討</title>
-    <link href="https://blog.pan93.tk/zh-tw-english-self-criticism/"/>
-    <id>https://blog.pan93.tk/zh-tw-english-self-criticism/</id>
-    <published>2021-04-01T08:12:09.000Z</published>
-    <updated>2021-04-01T08:12:09.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>從<a href="/english-self-criticism">英文版</a>翻譯而來。</p><p><strong>簡言之，我英文考砸了。</strong>這個愚人節，我的心情真的很糟糕。</p><span id="more"></span><p><em>更新 (2021/4/1): 數學、英文和地理都<strong>死光</strong>了。真的很難受。</em></p><p>其實我是真的有點嚇到。我每科花了非常多時間在讀。就以英文為例，我花很多時間重讀我之前考試卷中的每一個單字、片語和句子，再把那些我不太會的部分放到我的心智圖中。</p><p>理論上這應該會大幅提升我的英文成績，它也確實讓我搞懂那些我以前不懂的單字，但閱讀這些考卷並輸入到我的心智圖是件很耗時間的事情，而我的時間沒多到可以容納這麼一隻時間怪獸。</p><p>而且，有個東西把我寶貴的時間佔掉了非常多，那就是「完成 All in One」。我早該忽略 All in One——應該把我的心智圖計畫擺在第一順位，考完試之後再完成它。畢竟，All in One 不是我學習計畫的一部分。</p><p>我唯一讀完的只有課本第二課和一本雜誌。無庸置疑，即使我花了這麼多時間，還是沒得以擺脫「考砸」這個詞。不過撇除考試，這還是一個好習慣啦。</p><p>所以這次我學到的就是：「假如時間不夠，永遠不要嘗試新的學習路線」和「不是每個好習慣都能立即見效」。或許這個習慣以後我可以保持下去，但對於重要的考試——傳統穩定的路線才是最上策。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;從&lt;a href=&quot;/english-self-criticism&quot;&gt;英文版&lt;/a&gt;翻譯而來。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;簡言之，我英文考砸了。&lt;/strong&gt;這個愚人節，我的心情真的很糟糕。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Failed AGAIN — The self-criticism against my English result in this exam</title>
-    <link href="https://blog.pan93.tk/english-self-criticism/"/>
-    <id>https://blog.pan93.tk/english-self-criticism/</id>
-    <published>2021-04-01T07:48:42.000Z</published>
-    <updated>2021-04-01T07:48:42.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>I failed my English in the nutshell.</strong> Feels pretty bad in this April fools day.</p><span id="more"></span><p><em>Updated (4/1/2021): Math, English and Geography are ALL failed. I feel pretty bad.</em></p><p>Actually, I am shocked since I took a lot of time on every subject. Take English as an example, I took a lot of time to re-read every word, phrase, and sentence in my previous test papers, then extracted those I was not good at into my mindmap.</p><p>Generally, it will improve my English pretty lot and it indeed let me understand those words that I never figure out, but reading these papers and keying into my mind-map is also time-consumed work, and I don’t have enough time to accommodate such a time monster.</p><p>And there is something that occupied my precious time VERY MUCH: “complete the All in One “ - I should ignore All in One, place my mindmap project in the first, then finally complete All in One after I completed this exam. After all, All in One is not in my learning project.</p><p>The only thing I read completely is Lesson 2 in the textbook and a magazine. So I failed naturally, though I took very much time. Put this exam aside, it is a good habit though.</p><p>So I learned in this experience: “<em>Never try a new way to learn if time lacks</em>,” and “<em>not every good habit takes effect immediately.</em>“ Maybe this good habit I could keep doing afterward, but for the important exam - <strong>it is better to use the classical but stable way</strong>.</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;strong&gt;I failed my English in the nutshell.&lt;/strong&gt; Feels pretty bad in this April fools day.&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-    <category term="criticism" scheme="https://blog.pan93.tk/tags/criticism/"/>
-    
-    <category term="English" scheme="https://blog.pan93.tk/tags/English/"/>
-    
-    <category term="exam" scheme="https://blog.pan93.tk/tags/exam/"/>
-    
-    <category term="failed" scheme="https://blog.pan93.tk/tags/failed/"/>
-    
-    <category term="result" scheme="https://blog.pan93.tk/tags/result/"/>
-    
-    <category term="self" scheme="https://blog.pan93.tk/tags/self/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>垃圾立可帶毀我作文。</title>
-    <link href="https://blog.pan93.tk/blame-a-broken-twink/"/>
-    <id>https://blog.pan93.tk/blame-a-broken-twink/</id>
-    <published>2021-03-31T03:15:57.000Z</published>
-    <updated>2021-03-31T03:15:57.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><strong>這次作文大概是寫得最糟糕的一次了。</strong>考作文的那天早上，我出門走到校門口，才發現忘記更換立可帶的補充帶。</p><span id="more"></span><p>考作文沒立可帶，就像是劃卡沒帶鉛筆，數學沒計算機一樣令人絕望。因此我到教室的當下，我立刻問了每位朋友，看有沒有多出來的立可帶。幸運的是我有找到一個立可帶——雖然是壞掉的立可帶，但聊勝於無——因此我就借走這個立可帶了。</p><p>沒想到，這才是噩夢的開始。原本測試的時候就發現它有點難用，但我以為我自己可以 handle 住。但直到考試開始，我要修正作文錯字的時候，才發現<strong>這玩意根本就不能用</strong>。這立可帶一直不斷地卡住，不斷地脫帶，我原想把這立可帶砸了，但想到這是考試，我選擇忍了下來。考試 55 分鐘，我花了 40 分鐘在解決立可帶的問題。</p><p>最後十五分鐘，我不忍了。我直接把原本寫的，被立可帶蹂躪到難以閱讀的作文段落打了個大叉，然後重寫一篇。至於新作文的錯字呢？我直接用原子筆塗掉了，我寧願讓考卷充滿劃記，也不願再碰那個浪費我寶貴時間的立可帶。</p><p>考試尾聲，我花了 15 分鐘，完成了一篇勉強能看的作文——畢竟是 15 分鐘速成作品，我不對這篇作文抱任何期望。只願我能藉由伊拉克狀的考試卷，讓看我卷子的人給我一些憐憫。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;strong&gt;這次作文大概是寫得最糟糕的一次了。&lt;/strong&gt;考作文的那天早上，我出門走到校門口，才發現忘記更換立可帶的補充帶。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
-    
-    
-    <category term="article" scheme="https://blog.pan93.tk/tags/article/"/>
-    
-    <category term="blame" scheme="https://blog.pan93.tk/tags/blame/"/>
-    
-    <category term="broken" scheme="https://blog.pan93.tk/tags/broken/"/>
-    
-    <category term="twink" scheme="https://blog.pan93.tk/tags/twink/"/>
-    
-    <category term="作文" scheme="https://blog.pan93.tk/tags/%E4%BD%9C%E6%96%87/"/>
-    
-    <category term="立可帶" scheme="https://blog.pan93.tk/tags/%E7%AB%8B%E5%8F%AF%E5%B8%B6/"/>
     
   </entry>
   
@@ -474,35 +151,6 @@
   </entry>
   
   <entry>
-    <title>To the committer of 4e50b58.</title>
-    <link href="https://blog.pan93.tk/to-drakeet/"/>
-    <id>https://blog.pan93.tk/to-drakeet/</id>
-    <published>2021-02-05T09:45:53.000Z</published>
-    <updated>2021-02-05T09:45:53.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>嗨，Drakeet。我們超過 20 個月沒說上任何話了吧。</p><hr><p><img src="%E6%88%AA%E5%9C%96-2021-02-05-%E4%B8%8B%E5%8D%885.04.36.webp" alt="之前傳的 GitHub Pull Request 清單"></p><p>想當年我是 2018 年 5 月下旬發了第一個本地化修正 Patch，而也剛好是在一年後，你和我們幾個人發生些見解上的衝突，因此你封鎖我了。你同時把我當初本地化的心血也一起重置了，當時我憤恨不平。</p><p><img src="%E6%88%AA%E5%9C%96-2021-02-05-%E4%B8%8B%E5%8D%885.33.31.webp" alt="被 drakeet 封鎖的截圖"></p><p><img src="%E6%88%AA%E5%9C%96-2021-02-05-%E4%B8%8B%E5%8D%885.35.42.webp" alt="drakeet 洗掉的 commits"></p><p>20 個月後，我無聊翻看 duangsuse 之前的文章記錄，發現到我和你 2019 的時候，有著不少共通點——常用現成的東西、會害怕被攻擊，還有，都不太理科。</p><p>正是因為這些相似處，我同情你當時的遭遇，並想重新認識你。因此，我決定用最蠢的方法讓你能夠看到這封信——回到那熟悉的 GitHub Repository，用著熟悉的工具，做回那些年我常做的事情，並且著手撰寫這封稍短的信。</p><p>希望你能接受這個 PR，並且解除我們之間的隔閡——歡迎傳 Telegram 訊息給我，我沒封鎖你。也歡迎在這篇底下留幾段話。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;嗨，Drakeet。我們超過 20 個月沒說上任何話了吧。&lt;/p&gt;
-&lt;hr&gt;
-&lt;p&gt;&lt;img src=&quot;%E6%88%AA%E5%9C%96-2021-02-05-%E4%B8%8B%E5%8D%885.04.36.webp&quot; alt=&quot;之前傳的 GitHub Pull Request 清單&quot;&gt;&lt;/p&gt;
-&lt;p&gt;想當年我是 2018 年 5 月下旬發了第一個本地化修正 Patch，而也剛好是在</summary>
-      
-    
-    
-    
-    <category term="Secrets" scheme="https://blog.pan93.tk/categories/Secrets/"/>
-    
-    
-    <category term="drakeet" scheme="https://blog.pan93.tk/tags/drakeet/"/>
-    
-    <category term="secret" scheme="https://blog.pan93.tk/tags/secret/"/>
-    
-  </entry>
-  
-  <entry>
     <title>CISCC 抱怨系統的開發日誌與心得</title>
     <link href="https://blog.pan93.tk/ciscc-logs/"/>
     <id>https://blog.pan93.tk/ciscc-logs/</id>
@@ -518,6 +166,296 @@
     
     <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>未成年在 Upwork 活該拿不回錢。</title>
+    <link href="https://blog.pan93.tk/upwork-withdraw/"/>
+    <id>https://blog.pan93.tk/upwork-withdraw/</id>
+    <published>2021-01-10T16:05:13.000Z</published>
+    <updated>2021-01-10T16:05:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h2><p>我因未通過身份驗證，無法領回自己已經在 Upwork 賺到的錢。理由是未滿 18 歲，但是 Upwork 事先沒有任何明確的標示，即使我沒看 ToS 錯在先，但這樣使我覺得很不公平。</p><span id="more"></span><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>我大概 11 月左右想為自己購置一台效能更高的電腦，而看中了 MacBook。想著「自己的東西自己賺」，我決定找一個 Freelancer 平台賺取筆電的錢。</p><p>在看過國內和國外的 Freelancer 自由業平台之後，我決定了聲稱 Microsoft 都在使用的 <strong>Upwork</strong>。註冊時 Upwork 完全沒有年齡確認，我當初以為 Upwork 開放給未成年使用。註冊要求確認 ToS 的部分，<strong>我沒認真看卻勾選「我同意」了</strong>，我沒想過幾天後我會因此想痛罵我自己。</p><p>自介填完後，我便開始尋找工作。其中一個 $50 USD 的案子我接成了，並且對方也著實把案子交給我了。案子做了一陣子後，跳出了一個小提示：</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.41.51.webp" style="width:1024px;"/></div></div><p>在 2020 年 12 月 9 日前驗證您的身份後，就能繼續在 Upwork 找尋工作機會。(2021-1-10)</p><p>按下「Get started」認證後，我卻卡關了。</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.42.30.webp" style="width:1024px;"/></div></div><p>生日 &gt; 您必須至少有 18 歲。 (2021-1-10)</p><p>如字面意思所示，我不滿 18 歲所以過不了。但是案子都接了，甚至都快寫完了，我便沒在 Upwork 按下「Withdraw」收回案子了。做完之後，對方也撥給我錢了，<strong>我才發現到沒驗證會拿不回錢</strong>（withdraw earning）。但是我當時認為是自己是看錯了，就等 Upwork 在我設定的 12 月底把錢匯進去我的 PayPal 帳戶。</p><p>結果 12 月底我上 PayPal 看餘額，結果跟 Upwork 所說如出一轍：</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.31.24.webp" style="width:1024px;"/></div></div><p>PayPal 的餘額資訊 (2021-1-10)</p><p>Upwork 真的把我的錢扣押了，而我自己去手動 withdraw，結果當然是失敗了。</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.53.25.webp" style="width:1024px;"/></div></div><p>帳戶已凍結 —— 您的金融帳戶已被凍結。如要繼續，請聯絡客戶支援。(2021-1-10)</p><p>其實，在我發現我身分證過不了之後，我花了不少時間上網查 Workaround。但是就我查的資料，大部分都是喊說「為什麼 Upwork 不開放 18 歲以下的人使用？」，而沒有一個像我，早就已經註冊，已經接到案子且正在做，而過不了身分驗證的 case。</p><p>而 Upwork 的 ToS，就是我跳過的那個，有說「18 歲以下法人不能使用 Upwork」，但是極度不顯眼，而且註冊時也沒任何除 ToS 之外提到 18+ only 的文字——或許這是常識，可惜我當時沒有這常識。</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.30.14.webp" style="width:1024px;"/></div></div><p>Quora 早就有人提過，但我後來才看到。(2020-1-10)</p><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2021-01-10-下午10.27.17.webp" style="width:1024px;"/></div></div><p>我漏看的 ToS (2020-1-10)</p><p>就算是我違反了 ToS，但首先我沒搞洗錢，我的自介也很誠實說了我是個高二生。Upwork 在顯示「需要驗證」之前，毫無提及我的行為哪裡有問題，所有甲方也未發現這個問題。再加上我當時也是剛開始使用這種平台，對於這種平台的限制不甚清楚。所以完全不知道未成年用不了 Upwork，在我發現帳戶會被凍結時，他都撥給我錢了，是要怎麼挽救？</p><p>更何況 Upwork 不允許我和甲方在 Upwork 外交易——換句話說，我要嘛放棄 50 美元，要嘛被 Upwork 扣押到 18 歲，對於我來講實在很不公平。Upwork 應該在註冊時就加上「年齡確認」，最至少，我開始 propose 第一個案子的時候就應該提醒我進行身份驗證，而不是等到案子都接了，甚至都動工一陣子了，才說「需要驗證」。</p><p>最後，雖然 $50 USD 不是很大，而且我只接成一個案子，所以影響沒有很大。但是，這也意味著我付出的成果，在我成年前是拿不回報酬了。撰寫這篇文章，只是為了告訴一些原先想要在 Upwork 接案的青少年注意年齡問題，順便靠北 Upwork。</p><p>BTW，後來我買成 MacBook Pro (M1) 了，超級香，下次另外撰寫一篇 MBP 心得。此外我已經在 Fiverr 重新開張自己的店舖 (?) 了，希望看到這篇文章的人能幫我宣傳一下：<a href="http://fiverr.com/pan93412">http://fiverr.com/pan93412</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;TL-DR&quot;&gt;&lt;a href=&quot;#TL-DR&quot; class=&quot;headerlink&quot; title=&quot;TL;DR&quot;&gt;&lt;/a&gt;TL;DR&lt;/h2&gt;&lt;p&gt;我因未通過身份驗證，無法領回自己已經在 Upwork 賺到的錢。理由是未滿 18 歲，但是 Upwork 事先沒有任何明確的標示，即使我沒看 ToS 錯在先，但這樣使我覺得很不公平。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>評論：「行」，還是「列」？</title>
+    <link href="https://blog.pan93.tk/row-column-in-taiwanese/"/>
+    <id>https://blog.pan93.tk/row-column-in-taiwanese/</id>
+    <published>2021-01-09T05:48:50.000Z</published>
+    <updated>2021-01-09T05:48:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>很高興我的數學老師有正確解釋「列」跟「行」。他的解釋很好——大部分人常會說「一列車廂」，而列車在你眼前都是橫向移動，所以「列」是橫的。畢竟你不會站在行駛中的列車前，看到的必定都是左到右移動，而且台灣沒人講「一行火車」。</p><span id="more"></span><p>不過在觀察同儕間的回答時，我發現到一堆人認為「列」是行，「行」是列。不知道是搞不清楚，還是受到中國那邊的用詞影響呢？</p><p>所以，我在翻某些針對普羅大眾的軟體時，我都會盡可能不要提到這兩個字，保持「row」和「column」，因為對於某些不清楚這些用詞的人，硬塞正確的用法會造成誤解。</p><p>當然，如果是針對部分現代被中國文化影響較重的青少年，就例如我段落開頭說到的那個案例。那些人可能也不知道 row 和 column 是什麼，所以我就比較傾向保持中國那邊的講法，也就是 row = 行，column = 列。因為這要解釋起來太麻煩了，且多數人相信中國的用法才是正確的。</p><p>但是這樣治標不治本，台灣應該加強台灣本土用詞的教育與指正。而非放行中國用詞，讓新一代年輕人帶著從抖音、微信學來的用詞到處跑。</p><p>本文<a href="https://www.facebook.com/pan93412TW/posts/2840954056174156">同步發表於「Yi-Jyun Pan」的 Facebook</a>。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;很高興我的數學老師有正確解釋「列」跟「行」。他的解釋很好——大部分人常會說「一列車廂」，而列車在你眼前都是橫向移動，所以「列」是橫的。畢竟你不會站在行駛中的列車前，看到的必定都是左到右移動，而且台灣沒人講「一行火車」。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    <category term="Translating" scheme="https://blog.pan93.tk/categories/The-thoughts/Translating/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>開箱一年前的時光膠囊</title>
+    <link href="https://blog.pan93.tk/2019-memories/"/>
+    <id>https://blog.pan93.tk/2019-memories/</id>
+    <published>2020-12-25T19:22:00.000Z</published>
+    <updated>2020-12-25T19:22:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>今天被學校廣播叫去領 1 年前數學課製作的時光膠囊。他大概是長這樣的：</p><span id="more"></span><div class="tag-plugin image"><div class="image-bg"><img src="Envelope_Top-1.webp" style="width:1024px;"/></div></div><p>卡片封面（朝上）</p><p>其實看到之後微笑了一下。想當年自己還是個忠實的開源支持者，什麼都用 GNU/Linux，什麼都跟開源有關。而當初我的通訊軟體好像也只有 Facebook、Telegram 和 Email 比較常用。開始用 Instagram，已經是很久以後的事情了。</p><div class="tag-plugin image"><div class="image-bg"><img src="Envelope_Bottom-1.webp" style="width:1024px;"/></div></div><p>卡片封面（朝下）</p><p>後面就長這樣。標著 <code>Copyright (R) 2020 PAN93412</code> 卻採用 <code>CC0</code>「Copyleft」授權條款的樣子格外好笑。不過也沒關係就是。這信封很難拆，根本就跟背後的 instruction 完全不一樣啊！😂</p><div class="tag-plugin image"><div class="image-bg"><img src="Envelope_Inner-1.webp" style="width:1024px;"/></div></div><p>「2019/12/9」，距離拿到這張卡片的當下也已經過了超過一年。上面那張圖我還記得是 GeoGebra 做的，當年我甚至還想幫 GeoGebra 和老師另外教的 Desmos 翻譯，不過 GeoGebra 翻譯最後沒有達成，Desmos 也中途棄坑。接著，我想回答一年前的自己，我選了社會組，因為自然真的是讀不太下去，我不知道該歸咎於高中的自然老師教得不好，還是我國中基礎就不太好，甚至是我自己就是文科腦？至於 2020 年 12 月 9 日我忘記是不是寒冬，但是 2020 年 12 月 26 日我感冒了，天氣稍冷而已，半夜三點的溫度是 18 度。新冠肺炎在全球肆虐，台灣其實沒有這麼嚴重，但幾天前北部發生了本土案例，有點怕怕的，天佑台灣。</p><p>nginx 頁面整修了？我還記得！而且我甚至還記得我自己還寫了當初自建 RTMP 伺服器的統計資料，沒多久之後，我還寫了 <a href="https://github.com/pan93412/today-music">today-music</a>。</p><div class="tag-plugin image"><div class="image-bg"><img src="screenshot-1.webp" style="width:1024px;"/></div></div><div class="tag-plugin image"><div class="image-bg"><img src="截圖-2020-12-26-上午2.51.11.webp" style="width:1024px;"/></div></div><p>至今我還在朝著成為一名 Computer Enginner 的方向前行，也確立了自己的目標就是資管。我不知道我離夢想有多遠，我只知道我有進步。我還記得，<a href="/smhs-dev-team">我之後還跟某個朋友合作寫了好幾個網站</a>，然後我這一年大概有一半的時間都奉獻在那個團隊上面，就是很可惜，我後來跟那個朋友鬧翻，這團隊後來也就不了了之。</p><p>我想對一年前的我說句抱歉，我已經不用 GNU/Linux 了，也早就喪失製作 DE 的夢想了。我後來輾轉使用 Windows 和 macOS，後來毅然選擇了 macOS。我早就喪失當年對於開源翻譯與貢獻的熱情，你大概是沒有想到，以前最愛貢獻的 KDE 翻譯，現在早就不再維護；以前打死也不願意使用 Windows，居然在幾個月前成為了軟粉，甚至後來還喜歡上 macOS 了；你當初很喜歡找專案翻譯，但現在的我連自己以前接的翻譯專案都沒有如此熱情了；即便你從國小開始建構，想像中的網路服務依然存在，但是早就已經沒有像以前這麼的 Open 了。我甚至後來在 Facebook 發了一篇我對開源未來堪憂的信，抱歉讓你失望了。</p><p>You still can write your opition here⋯⋯ 那我可以寫在我自掏腰包的 VPS 上建的 WordPress 上嗎？想當年，你打死也不用 WordPress，自己的 VPS 也是跟一位叫做「小喵」的人長期租借的。後來那台 VPS 從原本的 Linux Container (LXC)，變成了 KVM，我甚至跟他借了一台裝 Windows。而在把主機轉換成 KVM 的九個月後，小喵因故不能繼續提供服務給我，我也只好辦一張儲值卡，買下人生中第三台 Linux VPS。說到 WordPress，即便今年我跟 Alex Lion 關係還是不好，但是我早已釋懷，回歸 WordPress 的擁抱。</p><p>高二的我，也已經比高一當時忙碌上許多。我當年大概幾天就出一個專案，今年的末尾，我卻連一個完整的專案都沒寫出來。覺得是自己退步了，還是要求變高，不願意使用那些唾手可得且容易的 Tech Stack 了呢？</p><p>而在 2020 的末尾，我也想寫一個時空膠囊給一年後的自己。這一年的你，拿著 Samsung 手機和跟學校借用的 MacBook Air，裝著 macOS Catalina。自己最喜歡的 Tech Stack 是 React.js、TypeScript，後端是 ASP.NET Core。不知道 2021 的今天，你跟 YC 是否重溫舊好？買下去 M1 的 MacBook Air 了嗎？還有，你覺得你有機會上你夢想中的系所嗎？不知道是變忙，還是變閒了呢？一年後，文中所提的 VPS 怎麼樣呢？你還會想追求你的 Apple 全家桶計畫嗎？雖然我對 Apple 全家桶有些許釋懷，但是我還是有點希望能買到 iPhone、iPad 並玩玩看接力和 AirDrop 丟丟樂。</p><p>接著，我就學學我當初的署名吧——</p><hr><p>♥</p><p>Best regards,<br>Yi-Jyun Pan on 2020/12/26.</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;今天被學校廣播叫去領 1 年前數學課製作的時光膠囊。他大概是長這樣的：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+    <category term="2019" scheme="https://blog.pan93.tk/tags/2019/"/>
+    
+    <category term="2020" scheme="https://blog.pan93.tk/tags/2020/"/>
+    
+    <category term="時光膠囊" scheme="https://blog.pan93.tk/tags/%E6%99%82%E5%85%89%E8%86%A0%E5%9B%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>寫程式或許重要的一直都不是能力……？</title>
+    <link href="https://blog.pan93.tk/damnit/"/>
+    <id>https://blog.pan93.tk/damnit/</id>
+    <published>2020-12-16T23:33:52.000Z</published>
+    <updated>2020-12-16T23:33:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>看到 YC 發展這麼好，這麼多人找他合作，我好嫉妒。明明我寫的就可以比他好，為什麼他就比較多人找他合作？甚至連我幫他的程式，也是他在搶風頭，為什麼？</p><span id="more"></span><p>或許是因為我真的不好相處吧。我可能是要求太高，或是不像 YC 在人際方面發展比較好。所以，即使我程式基礎好，也比較知道怎麼寫出穩定好看的程式，甚至各方面都比他強，<strong>也沒有比 YC 更有知名度</strong>。</p><p>也因此，我算是領會了成為高人氣開發者的重要要素——人際關係要好，程式不是重點。隔壁的 SWC 寫的跟什麼一樣，照樣被人稱羨。我呢？我打賭三民幾乎沒人知道一堆專案的 contributor – Pan93412 就是我。大家只記得 YC，我勒？</p><p><strong>有夠可悲。</strong></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;看到 YC 發展這麼好，這麼多人找他合作，我好嫉妒。明明我寫的就可以比他好，為什麼他就比較多人找他合作？甚至連我幫他的程式，也是他在搶風頭，為什麼？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>smhs-dev-team 的開始與結束</title>
+    <link href="https://blog.pan93.tk/smhs-dev-team/"/>
+    <id>https://blog.pan93.tk/smhs-dev-team/</id>
+    <published>2020-11-02T09:51:12.000Z</published>
+    <updated>2020-11-02T09:51:12.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>SMHS Dev Team 的草創專案—SMHS 學習歷程解疑網已經被我封存了</strong>。這意味著不僅僅是我對於 smhs 學生對於校內資源的使用度死心，也意味著陪伴我整個高一下的 smhs-dev-team 的中止。</p><div class="tag-plugin image"><div class="image-bg"><img src="image-11.webp" style="width:1024px;"/></div></div><p>smhs-os-project/smhs-epf-faq 進入封存狀態 (2020-10-30)</p><span id="more"></span><h2 id="SMHS-學習歷程解疑網時期：建立、重寫與擴散"><a href="#SMHS-學習歷程解疑網時期：建立、重寫與擴散" class="headerlink" title="SMHS 學習歷程解疑網時期：建立、重寫與擴散"></a>SMHS 學習歷程解疑網時期：建立、重寫與擴散</h2><p>「SMHS 學習歷程解疑網」最早是黃猷埕 (yc97843，YC) 獨自一人寫出來的。而我當初是透過選修的老師知道這個網站的。</p><div class="tag-plugin image"><div class="image-bg"><img src="image-12.webp" style="width:1024px;"/></div></div><p>SMHS 學習歷程解疑網的第一個版本 (2020-01-12)</p><p>我當時一打開這網站，「幹，這是什麼鬼」的念頭直接浮現出來，設計的極度不協調以及過度花俏的網站樣式，讓我當下毅然決定幫他重寫解疑網。而當時也真的是說到做到，我直接 call 一通電話給他，一接通立刻破題，並且表達出我重寫的意願。</p><div class="tag-plugin image"><div class="image-bg"><img src="image-14.webp" style="width:1024px;"/></div></div><p>smhs-epf-faq 的第一個版本。</p><p>獲得許可後，我花了整整 1 天遷移了幾乎所有文章、完成第一代版面並上線。而第二代版面和一些小功能花了接下來約 14 天調校。回想當時，我還真的是有毅力，有什麼想法就直接開發，甚至開發時遇到月考，我選擇專注在開發解疑網，直接放棄月考。當然這一方面是因為想得到別人的稱讚，另一方面是想趕快讓解疑網變得好看且好維護。但事與願違，<strong>這兩個最後都沒有達成</strong>。</p><p>後來網站被我們強力推廣了幾天。甚至某次升旗時，YC 還邀請我上台推廣，但當時我婉拒了。這後來成為我的遺憾，因為大家提到解疑網只會記得黃猷埕，<strong>沒人記得背後有一個叫做 pan93412 的人開發網站本身整整 15 天。</strong></p><p>而且時間證明了，這個擴散沒有讓人記得這個專案。直到今天，我和 YC 還是常常聽到一堆人不會用學習歷程系統，並且要別人幫忙，但沒人自己去看學習歷程解疑網。</p><p>這也間接宣告了，<strong>這 15 天白花了。</strong></p><p>順帶一提，smhs-os-project 也是此時建立，用來放解疑網的原始碼。不過當時 smhs-dev-team 尚未成形。</p><h2 id="smhs-dev-team-的建立：客家三民、初代-SSO-和熱血"><a href="#smhs-dev-team-的建立：客家三民、初代-SSO-和熱血" class="headerlink" title="smhs-dev-team 的建立：客家三民、初代 SSO 和熱血"></a>smhs-dev-team 的建立：客家三民、初代 SSO 和熱血</h2><p>學習歷程解疑網開發完幾天後，YC 又有新企劃了。</p><p>「<strong>客家三民</strong>」是一個匿名發文平台，性質類似抱怨三民但是不負能量，而我某天瞄到這個專案，就表達出協助的意願。但是我們當初遇到一個難題，「我們該怎麼登入呢？」</p><p>這當然只是個小問題，但是我當初就跟 YC 提了一個願景。之前，學校各個網站的帳號登入系統都不統一，且不開放學生在自己的系統使用學校的帳號系統。而我希望建立出一個全校性的帳號系統，一隻帳號通行全校所有網站，並且任何一位學生都可以將自己的 App 送交審核，通過之後就可以讓學生使用自己的學校帳號登入這個 App。這就是 <strong>SMHS SSO</strong> (初代) 的由來。</p><div class="tag-plugin image"><div class="image-bg"><img src="IMG_20201031_162606_886.webp" style="width:1024px;"/></div></div><p>SMHS 早期的帳號登入系統 (2020-3-20)</p><p>後來，我們就開始著手開發展示用的介面，並且由 YC 推薦給學校和資訊執秘，而我則邀請了一些朋友一起製作。後來，我和 YC 為我們開了一個群組，名字便叫做 <code>smhs-dev-team</code>，意味著這個團隊正是為三民高中資訊服務的升級所創立。</p><div class="tag-plugin image"><div class="image-bg"><img src="IMG_20201031_162439_317.webp" style="width:1024px;"/></div></div><p>SMHS SSO 當初的展示用介面 (2020-3-18)</p><h2 id="理想的衝擊"><a href="#理想的衝擊" class="headerlink" title="理想的衝擊"></a>理想的衝擊</h2><p>後來 <code>smhs-dev-team</code> 邀了一個資深的程式工程師，暫稱 Mike，而他看到我們那慘不忍睹的草稿之後，便就幫我們訂定了新的程式開發模式，而且把這個 SSO 納入 Mike 公司的某個大專案。而因為我們其實都不熟悉，甚至是沒有碰過如此「專業」的技術架構，再加上商業化的壓力，所以在轉換初期可謂是處處碰壁，壓力巨大。也是此時，YC 開始萌生退意。</p><blockquote><p>技術架構 (Tech Stack) 就是開發使用的程式語言或框架。而本文會加以延伸到開發所遵循的模式。</p><p>作者註</p></blockquote><p>首先我們的工作分配是 YC 負責網頁，我負責網站的基礎架構，但是 YC 前兩周完全沒有工作進度（據他所說，他前兩周的進度是 0），而且團隊會議也常常已讀不回，而我雖然也因為在學習新 tech stack，而同樣沒有明顯的工作進度，但會議時我其實會認真參與，且都能提出自己的學習進度，也因此我每天都會揶揄他不做事，最終，我們之間的矛盾就開始擴大了。</p><p>而學校溝通方面，其實不少老師是看好這個專案的，但畢竟是學生作的專案，難免會顧忌一些問題，而我們也花了不少時間在與學校提出具體解決方案。</p><p>而也在此時，我們也開始思考這個專案到底值不值得開發。</p><h2 id="理想的破滅"><a href="#理想的破滅" class="headerlink" title="理想的破滅"></a>理想的破滅</h2><p>雖然很多人看好這個專案，但不代表他們想要幫忙維護—甚至是不太願意提供架設所需的資源。而除此之外，如前言所述，他們始終對專案的各個方面存疑。某天資訊執秘就問到「個資和未來維護」的問題，而 YC 未經我們討論就擅自回應，而且還回答的很糟糕，引發了公關危機。例如，他說了「有個公司會願意幫我們維護」，但執秘不相信有公司會免費幫助我們，所以引發了身分之爭。</p><p>而雖然我們有嘗試跟資訊執秘重新溝通，例如淡化有公司幫助我們的事情，但首先我們沒有提出完善的維護與安全性方案，二來執秘已經搞不懂我們專案跟公司的關係，所以只能黯然向執秘說專案已經放棄。</p><blockquote><p>您好，我們是 smhs-dev-team 團隊。</p><p>在經過幾個小時的討論及慎重考慮後，我們發現到我們並無如此能力以承擔如此風險及相關問題，且因我們決定以課業為重，而決定暫時性取消「與學校各系統連接之 SSO 統一登入系統」之目標 (Mission)，目前我們已不再考慮</p><p>與學校系統對接之事宜，望您諒解。</p><p>仍十分感謝您先前的接洽與配合，若無您的指示，或許我們仍無法考慮如此周詳。</p><p>Best regards.</p><p>smhs-dev-team（主要是我）的最終回應。2020/4/27</p></blockquote><p><strong>到此，SMHS SSO 的初衷已經完全破滅</strong>。後來 smhs-dev-team 沉寂了一陣子，而商業化的 SSO 到此也已經石沉大海，雖然多次嘗試復工，但畢竟專案已經失去最初的動機，因此每次復工維持的都不久。</p><h2 id="團隊的分崩離析與解散"><a href="#團隊的分崩離析與解散" class="headerlink" title="團隊的分崩離析與解散"></a>團隊的分崩離析與解散</h2><p>後來我們建立了 schweb—涵蓋學校非官方網站、學校各資源的文件和抱怨平台—的大計畫，而這裡面「抱怨平台」是完成度最高的子專案，但也是團隊最後分裂的其中原因。</p><p>我當時非常堅持我專案的技術架構、介面設計以及工作分配。而因為我設計的介面十分難看，因此有許多人要我把介面設計交給另一個團員做。但我非常不願意，一來這會打亂開發模式，二來我喜歡自己來。而當時我算是團隊的 Leader，很多人就因此心生不滿。</p><div class="tag-plugin image"><div class="image-bg"><img src="IMG_20201102_174749_954.webp" style="width:1024px;"/></div></div><p>抱怨平台 Speakout 的關於介面。有重新設計過。 (2020-05-14)</p><p>再加上之前零碎的矛盾，團隊大部分人就不太參與這個獨裁的團隊了。即便 schweb 計畫早以擱置，且 8 月中旬有招到學弟，但也沒有讓團隊恢復熱情。而團隊的聊天記錄，也就一直停留在學弟迎新那天。也因此，團隊可以說實質解散，只差對外宣布團隊解散而已。</p><p>而 YC 呢？我們因為開發模式、設計的偏好和個性的不同，我們也對彼此頗有言詞，後來處得愈來愈不合，便就互相封鎖。</p><p>解疑網也因為缺乏統一的開發模式，程式碼和介面變得越來越亂，最後我也就失去維護和堅持開發模式的動力了。</p><h2 id="後記"><a href="#後記" class="headerlink" title="後記"></a>後記</h2><p>這次的組團經驗讓我了解組團的各種問題、如何與學校接洽和正確的工作分配等。</p><p>而也是這次的經驗，讓我深刻體會到包容心與尊重的重要，畢竟如果不會包容，團隊就不會帶的好。而如果真的是自己堅持的地方，那也要學會退讓，不要固執。</p><p>還有，組隊要找真的志同道合的人，不要找個性南轅北轍的人，否則團隊難以帶的久，就和 smhs-dev-team 一樣。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;SMHS Dev Team 的草創專案—SMHS 學習歷程解疑網已經被我封存了&lt;/strong&gt;。這意味著不僅僅是我對於 smhs 學生對於校內資源的使用度死心，也意味著陪伴我整個高一下的 smhs-dev-team 的中止。&lt;/p&gt;
+&lt;div class=&quot;tag-plugin image&quot;&gt;&lt;div class=&quot;image-bg&quot;&gt;&lt;img src=&quot;image-11.webp&quot; style=&quot;width:1024px;&quot;/&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;smhs-os-project/smhs-epf-faq 進入封存狀態 (2020-10-30)&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/Developments/The-thoughts/"/>
+    
+    
+    <category term="epf" scheme="https://blog.pan93.tk/tags/epf/"/>
+    
+    <category term="smhs-dev-team" scheme="https://blog.pan93.tk/tags/smhs-dev-team/"/>
+    
+    <category term="smhs-epf-faq" scheme="https://blog.pan93.tk/tags/smhs-epf-faq/"/>
+    
+    <category term="sms-os-project" scheme="https://blog.pan93.tk/tags/sms-os-project/"/>
+    
+    <category term="speakout" scheme="https://blog.pan93.tk/tags/speakout/"/>
+    
+    <category term="yc97643" scheme="https://blog.pan93.tk/tags/yc97643/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>109 高中資訊學科能力複賽的參加心得</title>
+    <link href="https://blog.pan93.tk/toi-competition-opitions/"/>
+    <id>https://blog.pan93.tk/toi-competition-opitions/</id>
+    <published>2020-11-02T00:57:07.000Z</published>
+    <updated>2020-11-02T00:57:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>又墊底了。</strong></p><p>但不一樣的是，<strong>這次比賽我收穫上不少</strong>。</p><span id="more"></span><h2 id="早先的選手培訓課程"><a href="#早先的選手培訓課程" class="headerlink" title="早先的選手培訓課程"></a>早先的選手培訓課程</h2><p><strong>這是我覺得整個競賽當中，我最印象深刻而且最有收穫的課程。</strong></p><p>在參加這門課程之前，其實我很厭惡演算法。因為數學跟邏輯不太好，所以我當時會覺得演算法很恐怖，看不懂，不敢學。但在上完這幾門課程後，我才發現到，<strong>很多演算法其實自己平時就在用，只是從未察覺。</strong></p><p>就例如動態規劃 (Dynamic Programming) 好了，概念這就像是我平常在搞得快取 (Cache)，把先前擷取 / 計算過的結果儲存下來，下次要用的時候，就直接把之前擷取 / 計算的結果拿出來。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">hashmap cache_db;</span><br><span class="line">get_something(id) &#123;</span><br><span class="line">  declare data;</span><br><span class="line">  if id not in cache_db</span><br><span class="line">    data = _get_something(id)</span><br><span class="line">    cache_db[id] = data</span><br><span class="line">  else</span><br><span class="line">    data = cache_db[id]</span><br><span class="line">  return data</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>還有圖論，這對我來講是個很新穎的演算法概念，而在聽邏輯之後覺得比想像中還要好懂。「廣度優先」和「深入優先」這兩個抽象的名詞，用老師的 GIF 講解之後就變得很好懂。但就是還不知道能用在哪些地方 😅</p><p>最後是逐個擊破（分而治，D&amp;C）和貪婪演算法 (Greedy Method)，雖然一開始沒聽懂，但後來自己回家找了 Wikipedia 之後就看懂了。也是個自己寫程式偶爾會想到，但沒發覺是個演算法的東西。</p><div class="tag-plugin image"><div class="image-bg"><img src="20201115_115247.webp" style="height:500px;"/></div></div><div class="tag-plugin image"><div class="image-bg"><img src="20201115_115345.webp" style="height:500px;"/></div></div><div class="tag-plugin image"><div class="image-bg"><img src="20201115_115415.webp" style="height:500px;"/></div></div><div class="tag-plugin image"><div class="image-bg"><img src="20201115_115448.webp" style="height:500px;"/></div></div><p>培訓課程的筆記</p><h2 id="比賽的過程與收穫"><a href="#比賽的過程與收穫" class="headerlink" title="比賽的過程與收穫"></a>比賽的過程與收穫</h2><div class="tag-plugin image"><div class="image-bg"><img src="INFOP1.webp" style="height:700px;"/></div></div><p>雖然跟上次一樣，看不懂題目，或是看懂卻不會做，但其實我還是有一些額外的收穫。</p><p>先說為何我「看懂卻不會做」，就例如「給三個點，求圍起來的三角形面積」。我知道三個點圍起是直角三角形的作法，但我不知道不規則三角形的解法。</p><p>後來聽了講解之後，才知道要用的是海龍公式。真是遺憾，競賽時不能用網路，所以我沒辦法上網查「三個點求三角形面積」的公式，而且我也忘了海龍公式。只能說是數學基礎不夠好。</p><p>還有下面這種「數字包數字」的題目，這題我至今還不會做，希望未來能看到能看懂的解法：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">7 4444444  </span><br><span class="line">6 4333334  </span><br><span class="line">5 4322234  </span><br><span class="line">4 4321234  </span><br><span class="line">3 4322234  </span><br><span class="line">2 4333334  </span><br><span class="line">1 4444444  </span><br><span class="line">0 1234567</span><br></pre></td></tr></table></figure><p>這一題中，N=4，而我們會給四個數字，分別為 x1 y1 和 x2 y2。求 (x1, y1) 和 (x2, y2) 的值</p><p>假設 N=4，而 (x1, y1) = (3,2) = n1，(x2, y2) = (5,3) = n2，那就應該回傳 <code>3 2</code> 分別指代 n1，n2 的值。</p><p>好像是這樣吧，我忘記了。</p><p>另外還有極大數字的題目和剪出時間的題目。這兩道題目我都有點忘了，找到考古題之後會再補上去。</p><p>雖然比賽 4hr 我大概 3hr 都不知道在幹嘛，但我在這 3hr 得出一個結論：</p><blockquote><p>打競賽程式不要用 Visual Studio，有夠綁手綁腳。用 Python 內建的 IDLE 就好!</p><p>Yi-Jyun Pan, 2020-11-14.</p></blockquote><p>和</p><blockquote><p>競賽用電腦好快ㄛ，開 VS 不用 10 秒耶。</p><p>Yi-Jyun Pan, 2020-11-14.</p></blockquote><p>以及我也已經大概擬定我自己是比較傾向於程式應用，也就是寫網頁、專案之類的東西，正是如此，我並沒有因為這次比賽的排名而傷透心，這就當作是一次嘗試吧（笑）</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;strong&gt;又墊底了。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;但不一樣的是，&lt;strong&gt;這次比賽我收穫上不少&lt;/strong&gt;。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+    <category term="school" scheme="https://blog.pan93.tk/tags/school/"/>
+    
+    <category term="information" scheme="https://blog.pan93.tk/tags/information/"/>
+    
+    <category term="109" scheme="https://blog.pan93.tk/tags/109/"/>
+    
+    <category term="algorighm" scheme="https://blog.pan93.tk/tags/algorighm/"/>
+    
+    <category term="competition" scheme="https://blog.pan93.tk/tags/competition/"/>
+    
+    <category term="high" scheme="https://blog.pan93.tk/tags/high/"/>
+    
+    <category term="idle" scheme="https://blog.pan93.tk/tags/idle/"/>
+    
+    <category term="senior" scheme="https://blog.pan93.tk/tags/senior/"/>
+    
+    <category term="TOI" scheme="https://blog.pan93.tk/tags/TOI/"/>
+    
+    <category term="visual studio" scheme="https://blog.pan93.tk/tags/visual-studio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>ANSI C：判斷字串是否全大寫</title>
+    <link href="https://blog.pan93.tk/ansi-c-all-uppercase/"/>
+    <id>https://blog.pan93.tk/ansi-c-all-uppercase/</id>
+    <published>2020-10-23T03:10:29.000Z</published>
+    <updated>2020-10-23T03:10:29.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>程式碼：</p><span id="more"></span><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/* 感謝一位不具名朋友提供效能更佳的版本 (all_uppercase)! */</span></span><br><span class="line"><span class="comment">/* 舊版在 all_uppercase_v1() */</span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="comment">// 只有 all_uppercase_v1 需要 ctype.h</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;ctype.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">all_uppercase</span><span class="params">(<span class="keyword">char</span>* str)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> len = <span class="built_in">strlen</span>(str);</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; len; ++i)</span><br><span class="line">        <span class="keyword">if</span> (!(str[i] &gt;= <span class="string">&#x27;A&#x27;</span> &amp;&amp; str[i] &lt;= <span class="string">&#x27;Z&#x27;</span>))</span><br><span class="line">            <span class="keyword">return</span> <span class="number">0</span>; </span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">all_uppercase_v1</span><span class="params">(<span class="keyword">char</span>* str)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">int</span> upper = <span class="number">1</span>;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i&lt;<span class="built_in">strlen</span>(str); i++)</span><br><span class="line">        <span class="keyword">if</span> (!<span class="built_in">isupper</span>(str[i])) upper = <span class="number">0</span>; </span><br><span class="line">    <span class="keyword">return</span> upper;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;程式碼：&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    
+    
+    <category term="ansi c" scheme="https://blog.pan93.tk/tags/ansi-c/"/>
+    
+    <category term="c" scheme="https://blog.pan93.tk/tags/c/"/>
+    
+    <category term="uppercase" scheme="https://blog.pan93.tk/tags/uppercase/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>還是先別想 macOS 相關的事情好了</title>
+    <link href="https://blog.pan93.tk/stop-thinking-about-mac/"/>
+    <id>https://blog.pan93.tk/stop-thinking-about-mac/</id>
+    <published>2020-10-22T16:53:27.000Z</published>
+    <updated>2020-10-22T16:53:27.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>自從週三第一次碰到 MacBook Air 之後，就對 macOS 非常癡迷。但是，我的電腦既裝不下黑蘋果，也不太可能在剛升級 Windows 筆電不久後要求父母贊助我買 MacBook Air 的經費。</p><span id="more"></span><p>因此，這段時間我挺頹廢，把得來不易的空閒時間全拿去看 Apple 產品望梅止渴，和滑 B 站麻痺自己。這也是最近為何我沒繼續更新 blog 的原因之一，一方面是作業有點多，另一方面就是因為這件事。</p><p>但我覺得該時候覺醒了，不要執著於短時間內辦不到的事情。macOS 固然好用，但是現在沒有，Windows 也不妨是好選擇呀！MacBook Air 暫時不能添購，但是原來的筆電也不是還能用嗎？知足惜福是非常重要的，真的想買，也可以等到大學有積蓄之後再買呀！</p><p>所以，我決定別再讓自己想這種事情。把時間花在目前重要的事情，而不是花時間在思考這種沒有結果的問題，徒增自己煩惱。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;自從週三第一次碰到 MacBook Air 之後，就對 macOS 非常癡迷。但是，我的電腦既裝不下黑蘋果，也不太可能在剛升級 Windows 筆電不久後要求父母贊助我買 MacBook Air 的經費。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    
+    
+    <category term="buy" scheme="https://blog.pan93.tk/tags/buy/"/>
+    
+    <category term="hackintosh" scheme="https://blog.pan93.tk/tags/hackintosh/"/>
+    
+    <category term="macintosh" scheme="https://blog.pan93.tk/tags/macintosh/"/>
+    
+    <category term="mac" scheme="https://blog.pan93.tk/tags/mac/"/>
+    
+    <category term="windows" scheme="https://blog.pan93.tk/tags/windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>VBA 筆記：選取事件</title>
+    <link href="https://blog.pan93.tk/vba-selectionchange/"/>
+    <id>https://blog.pan93.tk/vba-selectionchange/</id>
+    <published>2020-10-18T15:40:43.000Z</published>
+    <updated>2020-10-18T15:40:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>有天我突然想寫一個 Excel 按鈕，但是又不想要做一個 Form，而想到最好的辦法，就是按 Excel 中的格子。那該怎麼做，才可以做出這種偽按鈕呢？</p><span id="more"></span><h2 id="原理思考"><a href="#原理思考" class="headerlink" title="原理思考"></a>原理思考</h2><h3 id="Excel-中，按一下儲存格代表？"><a href="#Excel-中，按一下儲存格代表？" class="headerlink" title="Excel 中，按一下儲存格代表？"></a>Excel 中，按一下儲存格代表？</h3><p>就是選取「單一」儲存格。就跟你拖曳選取一堆儲存格、選取整整一行或一列所代表的含意是相同的。</p><h3 id="那怎麼知道使用者選取了什麼？"><a href="#那怎麼知道使用者選取了什麼？" class="headerlink" title="那怎麼知道使用者選取了什麼？"></a>那怎麼知道使用者選取了什麼？</h3><p>用 VBA 的事件 (Event)。只要使用者做了什麼動作（觸發），Excel 都會通知你發生新事件，告訴你使用者做了什麼。</p><p>首先，Excel 遇到新事件時，會先看看你有沒有在指定的地方放下動作（Sub，子程式），如果沒放就等同忽略，而有放就會觸發（Trigger）這個動作。所以我們只要知道「選取儲存格後該在哪裡接收事件」，就完成了。</p><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><h3 id="建立接收事件的子程式"><a href="#建立接收事件的子程式" class="headerlink" title="建立接收事件的子程式"></a>建立接收事件的子程式</h3><p>VBA 中有一個跟儲存格變更有關的事件，叫做 <code>Worksheet_SelectionChange</code>，長得像這樣：</p><p><code>Private Sub Worksheet\_SelectionChange(ByVal Target As Range)</code></p><p>別急著複製。VBA 其實有提供一個非常簡單的事件選取工具。首先開啟 VBA 編輯器，找到你想要監聽的工作表，然後按一下上方的 [(一般)]，之後選擇 [Worksheet]。</p><p><img src="image-5.webp" alt="按一下 [專案] 中的其中一個工作表之後，在彈出來的畫面中按一下 [(一般)]，之後按下 [Worksheet]。"></p><p>選擇 Worksheet</p><p>然後選擇 [SelectionChange]，搞定！</p><p><img src="image-6.webp" alt="接著，找到旁邊的下拉框，選擇 [SelectionChange]。"></p><p>選擇 SelectionChange</p><h3 id="了解子程式的結構"><a href="#了解子程式的結構" class="headerlink" title="了解子程式的結構"></a>了解子程式的結構</h3><p>首先，我們來看看產生的程式碼。</p><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> Worksheet_SelectionChange(<span class="keyword">ByVal</span> Target <span class="keyword">As</span> Range)</span><br><span class="line"></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure><p>你會發現到裡面出現了非常多奇怪的東西。什麼是 <code>Private</code> 和 <code>ByVal</code>？<code>Target</code> 是什麼？<code>As Range</code> 又是什麼東西？</p><p>首先，每個工作表都有自己獨立的事件，也就是你在 A 工作表選取東西，不干 B 工作表的事。如果用 <code>Public</code>，就代表 A 工作表的事件也會影響其他工作表。這不應該發生。而 <code>Private</code> 就可以限定這個事件是 A 工作表 only 的。</p><p>而 <code>ByVal</code> 則需要一點資料結構的知識。VBA 傳遞參數有兩種形式，一個是 <code>ByVal</code>，建立物件的副本，另一個則是 <code>ByRef</code>，傳遞指向原物件的參考。有興趣可以看看〈<a href="https://www.lanrenexcel.com/vba-byval-byref-basic/">VBA 中 ByVal 和 ByRef 的基础用法和区别</a>〉。</p><p><code>Target</code> 則是你選取的儲存格。<code>As Range</code> 代表這是一個儲存格範圍 (Range) 類型的物件。舉凡 <code>.Range()</code>、<code>.Cells()</code> 所回傳的物件都是 <code>Range</code>，只是平常不會去特別宣告而已。</p><h3 id="使用上的注意事項"><a href="#使用上的注意事項" class="headerlink" title="使用上的注意事項"></a>使用上的注意事項</h3><p>首先，選取任何儲存格都會觸發這個事件，所以記得判斷儲存格的內容。</p><p>此外，如果使用者拖曳選取，那我們就無法正確判斷該觸發的按紐。除了用 <code>foreach</code> 掃描所有使用者選取的儲存格外，你也可以用 <code>.Cells(1,1)</code> 強制指定我們要的儲存格是最左上角那個。</p><h2 id="實作：開關按鈕"><a href="#實作：開關按鈕" class="headerlink" title="實作：開關按鈕"></a>實作：開關按鈕</h2><p><img src="image-9.webp" alt="三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。"></p><p>我希望上圖範例中，按一下 ON 就讓 ON 變粗，按 OFF 就讓 OFF 變粗，那該怎麼做呢？首先，我們先在 Excel 製作如圖中的按鈕，然後開啟 VBA 編輯器並建立選取事件。</p><h3 id="怎麼知道使用者按了哪顆按鈕？"><a href="#怎麼知道使用者按了哪顆按鈕？" class="headerlink" title="怎麼知道使用者按了哪顆按鈕？"></a>怎麼知道使用者按了哪顆按鈕？</h3><p>我們可以從 <code>.Address</code> 取得。就像這樣：</p><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Target.Cells(<span class="number">1</span>, <span class="number">1</span>).Address</span><br></pre></td></tr></table></figure><p><code>.Address</code> 會回傳如 <code>$A$1</code> 的絕對座標。而我們可以發現範例中「ON」和「OFF」分別位於 E3 和 F3，所以我們就可以寫出如這樣的偽程式碼：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">如果 使用者按的儲存格是 $E$3 就</span><br><span class="line">  把 $E$3 變粗</span><br><span class="line">  把 $F$3 還原</span><br><span class="line">反之，如果 使用者按的儲存格是 $F$3 就</span><br><span class="line">  把 $F$3 變粗</span><br><span class="line">  把 $E$3 還原</span><br></pre></td></tr></table></figure><p>那我們要怎麼寫出好看的「如果」敘述句，跟怎麼實作把字型變粗呢？</p><h3 id="善用-Switch-Case"><a href="#善用-Switch-Case" class="headerlink" title="善用 Switch Case"></a>善用 Switch Case</h3><p>像上面那個偽程式碼，我們就可以寫成這樣：</p><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> <span class="keyword">Case</span> [使用者按的儲存格]</span><br><span class="line">    <span class="keyword">Case</span> <span class="string">&quot;$E$3&quot;</span></span><br><span class="line">      <span class="comment">&#x27;&lt;按下 ON 時的動作&gt;</span></span><br><span class="line">    <span class="keyword">Case</span> <span class="string">&quot;$F$3&quot;</span></span><br><span class="line">      <span class="comment">&#x27;&lt;按下 OFF 時的動作&gt;</span></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Select</span></span><br></pre></td></tr></table></figure><h3 id="得知使用者按的儲存格"><a href="#得知使用者按的儲存格" class="headerlink" title="得知使用者按的儲存格"></a>得知使用者按的儲存格</h3><p>首先〈了解子程式的結構〉這裡我們就提過 <code>Target</code> 是使用者選擇的儲存格，而為了要確保我們判斷的儲存格只有一個，防止莫名其妙的 bug，我們用 <code>.Cells(1,1)</code> 限定要判斷的儲存格是最左上角那個。</p><p>而跟〈怎麼知道使用者按了哪顆按鈕？〉介紹到的 <code>.Address</code> 結合，就長這樣：</p><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Target.Cells(<span class="number">1</span>, <span class="number">1</span>).Address</span><br></pre></td></tr></table></figure><p>放進去〈善用 Switch Case〉的程式碼吧！</p><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Select</span> <span class="keyword">Case</span> Target.Cells(<span class="number">1</span>, <span class="number">1</span>).Address</span><br><span class="line">    <span class="keyword">Case</span> <span class="string">&quot;$E$3&quot;</span></span><br><span class="line">      <span class="comment">&#x27;&lt;按下 ON 時的動作&gt;</span></span><br><span class="line">    <span class="keyword">Case</span> <span class="string">&quot;$F$3&quot;</span></span><br><span class="line">      <span class="comment">&#x27;&lt;按下 OFF 時的動作&gt;</span></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Select</span></span><br></pre></td></tr></table></figure><h3 id="讓按鈕文字變粗"><a href="#讓按鈕文字變粗" class="headerlink" title="讓按鈕文字變粗"></a>讓按鈕文字變粗</h3><p>VBA 要讓字型變粗，會用到的屬性就是 <code>.Font.Bold</code>。把屬性設成 <code>True</code> 就變粗，<code>False</code> 就還原。以下程式碼可以讓 E3 儲存格的字型變粗。</p><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Range(<span class="string">&quot;E3&quot;</span>).Font.Bold = <span class="literal">True</span></span><br></pre></td></tr></table></figure><h3 id="成品"><a href="#成品" class="headerlink" title="成品"></a>成品</h3><figure class="highlight vb"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">Private</span> <span class="keyword">Sub</span> Worksheet_SelectionChange(<span class="keyword">ByVal</span> Target <span class="keyword">As</span> Range)</span><br><span class="line">   <span class="keyword">Select</span> <span class="keyword">Case</span> Target.Cells(<span class="number">1</span>, <span class="number">1</span>).Address</span><br><span class="line">        <span class="keyword">Case</span> <span class="string">&quot;$E$3&quot;</span></span><br><span class="line">            Range(<span class="string">&quot;E3&quot;</span>).Font.Bold = <span class="literal">True</span></span><br><span class="line">            Range(<span class="string">&quot;F3&quot;</span>).Font.Bold = <span class="literal">False</span></span><br><span class="line">        <span class="keyword">Case</span> <span class="string">&quot;$F$3&quot;</span></span><br><span class="line">            Range(<span class="string">&quot;F3&quot;</span>).Font.Bold = <span class="literal">True</span></span><br><span class="line">            Range(<span class="string">&quot;E3&quot;</span>).Font.Bold = <span class="literal">False</span></span><br><span class="line">    <span class="keyword">End</span> <span class="keyword">Select</span></span><br><span class="line"><span class="keyword">End</span> <span class="keyword">Sub</span></span><br></pre></td></tr></table></figure><p><img src="image-10.webp" alt="三個儲存格，從左自右是「啟動渦輪加速系統」（位於 B3）、「ON」（位於 E3）、「OFF」（位於 F3）。而「OFF」按下去會變粗。"></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;有天我突然想寫一個 Excel 按鈕，但是又不想要做一個 Form，而想到最好的辦法，就是按 Excel 中的格子。那該怎麼做，才可以做出這種偽按鈕呢？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    
+    
+    <category term="vba" scheme="https://blog.pan93.tk/tags/vba/"/>
+    
+    <category term="事件" scheme="https://blog.pan93.tk/tags/%E4%BA%8B%E4%BB%B6/"/>
+    
+    <category term="選取" scheme="https://blog.pan93.tk/tags/%E9%81%B8%E5%8F%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>DevLog：使用者體驗 (1)</title>
+    <link href="https://blog.pan93.tk/ux-1/"/>
+    <id>https://blog.pan93.tk/ux-1/</id>
+    <published>2020-10-17T16:20:37.000Z</published>
+    <updated>2020-10-17T16:20:37.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://github.com/qier222/YesPlayMusic/pull/9">貢獻了一個新東西到某個 GitHub 儲存庫</a>，其中主要是讓程式更適合使用者。有許多開發者常常犯下類似「錯誤訊息太艱深難懂」、「以為使用者會需要，但其實沒必要的」的錯誤，而這篇文章我會詳談為何我覺得開發者為何不應該犯這些錯誤。</p><span id="more"></span><h2 id="錯誤訊息不應過於簡陋"><a href="#錯誤訊息不應過於簡陋" class="headerlink" title="錯誤訊息不應過於簡陋"></a>錯誤訊息不應過於簡陋</h2><blockquote><p>此外，我把原本很醜的 <code>if</code> 表示式以 Map 改寫，同時我也讓訊息比較好懂，畢竟這個專案的目標客群是一般使用者，盡可能用些平易近人的錯誤訊息。</p><p><a href="https://github.com/qier222/YesPlayMusic/pull/9#issuecomment-711028059">GitHub - YesPlayMusic, PR #9</a></p></blockquote><p>為什麼錯誤訊息要平易近人？首先我們來看一個反例。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">權杖錯誤。</span><br></pre></td></tr></table></figure><p>你能一眼就看出來到底出了什麼問題，且該怎麼修正嗎？就連我這個稍有經驗的電腦使用者都不一定知道該怎麼修，更何況是一般使用者？</p><p>也因此，一個好的錯誤訊息要讓使用者知道這是怎麼了，和應該怎麼修。就以上面的錯誤訊息為例，我們可以寫得更加具體：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">判斷權杖時發生錯誤。可能是因為閒置過久，或是沒有權限所致。</span><br></pre></td></tr></table></figure><p>首先，前面的「具體錯誤」是給了解系統的人看的，這樣使用者詢問這些人時，他們才能清楚是哪個環節出錯。而後面的可能發生原因，就是給使用者看的。也因此，我們要盡可能避開專有名詞，用使用者能看懂的字眼，去告訴使用者大概是怎麼了。</p><p>現在使用者知道問題的可能原因了。但是，使用者知道原因，卻不知道怎麼修，這樣仍然不是合格的錯誤訊息。所以我們也要給出可能的解決方法。首先，我們先看解決方法的反例：</p><p><img src="image-7.webp" alt="Microsoft 詞彙庫中的反例"></p><p>「請聯絡您的系統管理員。」絕對不是解決方法，事實上 Microsoft 之前很喜歡使用「聯絡管理員」這種推卸責任的話語來掩蓋他們懶著寫解決方法的事實。</p><p>但是聯絡管理員真的有用嗎？事實上不少使用者自己就是「系統管理員」，難道是要聯絡自己嗎？所以解決方法的撰寫，要盡可能讓使用者能夠自己解決，而不是一直推卸。就以上面的錯誤訊息來說，我們可以改寫成這樣：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">判斷權杖時發生錯誤。可能是因為閒置過久，或是沒有權限所致。請嘗試重新登入您的帳戶，或重新以有權限存取此系統的帳戶登入。</span><br></pre></td></tr></table></figure><p>比起最一開始的錯誤訊息，我們讓開發者更好判斷錯誤的本因、讓使用者更好理解問題的可能原因以及怎麼解決，這樣便是最適合使用者和系統管理員的錯誤訊息。</p><h2 id="不需要就不要寫"><a href="#不需要就不要寫" class="headerlink" title="不需要就不要寫"></a>不需要就不要寫</h2><p>時間寶貴，別浪費時間在沒人用的功能上。寫太多功能，除了程式本身會變得十分臃腫，也會使核心功能的維護時間被寫新功能的開發時間佔據，導致程式日漸不穩定。</p><p>此外，不要一股腦把所有能拿到的東西都塞進去使用者介面裡面，因為使用者不需要也看不懂，放太多只會讓介面變得十分混亂。舉個現實中的例子，假如你拿到這些資料：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// kb/s</span></span><br><span class="line">  <span class="attr">currentSpeed</span>: <span class="number">500</span>, <span class="comment">// 目前速度</span></span><br><span class="line">  <span class="comment">// byte</span></span><br><span class="line">  <span class="attr">totalSize</span>: <span class="number">100000000</span>, <span class="comment">// 總計大小</span></span><br><span class="line">  <span class="comment">// byte</span></span><br><span class="line">  <span class="attr">gotSize</span>: <span class="number">300000</span>, <span class="comment">// 收到的大小</span></span><br><span class="line">  <span class="attr">respHeader</span>: &#123; <span class="comment">// 伺服器回應的 header</span></span><br><span class="line">    <span class="attr">server</span>: <span class="string">&#x27;blah&#x27;</span>,</span><br><span class="line">    <span class="attr">cookies</span>: &#123;&#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">reqHeader</span>: &#123; <span class="comment">// 用戶端要求的 header</span></span><br><span class="line">    <span class="attr">userAgent</span>: <span class="string">&#x27;???&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>一個不好的使用者介面會把目前速度、總計大小、已下載的大小、伺服器和用戶端的回應放上去，甚至還會幫忙算 ETA 和經過時間，但是使用者真的需要這些資料嗎？</p><p>如果只是單純的遊戲下載器，我們只要告訴使用者目前進度和 ETA 就好。而如果是瀏覽器下載器，也不用精確到把詳細的回應告訴使用者。</p><p>所以，請秉持著「有需要再寫」原則，可以看看<a href="/golden-circle">〈用 Golden Circle 從初衷找出需求〉</a>，了解怎麼利用輔助工具幫你找到最需要的核心功能。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/qier222/YesPlayMusic/pull/9&quot;&gt;貢獻了一個新東西到某個 GitHub 儲存庫&lt;/a&gt;，其中主要是讓程式更適合使用者。有許多開發者常常犯下類似「錯誤訊息太艱深難懂」、「以為使用者會需要，但其實沒必要的」的錯誤，而這篇文章我會詳談為何我覺得開發者為何不應該犯這些錯誤。&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    
+    
+    <category term="epf" scheme="https://blog.pan93.tk/tags/epf/"/>
+    
+    <category term="JavaScript" scheme="https://blog.pan93.tk/tags/JavaScript/"/>
+    
+    <category term="Node.js" scheme="https://blog.pan93.tk/tags/Node-js/"/>
+    
+    <category term="Vue.js" scheme="https://blog.pan93.tk/tags/Vue-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>淺談翻譯弊病 (1)</title>
+    <link href="https://blog.pan93.tk/translating-evil-1/"/>
+    <id>https://blog.pan93.tk/translating-evil-1/</id>
+    <published>2020-10-16T09:05:02.000Z</published>
+    <updated>2020-10-16T09:05:02.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>「Install this software to your computer.」</p><p>這句話你會怎麼翻？一些保守翻譯者會翻成「安裝此軟體至您的電腦。」，但我覺得這樣翻不好，為什麼？</p><span id="more"></span><h2 id="翻譯是給人看的"><a href="#翻譯是給人看的" class="headerlink" title="翻譯是給人看的"></a>翻譯是給人看的</h2><p>拘泥於逐字翻譯，會使翻譯不近人情。就以我上面提的翻譯來說，你平常說話並不會說成這樣，即便是書寫，也不會這樣寫。</p><p>這就算是典型的<strong>翻譯腔</strong> － 你沒翻錯，但很怪。一個優秀的翻譯，不會讓人覺得突兀，就像是母語使用者說的。</p><p>就我自己的翻譯習慣，我會先念一遍翻譯，並尋找奇怪的地方。就以開頭那句，我會翻成「<strong>將軟體安裝進您的電腦</strong>」，更好讀但又不會太口語化。</p><p><a href="https://tw.blog.voicetube.com/archives/19126/%E9%80%99%E5%8F%A5%E4%B8%AD%E6%96%87%E6%80%8E%E9%BA%BC%E7%BF%BB%E5%BE%97%E9%82%A3%E9%BA%BC%E5%BD%86%E6%89%AD%EF%BC%81%E5%8D%81%E5%A4%A7%E5%B8%B8%E8%A6%8B%E7%BF%BB%E8%AD%AF%E8%85%94%E4%BD%A0%E9%83%BD/">如果有興趣可以看看這篇翻譯腔相關的文章</a>。</p><h2 id="翻譯一點都不簡單"><a href="#翻譯一點都不簡單" class="headerlink" title="翻譯一點都不簡單"></a>翻譯一點都不簡單</h2><p>也因此，要翻出一個好的翻譯其實不是個簡單的事情。如果翻譯只會逐字翻，那我大可可以直接用 Google 翻譯或 DeepL 之類的服務。翻譯更需要的是理解後，<strong>在不破壞原意的情況下的重新表達</strong>。這需要的不僅僅是翻譯員的語文能力，以及翻譯的經驗。</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;「Install this software to your computer.」&lt;/p&gt;
+&lt;p&gt;這句話你會怎麼翻？一些保守翻譯者會翻成「安裝此軟體至您的電腦。」，但我覺得這樣翻不好，為什麼？&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Translating" scheme="https://blog.pan93.tk/categories/Translating/"/>
+    
+    
+    <category term="l10n" scheme="https://blog.pan93.tk/tags/l10n/"/>
+    
+    <category term="translate" scheme="https://blog.pan93.tk/tags/translate/"/>
     
   </entry>
   

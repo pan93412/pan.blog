@@ -16,15 +16,15 @@
   <meta name="HandheldFriendly" content="True" >
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
-  <title>DevLog：使用者體驗 (1) - pain.blog</title>
+  <meta name="theme-color" content="#f8f8f8">
+  <title>DevLog：使用者體驗 (1) - pan.blog</title>
 
   
     <meta name="description" content="貢獻了一個新東西到某個 GitHub 儲存庫，其中主要是讓程式更適合使用者。有許多開發者常常犯下類似「錯誤訊息太艱深難懂」、「以為使用者會需要，但其實沒必要的」的錯誤，而這篇文章我會詳談為何我覺得開發者為何不應該犯這些錯誤。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="DevLog：使用者體驗 (1)">
 <meta property="og:url" content="https://blog.pan93.tk/ux-1/index.html">
-<meta property="og:site_name" content="pain.blog">
+<meta property="og:site_name" content="pan.blog">
 <meta property="og:description" content="貢獻了一個新東西到某個 GitHub 儲存庫，其中主要是讓程式更適合使用者。有許多開發者常常犯下類似「錯誤訊息太艱深難懂」、「以為使用者會需要，但其實沒必要的」的錯誤，而這篇文章我會詳談為何我覺得開發者為何不應該犯這些錯誤。">
 <meta property="og:locale" content="zh_TW">
 <meta property="og:image" content="https://blog.pan93.tk/ux-1/image-7.webp">
@@ -42,7 +42,7 @@
 
   <!-- feed -->
   
-    <link rel="alternate" href="../atom.xml" title="pain.blog" type="application/atom+xml">
+    <link rel="alternate" href="../atom.xml" title="pan.blog" type="application/atom+xml">
   
 
   
@@ -51,6 +51,8 @@
 
   
 
+  
+  
   
     
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK8EPCLBY6"></script>
@@ -65,31 +67,19 @@
 
 
   <div class='l_body' id='start'>
-    <aside class='l_left'>
+    <aside class='l_left' layout='post'>
     
 
-<header class='header'>
-  <div class='logo-wrap'>
-  
-  
-    <a class='title' href='../index.html'>
-      pain.blog
-    </a>
-  
-</div>
 
-  <nav class="menu dis-select"></nav>
-</header>
+<header class="header">
 
-<div class='widgets'>
-  
-    
-      
-      
-<div class="widget-wrap" id="toc"><div class="widget-header h4 dis-select"><span class="name">本文目錄</span></div><div class="widget-body fs14 post"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%8C%AF%E8%AA%A4%E8%A8%8A%E6%81%AF%E4%B8%8D%E6%87%89%E9%81%8E%E6%96%BC%E7%B0%A1%E9%99%8B"><span class="toc-text">錯誤訊息不應過於簡陋</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E9%9C%80%E8%A6%81%E5%B0%B1%E4%B8%8D%E8%A6%81%E5%AF%AB"><span class="toc-text">不需要就不要寫</span></a></li></ol></div></div></div>
+<div class="logo-wrap"><a class="avatar" href="../about/"><div class="bg" style="opacity:0;background-image:url(https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.2/avatar/round/rainbow64@3x.webp);"></div><img no-lazy class="avatar" src="https://avatars.githubusercontent.com/u/28441561?v=4" onerror="javascript:this.classList.add('error');this.src='https://cdn.jsdelivr.net/gh/cdn-x/placeholder@1.0.1/image/2659360.svg';"></a><a class="title" href="../index.html"><div class="main">pan.blog</div><div class="sub cap">pan93412 的筆記本。</div></a></div>
+<nav class="menu dis-select"></nav></header>
 
-    
-  
+<div class="widgets">
+<div class="widget-wrap" id="toc"><div class="widget-header cap dis-select"><span class="name">本文目錄</span></div><div class="widget-body fs14 post"><div class="doc-tree active"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%8C%AF%E8%AA%A4%E8%A8%8A%E6%81%AF%E4%B8%8D%E6%87%89%E9%81%8E%E6%96%BC%E7%B0%A1%E9%99%8B"><span class="toc-text">錯誤訊息不應過於簡陋</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8D%E9%9C%80%E8%A6%81%E5%B0%B1%E4%B8%8D%E8%A6%81%E5%AF%AB"><span class="toc-text">不需要就不要寫</span></a></li></ol></div></div></div>
+
+
 </div>
 
 
@@ -100,24 +90,7 @@
       
 
 
-  <div class='bread-nav fs12'>
-  
-    
-    <div id='breadcrumb'>
-      <a class='cap breadcrumb' href='/'>首頁</a>
-      <span class="sep"></span>
-      <a class='cap breadcrumb' href='/'>網誌</a>
-      
-        <span class="sep"></span>
-        <a class="cap breadcrumb-link" href="../categories/Developments/">Developments</a>
-      
-    </div>
-    <div id='post-meta'>
-      發布於&nbsp;<time datetime='2020-10-17T16:20:37.000Z'>2020-10-18</time>
-    </div>
-  
-  </div>
-
+<div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">首頁</a><span class="sep"></span><a class="cap breadcrumb" href="/">網誌</a><span class="sep"></span><a class="cap breadcrumb-link" href="../categories/Developments/">Developments</a></div><div id="post-meta">發布於&nbsp;<time datetime="2020-10-17T16:20:37.000Z">2020-10-18</time></div></div>
 
 <article class='content md post'>
 <h1 class="article-title"><span>DevLog：使用者體驗 (1)</span></h1>
@@ -128,23 +101,23 @@
 <p><a target="_blank" rel="noopener" href="https://github.com/qier222/YesPlayMusic/pull/9#issuecomment-711028059">GitHub - YesPlayMusic, PR #9</a></p>
 </blockquote>
 <p>為什麼錯誤訊息要平易近人？首先我們來看一個反例。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">權杖錯誤。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">權杖錯誤。</span><br></pre></td></tr></table></figure>
 
 <p>你能一眼就看出來到底出了什麼問題，且該怎麼修正嗎？就連我這個稍有經驗的電腦使用者都不一定知道該怎麼修，更何況是一般使用者？</p>
 <p>也因此，一個好的錯誤訊息要讓使用者知道這是怎麼了，和應該怎麼修。就以上面的錯誤訊息為例，我們可以寫得更加具體：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">判斷權杖時發生錯誤。可能是因為閒置過久，或是沒有權限所致。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">判斷權杖時發生錯誤。可能是因為閒置過久，或是沒有權限所致。</span><br></pre></td></tr></table></figure>
 
 <p>首先，前面的「具體錯誤」是給了解系統的人看的，這樣使用者詢問這些人時，他們才能清楚是哪個環節出錯。而後面的可能發生原因，就是給使用者看的。也因此，我們要盡可能避開專有名詞，用使用者能看懂的字眼，去告訴使用者大概是怎麼了。</p>
 <p>現在使用者知道問題的可能原因了。但是，使用者知道原因，卻不知道怎麼修，這樣仍然不是合格的錯誤訊息。所以我們也要給出可能的解決方法。首先，我們先看解決方法的反例：</p>
 <p><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="image-7.webp" alt="Microsoft 詞彙庫中的反例"></p>
 <p>「請聯絡您的系統管理員。」絕對不是解決方法，事實上 Microsoft 之前很喜歡使用「聯絡管理員」這種推卸責任的話語來掩蓋他們懶著寫解決方法的事實。</p>
 <p>但是聯絡管理員真的有用嗎？事實上不少使用者自己就是「系統管理員」，難道是要聯絡自己嗎？所以解決方法的撰寫，要盡可能讓使用者能夠自己解決，而不是一直推卸。就以上面的錯誤訊息來說，我們可以改寫成這樣：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">判斷權杖時發生錯誤。可能是因為閒置過久，或是沒有權限所致。請嘗試重新登入您的帳戶，或重新以有權限存取此系統的帳戶登入。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">判斷權杖時發生錯誤。可能是因為閒置過久，或是沒有權限所致。請嘗試重新登入您的帳戶，或重新以有權限存取此系統的帳戶登入。</span><br></pre></td></tr></table></figure>
 
 <p>比起最一開始的錯誤訊息，我們讓開發者更好判斷錯誤的本因、讓使用者更好理解問題的可能原因以及怎麼解決，這樣便是最適合使用者和系統管理員的錯誤訊息。</p>
 <h2 id="不需要就不要寫"><a href="#不需要就不要寫" class="headerlink" title="不需要就不要寫"></a>不需要就不要寫</h2><p>時間寶貴，別浪費時間在沒人用的功能上。寫太多功能，除了程式本身會變得十分臃腫，也會使核心功能的維護時間被寫新功能的開發時間佔據，導致程式日漸不穩定。</p>
 <p>此外，不要一股腦把所有能拿到的東西都塞進去使用者介面裡面，因為使用者不需要也看不懂，放太多只會讓介面變得十分混亂。舉個現實中的例子，假如你拿到這些資料：</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// kb/s</span></span><br><span class="line">  currentSpeed: <span class="number">500</span>, <span class="comment">// 目前速度</span></span><br><span class="line">  <span class="comment">// byte</span></span><br><span class="line">  totalSize: <span class="number">100000000</span>, <span class="comment">// 總計大小</span></span><br><span class="line">  <span class="comment">// byte</span></span><br><span class="line">  gotSize: <span class="number">300000</span>, <span class="comment">// 收到的大小</span></span><br><span class="line">  respHeader: &#123; <span class="comment">// 伺服器回應的 header</span></span><br><span class="line">    server: <span class="string">&#x27;blah&#x27;</span>,</span><br><span class="line">    cookies: &#123;&#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  reqHeader: &#123; <span class="comment">// 用戶端要求的 header</span></span><br><span class="line">    userAgent: <span class="string">&#x27;???&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// kb/s</span></span><br><span class="line">  <span class="attr">currentSpeed</span>: <span class="number">500</span>, <span class="comment">// 目前速度</span></span><br><span class="line">  <span class="comment">// byte</span></span><br><span class="line">  <span class="attr">totalSize</span>: <span class="number">100000000</span>, <span class="comment">// 總計大小</span></span><br><span class="line">  <span class="comment">// byte</span></span><br><span class="line">  <span class="attr">gotSize</span>: <span class="number">300000</span>, <span class="comment">// 收到的大小</span></span><br><span class="line">  <span class="attr">respHeader</span>: &#123; <span class="comment">// 伺服器回應的 header</span></span><br><span class="line">    <span class="attr">server</span>: <span class="string">&#x27;blah&#x27;</span>,</span><br><span class="line">    <span class="attr">cookies</span>: &#123;&#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">reqHeader</span>: &#123; <span class="comment">// 用戶端要求的 header</span></span><br><span class="line">    <span class="attr">userAgent</span>: <span class="string">&#x27;???&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>一個不好的使用者介面會把目前速度、總計大小、已下載的大小、伺服器和用戶端的回應放上去，甚至還會幫忙算 ETA 和經過時間，但是使用者真的需要這些資料嗎？</p>
 <p>如果只是單純的遊戲下載器，我們只要告訴使用者目前進度和 ETA 就好。而如果是瀏覽器下載器，也不用精確到把詳細的回應告訴使用者。</p>
@@ -156,7 +129,7 @@
 
 </article>
 
-<div class="related-wrap" id="read-next"><section class="header cap theme"><span>接下來閱讀</span></section><section class="body"><div class="post-title h2"><a href="../golden-circle/">用 Golden Circle 從初衷找出需求</a></div><div class="post-title fs14"><a href="../vba-selectionchange/">上一篇：VBA 筆記：選取事件</a></div></section></div>
+<div class="related-wrap" id="read-next"><section class="header cap theme"><span>接下來閱讀</span></section><section class="body fs14"><a id="next" href="../translating-evil-1/">淺談翻譯弊病 (1)<span class="note">較早</span></a><div class="line"></div><a id="prev" href="../vba-selectionchange/">VBA 筆記：選取事件<span class="note">較新</span></a><div class="line"></div><a id="more" href="../archives">檢索全部文章</a></section></div>
 
 
 
@@ -180,8 +153,8 @@
 
 
       
-<footer class="page-footer fs12"><hr><div><p>本網誌所有文章除特別聲明外，均採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 授權條款。轉載請註明出處。</p>
-<p>本站由 <a href="https://blog.pan93.tk/">@pan93412</a> 建立，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.1.0">Stellar</a> 作為主題。</p>
+<footer class="page-footer fs12"><hr><div class="text"><p>本網誌所有文章除特別聲明外，均採用 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> 授權條款。轉載請註明出處。</p>
+<p>本站由 <a href="https://blog.pan93.tk/">@pan93412</a> 建立，使用 <a target="_blank" rel="noopener" href="https://github.com/xaoxuu/hexo-theme-stellar/tree/1.2.1">Stellar</a> 作為主題。</p>
 </div></footer>
 
       <div class='float-panel mobile-only blur' style='display:none'>
@@ -256,8 +229,8 @@
 
     // 从 butterfly 和 volantis 获得灵感
     loadScript: (src, opt) => new Promise((resolve, reject) => {
-      var script = document.createElement('script')
-      script.src = src
+      var script = document.createElement('script');
+      script.src = src;
       if (opt) {
         for (let key of Object.keys(opt)) {
           script[key] = opt[key]
@@ -285,7 +258,7 @@
       }
     }
   };
-  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.1.0';
+  stellar.github = 'https://github.com/xaoxuu/hexo-theme-stellar/tree/1.2.1';
   stellar.config = {
     date_suffix: {
       just: '剛剛',
