@@ -3,11 +3,11 @@
   <title>pan.blog</title>
   
   <subtitle>pan93412 的筆記本。</subtitle>
-  <link href="https://blog.pan93.tk/atom.xml" rel="self"/>
+  <link href="https://blog.pan93.com/atom.xml" rel="self"/>
   
-  <link href="https://blog.pan93.tk/"/>
+  <link href="https://blog.pan93.com/"/>
   <updated>2021-08-29T17:23:32.000Z</updated>
-  <id>https://blog.pan93.tk/</id>
+  <id>https://blog.pan93.com/</id>
   
   <author>
     <name>pan93412</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>閉關心得</title>
-    <link href="https://blog.pan93.tk/closedown/"/>
-    <id>https://blog.pan93.tk/closedown/</id>
+    <link href="https://blog.pan93.com/closedown/"/>
+    <id>https://blog.pan93.com/closedown/</id>
     <published>2021-08-29T17:23:32.000Z</published>
     <updated>2021-08-29T17:23:32.000Z</updated>
     
@@ -35,17 +35,17 @@
     
     
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
     
     
-    <category term="closedown" scheme="https://blog.pan93.tk/tags/closedown/"/>
+    <category term="closedown" scheme="https://blog.pan93.com/tags/closedown/"/>
     
   </entry>
   
   <entry>
     <title>為何退租 VPS。</title>
-    <link href="https://blog.pan93.tk/cancel-my-vps/"/>
-    <id>https://blog.pan93.tk/cancel-my-vps/</id>
+    <link href="https://blog.pan93.com/cancel-my-vps/"/>
+    <id>https://blog.pan93.com/cancel-my-vps/</id>
     <published>2021-05-04T04:28:52.000Z</published>
     <updated>2021-05-04T04:28:52.000Z</updated>
     
@@ -56,25 +56,25 @@
     
     
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
     
-    <category term="school" scheme="https://blog.pan93.tk/categories/The-thoughts/school/"/>
+    <category term="school" scheme="https://blog.pan93.com/categories/The-thoughts/school/"/>
     
     
-    <category term="school" scheme="https://blog.pan93.tk/tags/school/"/>
+    <category term="school" scheme="https://blog.pan93.com/tags/school/"/>
     
-    <category term="vps" scheme="https://blog.pan93.tk/tags/vps/"/>
+    <category term="vps" scheme="https://blog.pan93.com/tags/vps/"/>
     
-    <category term="contabo" scheme="https://blog.pan93.tk/tags/contabo/"/>
+    <category term="contabo" scheme="https://blog.pan93.com/tags/contabo/"/>
     
-    <category term="thought" scheme="https://blog.pan93.tk/tags/thought/"/>
+    <category term="thought" scheme="https://blog.pan93.com/tags/thought/"/>
     
   </entry>
   
   <entry>
     <title>這是一篇 Hexo 測試文。</title>
-    <link href="https://blog.pan93.tk/test-hexo/"/>
-    <id>https://blog.pan93.tk/test-hexo/</id>
+    <link href="https://blog.pan93.com/test-hexo/"/>
+    <id>https://blog.pan93.com/test-hexo/</id>
     <published>2021-05-03T04:27:00.000Z</published>
     <updated>2021-05-03T04:27:00.000Z</updated>
     
@@ -89,15 +89,15 @@
     
     
     
-    <category term="未分類" scheme="https://blog.pan93.tk/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/"/>
+    <category term="未分類" scheme="https://blog.pan93.com/categories/%E6%9C%AA%E5%88%86%E9%A1%9E/"/>
     
     
   </entry>
   
   <entry>
     <title>為什麼我的程式不能引人注目？</title>
-    <link href="https://blog.pan93.tk/catch-audience-eye/"/>
-    <id>https://blog.pan93.tk/catch-audience-eye/</id>
+    <link href="https://blog.pan93.com/catch-audience-eye/"/>
+    <id>https://blog.pan93.com/catch-audience-eye/</id>
     <published>2021-04-30T10:25:47.000Z</published>
     <updated>2021-04-30T10:25:47.000Z</updated>
     
@@ -109,27 +109,27 @@
     
     
     
-    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    <category term="Developments" scheme="https://blog.pan93.com/categories/Developments/"/>
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/Developments/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/Developments/The-thoughts/"/>
     
     
-    <category term="program" scheme="https://blog.pan93.tk/tags/program/"/>
+    <category term="program" scheme="https://blog.pan93.com/tags/program/"/>
     
-    <category term="eye" scheme="https://blog.pan93.tk/tags/eye/"/>
+    <category term="eye" scheme="https://blog.pan93.com/tags/eye/"/>
     
-    <category term="catching" scheme="https://blog.pan93.tk/tags/catching/"/>
+    <category term="catching" scheme="https://blog.pan93.com/tags/catching/"/>
     
-    <category term="thoughts" scheme="https://blog.pan93.tk/tags/thoughts/"/>
+    <category term="thoughts" scheme="https://blog.pan93.com/tags/thoughts/"/>
     
-    <category term="developments" scheme="https://blog.pan93.tk/tags/developments/"/>
+    <category term="developments" scheme="https://blog.pan93.com/tags/developments/"/>
     
   </entry>
   
   <entry>
     <title>討厭社交。</title>
-    <link href="https://blog.pan93.tk/no-society/"/>
-    <id>https://blog.pan93.tk/no-society/</id>
+    <link href="https://blog.pan93.com/no-society/"/>
+    <id>https://blog.pan93.com/no-society/</id>
     <published>2021-04-09T01:17:56.000Z</published>
     <updated>2021-04-09T01:17:56.000Z</updated>
     
@@ -140,19 +140,19 @@
     
     
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
     
     
-    <category term="社交" scheme="https://blog.pan93.tk/tags/%E7%A4%BE%E4%BA%A4/"/>
+    <category term="社交" scheme="https://blog.pan93.com/tags/%E7%A4%BE%E4%BA%A4/"/>
     
-    <category term="討厭" scheme="https://blog.pan93.tk/tags/%E8%A8%8E%E5%8E%AD/"/>
+    <category term="討厭" scheme="https://blog.pan93.com/tags/%E8%A8%8E%E5%8E%AD/"/>
     
   </entry>
   
   <entry>
     <title>FB Posts - 為何我覺得資訊教育非常失敗？</title>
-    <link href="https://blog.pan93.tk/not-only-algorithms/"/>
-    <id>https://blog.pan93.tk/not-only-algorithms/</id>
+    <link href="https://blog.pan93.com/not-only-algorithms/"/>
+    <id>https://blog.pan93.com/not-only-algorithms/</id>
     <published>2021-03-10T09:38:53.000Z</published>
     <updated>2021-03-10T09:38:53.000Z</updated>
     
@@ -163,23 +163,23 @@
     
     
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
     
     
-    <category term="thought" scheme="https://blog.pan93.tk/tags/thought/"/>
+    <category term="thought" scheme="https://blog.pan93.com/tags/thought/"/>
     
-    <category term="education" scheme="https://blog.pan93.tk/tags/education/"/>
+    <category term="education" scheme="https://blog.pan93.com/tags/education/"/>
     
-    <category term="facebook" scheme="https://blog.pan93.tk/tags/facebook/"/>
+    <category term="facebook" scheme="https://blog.pan93.com/tags/facebook/"/>
     
-    <category term="information" scheme="https://blog.pan93.tk/tags/information/"/>
+    <category term="information" scheme="https://blog.pan93.com/tags/information/"/>
     
   </entry>
   
   <entry>
     <title>CISCC 抱怨系統的開發日誌與心得</title>
-    <link href="https://blog.pan93.tk/ciscc-logs/"/>
-    <id>https://blog.pan93.tk/ciscc-logs/</id>
+    <link href="https://blog.pan93.com/ciscc-logs/"/>
+    <id>https://blog.pan93.com/ciscc-logs/</id>
     <published>2021-01-20T13:01:23.000Z</published>
     <updated>2021-01-20T13:01:23.000Z</updated>
     
@@ -190,15 +190,15 @@
     
     
     
-    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    <category term="Developments" scheme="https://blog.pan93.com/categories/Developments/"/>
     
     
   </entry>
   
   <entry>
     <title>未成年在 Upwork 活該拿不回錢。</title>
-    <link href="https://blog.pan93.tk/upwork-withdraw/"/>
-    <id>https://blog.pan93.tk/upwork-withdraw/</id>
+    <link href="https://blog.pan93.com/upwork-withdraw/"/>
+    <id>https://blog.pan93.com/upwork-withdraw/</id>
     <published>2021-01-10T16:05:13.000Z</published>
     <updated>2021-01-10T16:05:13.000Z</updated>
     
@@ -209,15 +209,15 @@
     
     
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
     
     
   </entry>
   
   <entry>
     <title>評論：「行」，還是「列」？</title>
-    <link href="https://blog.pan93.tk/row-column-in-taiwanese/"/>
-    <id>https://blog.pan93.tk/row-column-in-taiwanese/</id>
+    <link href="https://blog.pan93.com/row-column-in-taiwanese/"/>
+    <id>https://blog.pan93.com/row-column-in-taiwanese/</id>
     <published>2021-01-09T05:48:50.000Z</published>
     <updated>2021-01-09T05:48:50.000Z</updated>
     
@@ -228,17 +228,17 @@
     
     
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
     
-    <category term="Translating" scheme="https://blog.pan93.tk/categories/The-thoughts/Translating/"/>
+    <category term="Translating" scheme="https://blog.pan93.com/categories/The-thoughts/Translating/"/>
     
     
   </entry>
   
   <entry>
     <title>開箱一年前的時光膠囊</title>
-    <link href="https://blog.pan93.tk/2019-memories/"/>
-    <id>https://blog.pan93.tk/2019-memories/</id>
+    <link href="https://blog.pan93.com/2019-memories/"/>
+    <id>https://blog.pan93.com/2019-memories/</id>
     <published>2020-12-25T19:22:00.000Z</published>
     <updated>2020-12-25T19:22:00.000Z</updated>
     
@@ -249,21 +249,21 @@
     
     
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
     
     
-    <category term="2019" scheme="https://blog.pan93.tk/tags/2019/"/>
+    <category term="2019" scheme="https://blog.pan93.com/tags/2019/"/>
     
-    <category term="2020" scheme="https://blog.pan93.tk/tags/2020/"/>
+    <category term="2020" scheme="https://blog.pan93.com/tags/2020/"/>
     
-    <category term="時光膠囊" scheme="https://blog.pan93.tk/tags/%E6%99%82%E5%85%89%E8%86%A0%E5%9B%8A/"/>
+    <category term="時光膠囊" scheme="https://blog.pan93.com/tags/%E6%99%82%E5%85%89%E8%86%A0%E5%9B%8A/"/>
     
   </entry>
   
   <entry>
     <title>寫程式或許重要的一直都不是能力……？</title>
-    <link href="https://blog.pan93.tk/damnit/"/>
-    <id>https://blog.pan93.tk/damnit/</id>
+    <link href="https://blog.pan93.com/damnit/"/>
+    <id>https://blog.pan93.com/damnit/</id>
     <published>2020-12-16T23:33:52.000Z</published>
     <updated>2020-12-16T23:33:52.000Z</updated>
     
@@ -274,15 +274,15 @@
     
     
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
     
     
   </entry>
   
   <entry>
     <title>smhs-dev-team 的開始與結束</title>
-    <link href="https://blog.pan93.tk/smhs-dev-team/"/>
-    <id>https://blog.pan93.tk/smhs-dev-team/</id>
+    <link href="https://blog.pan93.com/smhs-dev-team/"/>
+    <id>https://blog.pan93.com/smhs-dev-team/</id>
     <published>2020-11-02T09:51:12.000Z</published>
     <updated>2020-11-02T09:51:12.000Z</updated>
     
@@ -296,29 +296,29 @@
     
     
     
-    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    <category term="Developments" scheme="https://blog.pan93.com/categories/Developments/"/>
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/Developments/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/Developments/The-thoughts/"/>
     
     
-    <category term="epf" scheme="https://blog.pan93.tk/tags/epf/"/>
+    <category term="epf" scheme="https://blog.pan93.com/tags/epf/"/>
     
-    <category term="smhs-dev-team" scheme="https://blog.pan93.tk/tags/smhs-dev-team/"/>
+    <category term="smhs-dev-team" scheme="https://blog.pan93.com/tags/smhs-dev-team/"/>
     
-    <category term="smhs-epf-faq" scheme="https://blog.pan93.tk/tags/smhs-epf-faq/"/>
+    <category term="smhs-epf-faq" scheme="https://blog.pan93.com/tags/smhs-epf-faq/"/>
     
-    <category term="sms-os-project" scheme="https://blog.pan93.tk/tags/sms-os-project/"/>
+    <category term="sms-os-project" scheme="https://blog.pan93.com/tags/sms-os-project/"/>
     
-    <category term="speakout" scheme="https://blog.pan93.tk/tags/speakout/"/>
+    <category term="speakout" scheme="https://blog.pan93.com/tags/speakout/"/>
     
-    <category term="yc97643" scheme="https://blog.pan93.tk/tags/yc97643/"/>
+    <category term="yc97643" scheme="https://blog.pan93.com/tags/yc97643/"/>
     
   </entry>
   
   <entry>
     <title>109 高中資訊學科能力複賽的參加心得</title>
-    <link href="https://blog.pan93.tk/toi-competition-opitions/"/>
-    <id>https://blog.pan93.tk/toi-competition-opitions/</id>
+    <link href="https://blog.pan93.com/toi-competition-opitions/"/>
+    <id>https://blog.pan93.com/toi-competition-opitions/</id>
     <published>2020-11-02T00:57:07.000Z</published>
     <updated>2020-11-02T00:57:07.000Z</updated>
     
@@ -330,35 +330,35 @@
     
     
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
     
     
-    <category term="school" scheme="https://blog.pan93.tk/tags/school/"/>
+    <category term="school" scheme="https://blog.pan93.com/tags/school/"/>
     
-    <category term="information" scheme="https://blog.pan93.tk/tags/information/"/>
+    <category term="information" scheme="https://blog.pan93.com/tags/information/"/>
     
-    <category term="109" scheme="https://blog.pan93.tk/tags/109/"/>
+    <category term="109" scheme="https://blog.pan93.com/tags/109/"/>
     
-    <category term="algorighm" scheme="https://blog.pan93.tk/tags/algorighm/"/>
+    <category term="algorighm" scheme="https://blog.pan93.com/tags/algorighm/"/>
     
-    <category term="competition" scheme="https://blog.pan93.tk/tags/competition/"/>
+    <category term="competition" scheme="https://blog.pan93.com/tags/competition/"/>
     
-    <category term="high" scheme="https://blog.pan93.tk/tags/high/"/>
+    <category term="high" scheme="https://blog.pan93.com/tags/high/"/>
     
-    <category term="idle" scheme="https://blog.pan93.tk/tags/idle/"/>
+    <category term="idle" scheme="https://blog.pan93.com/tags/idle/"/>
     
-    <category term="senior" scheme="https://blog.pan93.tk/tags/senior/"/>
+    <category term="senior" scheme="https://blog.pan93.com/tags/senior/"/>
     
-    <category term="TOI" scheme="https://blog.pan93.tk/tags/TOI/"/>
+    <category term="TOI" scheme="https://blog.pan93.com/tags/TOI/"/>
     
-    <category term="visual studio" scheme="https://blog.pan93.tk/tags/visual-studio/"/>
+    <category term="visual studio" scheme="https://blog.pan93.com/tags/visual-studio/"/>
     
   </entry>
   
   <entry>
     <title>ANSI C：判斷字串是否全大寫</title>
-    <link href="https://blog.pan93.tk/ansi-c-all-uppercase/"/>
-    <id>https://blog.pan93.tk/ansi-c-all-uppercase/</id>
+    <link href="https://blog.pan93.com/ansi-c-all-uppercase/"/>
+    <id>https://blog.pan93.com/ansi-c-all-uppercase/</id>
     <published>2020-10-23T03:10:29.000Z</published>
     <updated>2020-10-23T03:10:29.000Z</updated>
     
@@ -369,21 +369,21 @@
     
     
     
-    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    <category term="Developments" scheme="https://blog.pan93.com/categories/Developments/"/>
     
     
-    <category term="ansi c" scheme="https://blog.pan93.tk/tags/ansi-c/"/>
+    <category term="ansi c" scheme="https://blog.pan93.com/tags/ansi-c/"/>
     
-    <category term="c" scheme="https://blog.pan93.tk/tags/c/"/>
+    <category term="c" scheme="https://blog.pan93.com/tags/c/"/>
     
-    <category term="uppercase" scheme="https://blog.pan93.tk/tags/uppercase/"/>
+    <category term="uppercase" scheme="https://blog.pan93.com/tags/uppercase/"/>
     
   </entry>
   
   <entry>
     <title>還是先別想 macOS 相關的事情好了</title>
-    <link href="https://blog.pan93.tk/stop-thinking-about-mac/"/>
-    <id>https://blog.pan93.tk/stop-thinking-about-mac/</id>
+    <link href="https://blog.pan93.com/stop-thinking-about-mac/"/>
+    <id>https://blog.pan93.com/stop-thinking-about-mac/</id>
     <published>2020-10-22T16:53:27.000Z</published>
     <updated>2020-10-22T16:53:27.000Z</updated>
     
@@ -394,25 +394,25 @@
     
     
     
-    <category term="The thoughts" scheme="https://blog.pan93.tk/categories/The-thoughts/"/>
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
     
     
-    <category term="buy" scheme="https://blog.pan93.tk/tags/buy/"/>
+    <category term="buy" scheme="https://blog.pan93.com/tags/buy/"/>
     
-    <category term="hackintosh" scheme="https://blog.pan93.tk/tags/hackintosh/"/>
+    <category term="hackintosh" scheme="https://blog.pan93.com/tags/hackintosh/"/>
     
-    <category term="macintosh" scheme="https://blog.pan93.tk/tags/macintosh/"/>
+    <category term="macintosh" scheme="https://blog.pan93.com/tags/macintosh/"/>
     
-    <category term="mac" scheme="https://blog.pan93.tk/tags/mac/"/>
+    <category term="mac" scheme="https://blog.pan93.com/tags/mac/"/>
     
-    <category term="windows" scheme="https://blog.pan93.tk/tags/windows/"/>
+    <category term="windows" scheme="https://blog.pan93.com/tags/windows/"/>
     
   </entry>
   
   <entry>
     <title>VBA 筆記：選取事件</title>
-    <link href="https://blog.pan93.tk/vba-selectionchange/"/>
-    <id>https://blog.pan93.tk/vba-selectionchange/</id>
+    <link href="https://blog.pan93.com/vba-selectionchange/"/>
+    <id>https://blog.pan93.com/vba-selectionchange/</id>
     <published>2020-10-18T15:40:43.000Z</published>
     <updated>2020-10-18T15:40:43.000Z</updated>
     
@@ -423,21 +423,21 @@
     
     
     
-    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    <category term="Developments" scheme="https://blog.pan93.com/categories/Developments/"/>
     
     
-    <category term="vba" scheme="https://blog.pan93.tk/tags/vba/"/>
+    <category term="vba" scheme="https://blog.pan93.com/tags/vba/"/>
     
-    <category term="事件" scheme="https://blog.pan93.tk/tags/%E4%BA%8B%E4%BB%B6/"/>
+    <category term="事件" scheme="https://blog.pan93.com/tags/%E4%BA%8B%E4%BB%B6/"/>
     
-    <category term="選取" scheme="https://blog.pan93.tk/tags/%E9%81%B8%E5%8F%96/"/>
+    <category term="選取" scheme="https://blog.pan93.com/tags/%E9%81%B8%E5%8F%96/"/>
     
   </entry>
   
   <entry>
     <title>DevLog：使用者體驗 (1)</title>
-    <link href="https://blog.pan93.tk/ux-1/"/>
-    <id>https://blog.pan93.tk/ux-1/</id>
+    <link href="https://blog.pan93.com/ux-1/"/>
+    <id>https://blog.pan93.com/ux-1/</id>
     <published>2020-10-17T16:20:37.000Z</published>
     <updated>2020-10-17T16:20:37.000Z</updated>
     
@@ -448,23 +448,23 @@
     
     
     
-    <category term="Developments" scheme="https://blog.pan93.tk/categories/Developments/"/>
+    <category term="Developments" scheme="https://blog.pan93.com/categories/Developments/"/>
     
     
-    <category term="epf" scheme="https://blog.pan93.tk/tags/epf/"/>
+    <category term="epf" scheme="https://blog.pan93.com/tags/epf/"/>
     
-    <category term="JavaScript" scheme="https://blog.pan93.tk/tags/JavaScript/"/>
+    <category term="JavaScript" scheme="https://blog.pan93.com/tags/JavaScript/"/>
     
-    <category term="Node.js" scheme="https://blog.pan93.tk/tags/Node-js/"/>
+    <category term="Node.js" scheme="https://blog.pan93.com/tags/Node-js/"/>
     
-    <category term="Vue.js" scheme="https://blog.pan93.tk/tags/Vue-js/"/>
+    <category term="Vue.js" scheme="https://blog.pan93.com/tags/Vue-js/"/>
     
   </entry>
   
   <entry>
     <title>淺談翻譯弊病 (1)</title>
-    <link href="https://blog.pan93.tk/translating-evil-1/"/>
-    <id>https://blog.pan93.tk/translating-evil-1/</id>
+    <link href="https://blog.pan93.com/translating-evil-1/"/>
+    <id>https://blog.pan93.com/translating-evil-1/</id>
     <published>2020-10-16T09:05:02.000Z</published>
     <updated>2020-10-16T09:05:02.000Z</updated>
     
@@ -476,12 +476,12 @@
     
     
     
-    <category term="Translating" scheme="https://blog.pan93.tk/categories/Translating/"/>
+    <category term="Translating" scheme="https://blog.pan93.com/categories/Translating/"/>
     
     
-    <category term="l10n" scheme="https://blog.pan93.tk/tags/l10n/"/>
+    <category term="l10n" scheme="https://blog.pan93.com/tags/l10n/"/>
     
-    <category term="translate" scheme="https://blog.pan93.tk/tags/translate/"/>
+    <category term="translate" scheme="https://blog.pan93.com/tags/translate/"/>
     
   </entry>
   
