@@ -6,7 +6,7 @@
   <link href="https://blog.pan93.com/atom.xml" rel="self"/>
   
   <link href="https://blog.pan93.com/"/>
-  <updated>2021-08-29T17:23:32.000Z</updated>
+  <updated>2021-10-13T03:12:00.000Z</updated>
   <id>https://blog.pan93.com/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Rust 的 crate/super/self 關係</title>
+    <link href="https://blog.pan93.com/rust-mod-relation/"/>
+    <id>https://blog.pan93.com/rust-mod-relation/</id>
+    <published>2021-10-13T03:06:21.000Z</published>
+    <updated>2021-10-13T03:12:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="crate-relation.png" alt="`rust_hello_world` 的架構圖，與 crate、super、self 的關係"></p><p>假設 <code>rust_hello_world</code> 的目錄架構長這樣：（範例源自於我手邊的某個 production 專案）</p><ul><li>rust_hello_world<ul><li>Cargo.toml</li><li>src<ul><li>cli<ul><li>opt.rs</li></ul></li><li>lib.rs</li><li>cli.rs</li><li>logger.rs</li></ul></li></ul></li></ul><p>「crate」概括來說就是一個專案，用 <code>Cargo.toml</code> 區分。每個 <code>mod</code> 都是一個層級，<code>super</code> 就是上個層級，<code>self</code> 就是本層級。上面的圖已經把 crate / super / self 的對應關係寫得很清楚了，以下寫範例：</p><ul><li><code>cli::opt::Opt</code> 想要讀取 <code>LoggingLevel</code>，路徑可以這樣走：<ul><li><code>super::super::logger::LoggerLevel</code></li><li><code>crate::logger::LoggerLevel</code></li></ul></li><li><code>cli::opt::Opt</code> 想要讀取 <code>PROG_NAME</code>，路徑可以這樣走：<ul><li><code>super::PROG_NAME</code></li><li><code>crate::cli::PROG_NAME</code></li></ul></li></ul><p>事實上 Rust 的模組關係也沒這麼複雜。把上面的例子變成目錄：</p><ul><li>[crate] /<ul><li>[mod] cli/<ul><li>[mod] opt/<ul><li>[struct] Opt.txt</li></ul></li><li>[const &amp;str] PROG_NAME.txt</li></ul></li><li>[[pub] mod] logger/<ul><li>[[pub] enum] LoggingLevel.txt</li></ul></li></ul></li></ul><p><code>super</code> 等價於 <code>..</code>，self 等價於 <code>.</code>，而 crate 則類似 <code>/</code>。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;crate-relation.png&quot; alt=&quot;`rust_hello_world` 的架構圖，與 crate、super、self 的關係&quot;&gt;&lt;/p&gt;
+&lt;p&gt;假設 &lt;code&gt;rust_hello_world&lt;/code&gt; 的目錄架構長這樣：（範例源自於我手邊的某個 production 專案）&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;rust_hello_world&lt;ul&gt;
+&lt;l</summary>
+      
+    
+    
+    
+    <category term="Developments" scheme="https://blog.pan93.com/categories/Developments/"/>
+    
+    
+    <category term="Rust" scheme="https://blog.pan93.com/tags/Rust/"/>
+    
+    <category term="crate" scheme="https://blog.pan93.com/tags/crate/"/>
+    
+    <category term="super" scheme="https://blog.pan93.com/tags/super/"/>
+    
+    <category term="self" scheme="https://blog.pan93.com/tags/self/"/>
+    
+    <category term="programming" scheme="https://blog.pan93.com/tags/programming/"/>
+    
+  </entry>
   
   <entry>
     <title>閉關心得</title>
