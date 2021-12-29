@@ -2,9 +2,8 @@ default_layout: [welcome, recent]
 welcome:
   layout: markdown
   title: 嗨嗨～
-  content:
-    - 這裡是 Pan93412 的心情筆記。
-    - 有設定防爬蟲，是個比較低調的個人網誌。
+  content: >-
+    這裡是 Pan93412 的心情筆記。有設定防爬蟲，是個比較低調的個人網誌。
 # Recent update
 recent:
   layout: recent
