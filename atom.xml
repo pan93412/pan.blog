@@ -6,7 +6,7 @@
   <link href="https://blog.pan93.com/atom.xml" rel="self"/>
   
   <link href="https://blog.pan93.com/"/>
-  <updated>2021-10-13T03:12:00.000Z</updated>
+  <updated>2021-12-31T14:00:00.000Z</updated>
   <id>https://blog.pan93.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>開箱 2020 的時光膠囊</title>
+    <link href="https://blog.pan93.com/2020-memories/"/>
+    <id>https://blog.pan93.com/2020-memories/</id>
+    <published>2021-12-29T14:37:00.000Z</published>
+    <updated>2021-12-31T14:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<div class="tag-plugin image"><div class="image-bg"><img src="time-capsule-2020-wt.png" style="width:1024px;"/></div></div><p>一年又悄悄過去了。這一年的近況又可以寫出一篇文章了。這一年我已經沒有像一年前這麼感性，文筆也退步了許多，所以寫不太出抒情文。因為最近事情比較多，這篇文章被我擱置到 2021 年的最後一天才寫 😅</p><span id="more"></span><p>跟之前一樣，先來看看我去年寫的膠囊。</p><blockquote><p>至於 2020 年 12 月 9 日我忘記是不是寒冬，但是 2020 年 12 月 26 日我感冒了，天氣稍冷而已，半夜三點的溫度是 18 度。</p></blockquote><p>辛苦你了。</p><blockquote><p>新冠肺炎在全球肆虐，台灣其實沒有這麼嚴重，但幾天前北部發生了本土案例，有點怕怕的，天佑台灣。</p></blockquote><p>約半年後，台灣也爆出了挺嚴重的疫情。但在 3 個月之後趨緩了。疫情期間，你體驗到了網課（<del>以及上課多工的快樂</del>），你也寫出了很多至今仍在持續使用的專案，比如 Schweb 和 CSC 簽到系統。</p><div class="tag-plugin image"><div class="image-bg"><img src="tw-epidemic-jun-2021.png" style="width:1024px;"/></div></div><blockquote><p>高二的我，也已經比高一當時忙碌上許多。我當年大概幾天就出一個專案，今年的末尾，我卻連一個完整的專案都沒寫出來。覺得是自己退步了，還是要求變高，不願意使用那些唾手可得且容易的 Tech Stack 了呢？</p></blockquote><p>想恭喜你：約半年後的你，開發出了一個總使用人數高達 7K、使用次數高達 200K 的專案——CSCheckin。這個專案讓你開始與各種資訊社群接軌，比如 MOPCON 和 JSDC，並且有很多人因此認識你。高三的我想勸諫你一件事情：「<strong>Tech Stack 是一時的，程式思維才是真正重要的。</strong>」因此，我選擇用習慣的 Tech Stack 創造更多價值，而不是執著於「哪個 Tech Stack 夠複雜，可以彰顯自己的能力。」</p><blockquote><p>而在 2020 的末尾，我也想寫一個時空膠囊給一年後的自己。</p></blockquote><p>謝謝 ❤️</p><blockquote><p>這一年的你，拿著 Samsung 手機和跟學校借用的 MacBook Air，裝著 macOS Catalina。自己最喜歡的 Tech Stack 是 React.js、TypeScript，後端是 ASP.NET Core。</p></blockquote><p>1 年後，你喜歡的前端 Tech Stack 沒有什麼變化，後端變成 Rust 和 Nest.js 了。你在接下來的一年對微軟感到十分失望，例如 ASP.NET Core（差點）收回 Hot Reload，以及微軟不再積極傾聽社群對於其本地化的建議。裝置方面也沒有什麼大變化，但你在幾天後終於有了自己的 MacBook Pro。</p><p>在這一年的最後，你開發了一個自認非常遵循各種工程慣例的機器人——<a href="https://github.com/pan93412/pbot"><code>pbot</code></a>。不知道你還記不記得呢？😂</p><blockquote><p>不知道 2021 的今天，你跟 YC 是否重溫舊好？買下去 M1 的 MacBook Air 了嗎？</p></blockquote><p>首先⋯⋯我們兩個都互相解封了，原本是重溫就好了，但相處久，發現個性不合後，關係又冷淡了。我跟 YC 這一年的關係圖可以見下。然後我買了 M1 的 MacBook Pro 💻。</p><div class="tag-plugin image"><div class="image-bg"><img src="YCTrend.png" style="width:1024px;"/></div></div><blockquote><p>還有，你覺得你有機會上你夢想中的系所嗎？</p></blockquote><p>應該有吧。我正在走「科大特殊選才」跟「申請入學」。此外想問一年後的自己：你最後走了哪一條入學管道？喜歡這個科系嗎？</p><blockquote><p>不知道是變忙，還是變閒了呢？</p></blockquote><p>變很忙。</p><blockquote><p>一年後，文中所提的 VPS 怎麼樣呢？</p></blockquote><p>因為用不太到，退租了。這個 blog 後來改用 Hexo 建，並遷移到 GitHub Pages；上面的匿名發言後來也因此停了一陣子。約莫半年後，我把舊筆電改造成一台 GNU/Linux 主機，並在上面重開了匿名發言。雖然那台舊筆電的效能沒有那台 VPS 強，卻已足夠我的需求。</p><blockquote><p>你還會想追求你的 Apple 全家桶計畫嗎？雖然我對 Apple 全家桶有些許釋懷，但是我還是有點希望能買到 iPhone、iPad 並玩玩看接力和 AirDrop 丟丟樂。</p></blockquote><p>已經沒這麼想了。這個問題，我還是一樣留給一年後的自己。此外，我還有一些問題想問之後的自己：</p><ul><li>純靠北工程師的前端專案進度如何？</li><li>你有繼續透過一些專案打響自己的知名度嗎？</li><li>你離打造一個元宇宙世界的夢想還有多近？</li><li>你有成功當上研討會的工人，甚至是講者嗎？😂<ul><li>不知道你有沒有跟 gnehs 和好？</li></ul></li><li>你最近過得怎麼樣？還是很忙碌嗎？</li><li>你最近在做什麼？</li><li>你有變開朗嗎？</li></ul><hr><p>♥</p><p>Best regards,<br>Yi-Jyun Pan on 2021/12/31.</p>]]></content>
+    
+    
+    <summary type="html">&lt;div class=&quot;tag-plugin image&quot;&gt;&lt;div class=&quot;image-bg&quot;&gt;&lt;img src=&quot;time-capsule-2020-wt.png&quot; style=&quot;width:1024px;&quot;/&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;一年又悄悄過去了。這一年的近況又可以寫出一篇文章了。這一年我已經沒有像一年前這麼感性，文筆也退步了許多，所以寫不太出抒情文。因為最近事情比較多，這篇文章被我擱置到 2021 年的最後一天才寫 😅&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
+    
+    
+    <category term="2020" scheme="https://blog.pan93.com/tags/2020/"/>
+    
+    <category term="2021" scheme="https://blog.pan93.com/tags/2021/"/>
+    
+    <category term="時光膠囊" scheme="https://blog.pan93.com/tags/%E6%99%82%E5%85%89%E8%86%A0%E5%9B%8A/"/>
+    
+    <category term="2022" scheme="https://blog.pan93.com/tags/2022/"/>
+    
+  </entry>
   
   <entry>
     <title>Rust 的 crate/super/self 關係</title>
@@ -291,6 +320,8 @@
     <category term="2019" scheme="https://blog.pan93.com/tags/2019/"/>
     
     <category term="2020" scheme="https://blog.pan93.com/tags/2020/"/>
+    
+    <category term="2021" scheme="https://blog.pan93.com/tags/2021/"/>
     
     <category term="時光膠囊" scheme="https://blog.pan93.com/tags/%E6%99%82%E5%85%89%E8%86%A0%E5%9B%8A/"/>
     
