@@ -3,6 +3,7 @@ title: 開箱一年前的時光膠囊
 tags:
   - '2019'
   - '2020'
+  - '2021'
   - 時光膠囊
 categories:
   - The thoughts

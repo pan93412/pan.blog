@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "a7182f71484a4a17",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e158dd444efa928",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "2020-memories.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3417e40625f699d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "78142867eef3d5fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fb4fbb00ed19723",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9c4fefafbdc2b966",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d0548d490ea14018",
+    "type": "split",
+    "children": [
+      {
+        "id": "4762e9e4917f0cfc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1ed01337d478cfb7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "2020-memories.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "5e158dd444efa928",
+  "lastOpenFiles": [
+    "2020-memories.md",
+    "2019-memories.md",
+    "2020-memories/time-capsule-2020-wt.png",
+    "2020-memories/time-capsule-2020.png",
+    "cancel-my-vps.md"
+  ]
+}
