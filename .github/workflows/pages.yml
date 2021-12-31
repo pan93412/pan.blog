@@ -11,12 +11,12 @@ jobs:
     steps:
       - name: 簽出版本庫
         uses: actions/checkout@v2
-      - name: 簽出子模組 (submodule)
-        uses: textbook/git-checkout-submodule-action@master
-      - name: 使用 Node 14.x
+        with:
+          submodules: recursive
+      - name: 使用 Node 16.x
         uses: actions/setup-node@v1
         with:
-          node-version: '14.x'
+          node-version: '16.x'
       - name: 快取 NPM 的相依關係
         uses: actions/cache@v2
         with:
@@ -34,3 +34,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: master  # deploying branch
+  
