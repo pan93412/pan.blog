@@ -9,6 +9,7 @@
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel='dns-prefetch' href='//unpkg.com'>
 
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
@@ -18,6 +19,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   <title>2021/04/12 發生的種種事情 - pan.blog</title>
+
+  
+    <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+    <script src="//unpkg.com/heti/umd/heti-addon.min.js"></script>
+    <script defer>
+      const heti = new Heti('.heti');
+      heti.autoSpacing(); // 自动进行中西文混排美化和标点挤压
+    </script>
+  
 
   
     <meta name="description" content="這篇文章是我在生日當天發生的種種事件。">
@@ -117,13 +127,13 @@
 <span id="more"></span>
 
 <hr>
-<p>4/12 是我測試有沒有成為邊緣人的利器。</p>
+<p>4&#x2F;12 是我測試有沒有成為邊緣人的利器。</p>
 <p>倘若我在班級有受到一絲關注，我勢必會收到來自同班的一些祝賀訊息。其實我沒有病到要每個人祝賀我，我只想測試我是否還有受到一絲關心。</p>
 <p>國小和國中時，我是個不折不扣的邊緣人——何止如此，甚至還是個被霸凌者。不只如此，我國中時也發生過<a href="/bully">生日被肉搜的不好回憶</a>，也曾經發過非常多篇感嘆這件事的文章——就此可知，生日測試一直都沒通過。整件事情是直到高一才有所好轉，但高二似乎又急轉直下。</p>
 <p>回歸原題。這篇文章是我在生日當天發生的種種事件。</p>
 <hr>
-<p>現實中 4/12 是個星期一，有 10 個小時要跟同學相處。</p>
-<p>早在 4/6，我就發布了一個透露我自己生日的限時動態。我猜測那些現實的朋友應該已經知曉了我的生日。4/12 當天，我又傳了一次，期許自己生日的消息能夠受到一絲關注。</p>
+<p>現實中 4&#x2F;12 是個星期一，有 10 個小時要跟同學相處。</p>
+<p>早在 4&#x2F;6，我就發布了一個透露我自己生日的限時動態。我猜測那些現實的朋友應該已經知曉了我的生日。4&#x2F;12 當天，我又傳了一次，期許自己生日的消息能夠受到一絲關注。</p>
 <div class="tag-plugin image"><div class="image-bg" style="background:transparent;padding:16px;"><img class="lazy" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABGdBTUEAALGPC/xhBQAAADhlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAqACAAQAAAABAAAAAaADAAQAAAABAAAAAQAAAADa6r/EAAAAC0lEQVQIHWNgAAIAAAUAAY27m/MAAAAASUVORK5CYII=" data-src="Instagram-story-1.webp" style="height:300px;"/></div></div>
 
 <p>然而我早上我過得不是很好——早晨我讀英文雜誌讀到遲到，還遇到早自修的<a href="/no-society">吵雜環境</a>，甚至還被某些人針對，實在悶悶不樂。</p>
@@ -309,6 +319,9 @@
   }
   if ('true' == 'true') {
     stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
   }
 </script>
 

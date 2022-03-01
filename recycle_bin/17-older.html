@@ -9,6 +9,7 @@
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel='dns-prefetch' href='//unpkg.com'>
 
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
@@ -18,6 +19,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   <title>終究是老了啊。 - pan.blog</title>
+
+  
+    <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+    <script src="//unpkg.com/heti/umd/heti-addon.min.js"></script>
+    <script defer>
+      const heti = new Heti('.heti');
+      heti.autoSpacing(); // 自动进行中西文混排美化和标点挤压
+    </script>
+  
 
   
     <meta name="description" content="因緣際會下，我重新翻譯一些 GNU 軟體。翻的過程中，我突然覺得自己老了——想當初自己第一次翻這些東西的時候，才不過是國二。想當初我翻這些東西的時候，我是個狂熱的開源支持者。現在呢⋯⋯這些今昔對比，讓我想到許多故事。">
@@ -271,6 +281,9 @@
   }
   if ('true' == 'true') {
     stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
   }
 </script>
 

@@ -9,6 +9,7 @@
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel='dns-prefetch' href='//unpkg.com'>
 
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
@@ -18,6 +19,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   <title>用 30 分鐘寫完 10 頁國文段考題目的故事。 - pan.blog</title>
+
+  
+    <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+    <script src="//unpkg.com/heti/umd/heti-addon.min.js"></script>
+    <script defer>
+      const heti = new Heti('.heti');
+      heti.autoSpacing(); // 自动进行中西文混排美化和标点挤压
+    </script>
+  
 
   
     <meta name="description" content="這大概是我高二以來最 crazy 的故事了。 我們在考下午科目時，前面通常會有半個小時的睡眠時間，通常是防止考試時睡著，因為段考時沒人可以叫你醒來。">
@@ -79,7 +89,7 @@
 
 
 
-<div class="widget-wrap" id="recent"><div class="widget-header cap dis-select"><span class="name">最近更新</span><a class="cap-action" id="rss" title="Subscribe" href="/atom.xml"><svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8938"><path d="M800.966 947.251c0-404.522-320.872-732.448-716.69-732.448V62.785c477.972 0 865.44 395.987 865.44 884.466h-148.75z m-162.273 0h-148.74c0-228.98-181.628-414.598-405.678-414.598v-152.01c306.205 0 554.418 253.68 554.418 566.608z m-446.24-221.12c59.748 0 108.189 49.503 108.189 110.557 0 61.063-48.44 110.563-108.188 110.563-59.747 0-108.18-49.5-108.18-110.563 0-61.054 48.433-110.556 108.18-110.556z" p-id="8939"></path></svg></a></div><div class="widget-body fs14"><div class="line"></div><a class="more-item" href="../2020-memories/"><div class="cap"><time>2021-12-31</time><span>The thoughts</span></div><span class="title">開箱 2020 的時光膠囊</span></a><div class="line"></div><a class="more-item" href="../rust-mod-relation/"><div class="cap"><time>2021-10-13</time><span>Developments</span></div><span class="title">Rust 的 crate/super/self 關係</span></a><div class="line"></div><a class="more-item" href="../closedown/"><div class="cap"><time>2021-08-30</time><span>The thoughts</span></div><span class="title">閉關心得</span></a><div class="line"></div><a class="more-item" href="../cancel-my-vps/"><div class="cap"><time>2021-05-04</time><span>The thoughts</span></div><span class="title">為何退租 VPS。</span></a><div class="line"></div><a class="more-item" href="../test-hexo/"><div class="cap"><time>2021-05-03</time><span>未分類</span></div><span class="title">這是一篇 Hexo 測試文。</span></a></div></div>
+<div class="widget-wrap" id="recent"><div class="widget-header cap dis-select"><span class="name">最近更新</span><a class="cap-action" id="rss" title="Subscribe" href="/atom.xml"><svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8938"><path d="M800.966 947.251c0-404.522-320.872-732.448-716.69-732.448V62.785c477.972 0 865.44 395.987 865.44 884.466h-148.75z m-162.273 0h-148.74c0-228.98-181.628-414.598-405.678-414.598v-152.01c306.205 0 554.418 253.68 554.418 566.608z m-446.24-221.12c59.748 0 108.189 49.503 108.189 110.557 0 61.063-48.44 110.563-108.188 110.563-59.747 0-108.18-49.5-108.18-110.563 0-61.054 48.433-110.556 108.18-110.556z" p-id="8939"></path></svg></a></div><div class="widget-body fs14"><div class="more-item"><a class="title" href="../2020-memories/">開箱 2020 的時光膠囊</a></div><div class="more-item"><a class="title" href="../rust-mod-relation/">Rust 的 crate/super/self 關係</a></div><div class="more-item"><a class="title" href="../closedown/">閉關心得</a></div><div class="more-item"><a class="title" href="../cancel-my-vps/">為何退租 VPS。</a></div><div class="more-item"><a class="title" href="../test-hexo/">這是一篇 Hexo 測試文。</a></div></div></div>
 
 </div>
 
@@ -108,15 +118,15 @@
 <p>我們在考下午科目時，前面通常會有半個小時的睡眠時間，通常是防止考試時睡著，因為段考時沒人可以叫你醒來。</p>
 <span id="more"></span>
 
-<p>但我就不信邪，我就把那半小時拿來準備我回家應當準備的國文，而睡眠時間直接被我壓縮了 1/6，也就是只睡了 5 分鐘。而且我讀書還配那種很吵的音樂，直接耗光考試的精神。</p>
+<p>但我就不信邪，我就把那半小時拿來準備我回家應當準備的國文，而睡眠時間直接被我壓縮了 1&#x2F;6，也就是只睡了 5 分鐘。而且我讀書還配那種很吵的音樂，直接耗光考試的精神。</p>
 <p>我何曾想過，接下來拖垮的不是練習不足，而是沒睡飽的報應。</p>
 <!-- more -->
 <hr>
-<p>70 分鐘考試開始，但我睡意難耐。看來是那被我犧牲的 5/6 睡眠要來跟我討債了。寫了 10 題、畫完卡後，我就想說小睡一下，結果我醒來的時候已經是考試的 40 分鐘後了。</p>
-<p>幹，周公你在玩我？我很確定這不是小睡，而是午休。我再次看了一次時間，我感覺背後有一股涼意。總共 60 題我只寫了 10 題，結果我睡掉 1/2 的時間，卻還有 5/6 的題目沒寫，我知道該是時候觸發我的腎上腺素了。</p>
-<p>但我國文沒好到一眼就會，那該怎麼辦？我選擇以題目換取時間－－不能 30 秒出答案的題目直接亂猜 pass，各種消去法一次觸發，最後飆到最後 1/5 的簡答時，還剩下 10 分鐘。</p>
+<p>70 分鐘考試開始，但我睡意難耐。看來是那被我犧牲的 5&#x2F;6 睡眠要來跟我討債了。寫了 10 題、畫完卡後，我就想說小睡一下，結果我醒來的時候已經是考試的 40 分鐘後了。</p>
+<p>幹，周公你在玩我？我很確定這不是小睡，而是午休。我再次看了一次時間，我感覺背後有一股涼意。總共 60 題我只寫了 10 題，結果我睡掉 1&#x2F;2 的時間，卻還有 5&#x2F;6 的題目沒寫，我知道該是時候觸發我的腎上腺素了。</p>
+<p>但我國文沒好到一眼就會，那該怎麼辦？我選擇以題目換取時間－－不能 30 秒出答案的題目直接亂猜 pass，各種消去法一次觸發，最後飆到最後 1&#x2F;5 的簡答時，還剩下 10 分鐘。</p>
 <p>當我鬆了一口氣時，發現到那文言文的簡答題目長的要命，一個題組可以抵 5 個題目，最後我似乎是把這一年存的所有腎上腺素一次釋放，我讀文言文從來沒有這麼高速過。</p>
-<p>最後 1 秒鐘，終於是寫完了。但是我猛然想到我還沒有 recheck 那些我亂猜，佔 1/6 數量的題目……</p>
+<p>最後 1 秒鐘，終於是寫完了。但是我猛然想到我還沒有 recheck 那些我亂猜，佔 1&#x2F;6 數量的題目……</p>
 <p>……這次國文段考，大概是爆炸了吧。</p>
 
   
@@ -276,6 +286,9 @@
   }
   if ('true' == 'true') {
     stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
   }
 </script>
 

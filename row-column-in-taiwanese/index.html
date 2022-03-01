@@ -9,6 +9,7 @@
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel='dns-prefetch' href='//unpkg.com'>
 
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
@@ -18,6 +19,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   <title>評論：「行」，還是「列」？ - pan.blog</title>
+
+  
+    <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+    <script src="//unpkg.com/heti/umd/heti-addon.min.js"></script>
+    <script defer>
+      const heti = new Heti('.heti');
+      heti.autoSpacing(); // 自动进行中西文混排美化和标点挤压
+    </script>
+  
 
   
     <meta name="description" content="很高興我的數學老師有正確解釋「列」跟「行」。他的解釋很好——大部分人常會說「一列車廂」，而列車在你眼前都是橫向移動，所以「列」是橫的。畢竟你不會站在行駛中的列車前，看到的必定都是左到右移動，而且台灣沒人講「一行火車」。">
@@ -61,6 +71,8 @@
   
 
 
+
+
   <div class='l_body' id='start'>
     <aside class='l_left' layout='post'>
     
@@ -74,7 +86,7 @@
 <div class="widgets">
 
 
-<div class="widget-wrap" id="recent"><div class="widget-header cap dis-select"><span class="name">最近更新</span><a class="cap-action" id="rss" title="Subscribe" href="/atom.xml"><svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8938"><path d="M800.966 947.251c0-404.522-320.872-732.448-716.69-732.448V62.785c477.972 0 865.44 395.987 865.44 884.466h-148.75z m-162.273 0h-148.74c0-228.98-181.628-414.598-405.678-414.598v-152.01c306.205 0 554.418 253.68 554.418 566.608z m-446.24-221.12c59.748 0 108.189 49.503 108.189 110.557 0 61.063-48.44 110.563-108.188 110.563-59.747 0-108.18-49.5-108.18-110.563 0-61.054 48.433-110.556 108.18-110.556z" p-id="8939"></path></svg></a></div><div class="widget-body fs14"><div class="line"></div><a class="more-item" href="../2020-memories/"><div class="cap"><time>2021-12-31</time><span>The thoughts</span></div><span class="title">開箱 2020 的時光膠囊</span></a><div class="line"></div><a class="more-item" href="../rust-mod-relation/"><div class="cap"><time>2021-10-13</time><span>Developments</span></div><span class="title">Rust 的 crate/super/self 關係</span></a><div class="line"></div><a class="more-item" href="../closedown/"><div class="cap"><time>2021-08-30</time><span>The thoughts</span></div><span class="title">閉關心得</span></a><div class="line"></div><a class="more-item" href="../cancel-my-vps/"><div class="cap"><time>2021-05-04</time><span>The thoughts</span></div><span class="title">為何退租 VPS。</span></a><div class="line"></div><a class="more-item" href="../test-hexo/"><div class="cap"><time>2021-05-03</time><span>未分類</span></div><span class="title">這是一篇 Hexo 測試文。</span></a></div></div>
+<div class="widget-wrap" id="recent"><div class="widget-header cap dis-select"><span class="name">最近更新</span><a class="cap-action" id="rss" title="Subscribe" href="/atom.xml"><svg class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="8938"><path d="M800.966 947.251c0-404.522-320.872-732.448-716.69-732.448V62.785c477.972 0 865.44 395.987 865.44 884.466h-148.75z m-162.273 0h-148.74c0-228.98-181.628-414.598-405.678-414.598v-152.01c306.205 0 554.418 253.68 554.418 566.608z m-446.24-221.12c59.748 0 108.189 49.503 108.189 110.557 0 61.063-48.44 110.563-108.188 110.563-59.747 0-108.18-49.5-108.18-110.563 0-61.054 48.433-110.556 108.18-110.556z" p-id="8939"></path></svg></a></div><div class="widget-body fs14"><div class="more-item"><a class="title" href="../2020-memories/">開箱 2020 的時光膠囊</a></div><div class="more-item"><a class="title" href="../rust-mod-relation/">Rust 的 crate/super/self 關係</a></div><div class="more-item"><a class="title" href="../closedown/">閉關心得</a></div><div class="more-item"><a class="title" href="../cancel-my-vps/">為何退租 VPS。</a></div><div class="more-item"><a class="title" href="../test-hexo/">這是一篇 Hexo 測試文。</a></div></div></div>
 
 
 
@@ -90,14 +102,14 @@
 
 <div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">首頁</a><span class="sep"></span><a class="cap breadcrumb" href="/">網誌</a><span class="sep"></span><a class="cap breadcrumb-link" href="../categories/The-thoughts/">The thoughts</a> <span class="sep"></span> <a class="cap breadcrumb-link" href="../categories/The-thoughts/Translating/">Translating</a></div><div id="post-meta">發布於&nbsp;<time datetime="2021-01-09T05:48:50.000Z">2021-01-09</time></div></div>
 
-<article class='content md post'>
+<article class='content heti md post'>
 <h1 class="article-title"><span>評論：「行」，還是「列」？</span></h1>
 <p>很高興我的數學老師有正確解釋「列」跟「行」。他的解釋很好——大部分人常會說「一列車廂」，而列車在你眼前都是橫向移動，所以「列」是橫的。畢竟你不會站在行駛中的列車前，看到的必定都是左到右移動，而且台灣沒人講「一行火車」。</p>
 <span id="more"></span>
 
 <p>不過在觀察同儕間的回答時，我發現到一堆人認為「列」是行，「行」是列。不知道是搞不清楚，還是受到中國那邊的用詞影響呢？</p>
 <p>所以，我在翻某些針對普羅大眾的軟體時，我都會盡可能不要提到這兩個字，保持「row」和「column」，因為對於某些不清楚這些用詞的人，硬塞正確的用法會造成誤解。</p>
-<p>當然，如果是針對部分現代被中國文化影響較重的青少年，就例如我段落開頭說到的那個案例。那些人可能也不知道 row 和 column 是什麼，所以我就比較傾向保持中國那邊的講法，也就是 row = 行，column = 列。因為這要解釋起來太麻煩了，且多數人相信中國的用法才是正確的。</p>
+<p>當然，如果是針對部分現代被中國文化影響較重的青少年，就例如我段落開頭說到的那個案例。那些人可能也不知道 row 和 column 是什麼，所以我就比較傾向保持中國那邊的講法，也就是 row &#x3D; 行，column &#x3D; 列。因為這要解釋起來太麻煩了，且多數人相信中國的用法才是正確的。</p>
 <p>但是這樣治標不治本，台灣應該加強台灣本土用詞的教育與指正。而非放行中國用詞，讓新一代年輕人帶著從抖音、微信學來的用詞到處跑。</p>
 <p>本文<a target="_blank" rel="noopener" href="https://www.facebook.com/pan93412TW/posts/2840954056174156">同步發表於「Yi-Jyun Pan」的 Facebook</a>。</p>
 
@@ -266,6 +278,9 @@
   }
   if ('true' == 'true') {
     stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
   }
 </script>
 

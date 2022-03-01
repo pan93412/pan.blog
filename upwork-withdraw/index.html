@@ -9,6 +9,7 @@
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel='dns-prefetch' href='//unpkg.com'>
 
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
@@ -18,6 +19,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   <title>未成年在 Upwork 活該拿不回錢。 - pan.blog</title>
+
+  
+    <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+    <script src="//unpkg.com/heti/umd/heti-addon.min.js"></script>
+    <script defer>
+      const heti = new Heti('.heti');
+      heti.autoSpacing(); // 自动进行中西文混排美化和标点挤压
+    </script>
+  
 
   
     <meta name="description" content="TL;DR我因未通過身份驗證，無法領回自己已經在 Upwork 賺到的錢。理由是未滿 18 歲，但是 Upwork 事先沒有任何明確的標示，即使我沒看 ToS 錯在先，但這樣使我覺得很不公平。">
@@ -68,6 +78,8 @@
   
 
 
+
+
   <div class='l_body' id='start'>
     <aside class='l_left' layout='post'>
     
@@ -95,7 +107,7 @@
 
 <div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">首頁</a><span class="sep"></span><a class="cap breadcrumb" href="/">網誌</a><span class="sep"></span><a class="cap breadcrumb-link" href="../categories/The-thoughts/">The thoughts</a></div><div id="post-meta">發布於&nbsp;<time datetime="2021-01-10T16:05:13.000Z">2021-01-11</time></div></div>
 
-<article class='content md post'>
+<article class='content heti md post'>
 <h1 class="article-title"><span>未成年在 Upwork 活該拿不回錢。</span></h1>
 <h2 id="TL-DR"><a href="#TL-DR" class="headerlink" title="TL;DR"></a>TL;DR</h2><p>我因未通過身份驗證，無法領回自己已經在 Upwork 賺到的錢。理由是未滿 18 歲，但是 Upwork 事先沒有任何明確的標示，即使我沒看 ToS 錯在先，但這樣使我覺得很不公平。</p>
 <span id="more"></span>
@@ -296,6 +308,9 @@
   }
   if ('true' == 'true') {
     stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
   }
 </script>
 

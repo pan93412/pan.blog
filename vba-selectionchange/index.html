@@ -9,6 +9,7 @@
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel='dns-prefetch' href='//unpkg.com'>
 
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
@@ -18,6 +19,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   <title>VBA 筆記：選取事件 - pan.blog</title>
+
+  
+    <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+    <script src="//unpkg.com/heti/umd/heti-addon.min.js"></script>
+    <script defer>
+      const heti = new Heti('.heti');
+      heti.autoSpacing(); // 自动进行中西文混排美化和标点挤压
+    </script>
+  
 
   
     <meta name="description" content="有天我突然想寫一個 Excel 按鈕，但是又不想要做一個 Form，而想到最好的辦法，就是按 Excel 中的格子。那該怎麼做，才可以做出這種偽按鈕呢？">
@@ -68,6 +78,8 @@
   
 
 
+
+
   <div class='l_body' id='start'>
     <aside class='l_left' layout='post'>
     
@@ -95,7 +107,7 @@
 
 <div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">首頁</a><span class="sep"></span><a class="cap breadcrumb" href="/">網誌</a><span class="sep"></span><a class="cap breadcrumb-link" href="../categories/Developments/">Developments</a></div><div id="post-meta">發布於&nbsp;<time datetime="2020-10-18T15:40:43.000Z">2020-10-18</time></div></div>
 
-<article class='content md post'>
+<article class='content heti md post'>
 <h1 class="article-title"><span>VBA 筆記：選取事件</span></h1>
 <p>有天我突然想寫一個 Excel 按鈕，但是又不想要做一個 Form，而想到最好的辦法，就是按 Excel 中的格子。那該怎麼做，才可以做出這種偽按鈕呢？</p>
 <span id="more"></span>
@@ -310,6 +322,9 @@
   }
   if ('true' == 'true') {
     stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
   }
 </script>
 

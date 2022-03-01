@@ -9,6 +9,7 @@
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel='dns-prefetch' href='//unpkg.com'>
 
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
@@ -18,6 +19,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   <title>109 高中資訊學科能力複賽的參加心得 - pan.blog</title>
+
+  
+    <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+    <script src="//unpkg.com/heti/umd/heti-addon.min.js"></script>
+    <script defer>
+      const heti = new Heti('.heti');
+      heti.autoSpacing(); // 自动进行中西文混排美化和标点挤压
+    </script>
+  
 
   
     <meta name="description" content="又墊底了。 但不一樣的是，這次比賽我收穫上不少。">
@@ -76,6 +86,8 @@
   
 
 
+
+
   <div class='l_body' id='start'>
     <aside class='l_left' layout='post'>
     
@@ -103,14 +115,14 @@
 
 <div class="bread-nav fs12"><div id="breadcrumb"><a class="cap breadcrumb" href="/">首頁</a><span class="sep"></span><a class="cap breadcrumb" href="/">網誌</a><span class="sep"></span><a class="cap breadcrumb-link" href="../categories/The-thoughts/">The thoughts</a></div><div id="post-meta">發布於&nbsp;<time datetime="2020-11-02T00:57:07.000Z">2020-11-02</time></div></div>
 
-<article class='content md post'>
+<article class='content heti md post'>
 <h1 class="article-title"><span>109 高中資訊學科能力複賽的參加心得</span></h1>
 <p><strong>又墊底了。</strong></p>
 <p>但不一樣的是，<strong>這次比賽我收穫上不少</strong>。</p>
 <span id="more"></span>
 <h2 id="早先的選手培訓課程"><a href="#早先的選手培訓課程" class="headerlink" title="早先的選手培訓課程"></a>早先的選手培訓課程</h2><p><strong>這是我覺得整個競賽當中，我最印象深刻而且最有收穫的課程。</strong></p>
 <p>在參加這門課程之前，其實我很厭惡演算法。因為數學跟邏輯不太好，所以我當時會覺得演算法很恐怖，看不懂，不敢學。但在上完這幾門課程後，我才發現到，<strong>很多演算法其實自己平時就在用，只是從未察覺。</strong></p>
-<p>就例如動態規劃 (Dynamic Programming) 好了，概念這就像是我平常在搞得快取 (Cache)，把先前擷取 / 計算過的結果儲存下來，下次要用的時候，就直接把之前擷取 / 計算的結果拿出來。</p>
+<p>就例如動態規劃 (Dynamic Programming) 好了，概念這就像是我平常在搞得快取 (Cache)，把先前擷取 &#x2F; 計算過的結果儲存下來，下次要用的時候，就直接把之前擷取 &#x2F; 計算的結果拿出來。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">hashmap cache_db;</span><br><span class="line">get_something(id) &#123;</span><br><span class="line">  declare data;</span><br><span class="line">  if id not in cache_db</span><br><span class="line">    data = _get_something(id)</span><br><span class="line">    cache_db[id] = data</span><br><span class="line">  else</span><br><span class="line">    data = cache_db[id]</span><br><span class="line">  return data</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>還有圖論，這對我來講是個很新穎的演算法概念，而在聽邏輯之後覺得比想像中還要好懂。「廣度優先」和「深入優先」這兩個抽象的名詞，用老師的 GIF 講解之後就變得很好懂。但就是還不知道能用在哪些地方 😅</p>
@@ -129,8 +141,8 @@
 <p>還有下面這種「數字包數字」的題目，這題我至今還不會做，希望未來能看到能看懂的解法：</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">7 4444444  </span><br><span class="line">6 4333334  </span><br><span class="line">5 4322234  </span><br><span class="line">4 4321234  </span><br><span class="line">3 4322234  </span><br><span class="line">2 4333334  </span><br><span class="line">1 4444444  </span><br><span class="line">0 1234567</span><br></pre></td></tr></table></figure>
 
-<p>這一題中，N=4，而我們會給四個數字，分別為 x1 y1 和 x2 y2。求 (x1, y1) 和 (x2, y2) 的值</p>
-<p>假設 N=4，而 (x1, y1) = (3,2) = n1，(x2, y2) = (5,3) = n2，那就應該回傳 <code>3 2</code> 分別指代 n1，n2 的值。</p>
+<p>這一題中，N&#x3D;4，而我們會給四個數字，分別為 x1 y1 和 x2 y2。求 (x1, y1) 和 (x2, y2) 的值</p>
+<p>假設 N&#x3D;4，而 (x1, y1) &#x3D; (3,2) &#x3D; n1，(x2, y2) &#x3D; (5,3) &#x3D; n2，那就應該回傳 <code>3 2</code> 分別指代 n1，n2 的值。</p>
 <p>好像是這樣吧，我忘記了。</p>
 <p>另外還有極大數字的題目和剪出時間的題目。這兩道題目我都有點忘了，找到考古題之後會再補上去。</p>
 <p>雖然比賽 4hr 我大概 3hr 都不知道在幹嘛，但我在這 3hr 得出一個結論：</p>
@@ -310,6 +322,9 @@
   }
   if ('true' == 'true') {
     stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
   }
 </script>
 

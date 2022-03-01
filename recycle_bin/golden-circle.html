@@ -9,6 +9,7 @@
   <meta http-equiv='x-dns-prefetch-control' content='on' />
   <link rel='dns-prefetch' href='https://cdn.jsdelivr.net'>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel='dns-prefetch' href='//unpkg.com'>
 
   <meta name="renderer" content="webkit">
   <meta name="force-rendering" content="webkit">
@@ -18,6 +19,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="theme-color" content="#f8f8f8">
   <title>用 Golden Circle 從初衷找出需求 - pan.blog</title>
+
+  
+    <link rel="stylesheet" href="//unpkg.com/heti/umd/heti.min.css">
+    <script src="//unpkg.com/heti/umd/heti-addon.min.js"></script>
+    <script defer>
+      const heti = new Heti('.heti');
+      heti.autoSpacing(); // 自动进行中西文混排美化和标点挤压
+    </script>
+  
 
   
     <meta name="description" content="這個團隊發生了什麼事情？有一個團隊花了 2 年，做不完一個中小型專案。 這個團隊想要寫一個可以儲值的訂餐系統，乍聽之下這不是很難，但事實上他們花了非常多時間在寫這個專案，但還沒寫完。最糟糕的是，程式碼極其混亂，甚至 bug 一堆，講難聽點，就是花了兩年做了坨垃圾。 他們說這是因為上級機關的問題太多，但事實真是如此嗎？">
@@ -119,7 +129,7 @@
 <p>pan93412</p>
 </blockquote>
 <h2 id="WHAT：我幫了他們什麼？"><a href="#WHAT：我幫了他們什麼？" class="headerlink" title="WHAT：我幫了他們什麼？"></a>WHAT：我幫了他們什麼？</h2><p>首先要做到「電子化、可儲值、易於操作且會提醒使用者的點餐網頁」，「餐點選擇」、「儲值系統」和「通知系統」是不可少的。而我當初怎麼拆分這些需求呢？</p>
-<p>首先「餐點選擇」，帶給使用者的體驗一定要<strong>簡單易用</strong>，要簡單到連 IQ=75 的阿甘都知道怎麼操作。對我來講，如果一個系統需要大量說明書才可以讓人會操作，那這就不是好 UX，這叫做工程思維的複雜系統。但反而「更新餐點」就不是特別重要，一方面餐點變動率不高，二來急迫度也沒比使用者介面重要，所以我直接說：「第一階段，就得勞煩你們自己手動新增餐點。」</p>
+<p>首先「餐點選擇」，帶給使用者的體驗一定要<strong>簡單易用</strong>，要簡單到連 IQ&#x3D;75 的阿甘都知道怎麼操作。對我來講，如果一個系統需要大量說明書才可以讓人會操作，那這就不是好 UX，這叫做工程思維的複雜系統。但反而「更新餐點」就不是特別重要，一方面餐點變動率不高，二來急迫度也沒比使用者介面重要，所以我直接說：「第一階段，就得勞煩你們自己手動新增餐點。」</p>
 <p>接著「儲值系統」，使用者唯一要做的就是去儲值所儲值，所以根本不需要使用者介面，但對於<strong>儲值所在用的後台則十分重要</strong>，要讓更新餘額的難度降到最低。最重要的，<strong>儲值系統要可以和餐點選擇對接</strong>，讓餐點選擇系統能夠知道使用者目前的餘額，不然儲值系統就失去意義，每個人都可以隨便吃霸王餐了。</p>
 <p>最後「通知系統」，最不重要，在哪通知都可以，反正只要能讓使用者知道他今天吃什麼就好了。</p>
 
@@ -280,6 +290,9 @@
   }
   if ('true' == 'true') {
     stellar.plugins.preload = Object.assign({"enable":true,"service":"flying_pages","instant_page":"https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@4.1.2/js/instant_page.js","flying_pages":"https://cdn.jsdelivr.net/gh/gijo-varghese/flying-pages@2.1.2/flying-pages.min.js"});
+  }
+  if ('true' == 'true') {
+    stellar.plugins.fancybox = Object.assign({"enable":true,"js":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js","css":"https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css","selector":".swiper-slide img"});
   }
 </script>
 
