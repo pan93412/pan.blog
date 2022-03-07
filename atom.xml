@@ -6,7 +6,7 @@
   <link href="https://blog.pan93.com/atom.xml" rel="self"/>
   
   <link href="https://blog.pan93.com/"/>
-  <updated>2022-03-07T01:05:25.388Z</updated>
+  <updated>2022-03-07T19:36:41.839Z</updated>
   <id>https://blog.pan93.com/</id>
   
   <author>
@@ -17,13 +17,49 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>該選名聲未知的科大，還是傳統普大？</title>
+    <title>指正《【社群恩仇錄】byStarTW/instanceof/pan93412》一文中的斷章取義或錯誤描述</title>
+    <link href="https://blog.pan93.com/respond-to-kantai-article/"/>
+    <id>https://blog.pan93.com/respond-to-kantai-article/</id>
+    <published>2022-03-07T19:33:02.000Z</published>
+    <updated>2022-03-07T19:36:41.839Z</updated>
+    
+    <content type="html"><![CDATA[<p><a href="https://blog.init.engineer/posts/BlockedPan93412/">https://blog.init.engineer/posts/BlockedPan93412/</a></p><p>這篇文章僅為行使本人 (Pan93412) 之媒體更正權。</p><h2 id="關於訊息的可靠性問題"><a href="#關於訊息的可靠性問題" class="headerlink" title="關於訊息的可靠性問題"></a>關於訊息的可靠性問題</h2><p>乾太在未經告知的情況下<strong>強行清空我與他的所有通聯紀錄</strong>。有鑒於原始訊息證據消失，<strong>原文之所有引用皆有杜撰或改寫之可能</strong>。即便如此，我仍嘗試推斷原 Context 並給予我這端的解釋。</p><p><img src="https://i.imgur.com/GZkTXa5.png" alt="被乾太清空的聊天記錄"></p><h2 id="原文論點的我方看法"><a href="#原文論點的我方看法" class="headerlink" title="原文論點的我方看法"></a>原文論點的我方看法</h2><blockquote><blockquote><p>怎麼不用 Memcached &#x2F; MariaDB 還有 Redis，不用 docker-compose 或 k8s 感覺很累</p></blockquote></blockquote><p>這個訊息的內容斷片嚴重，個人認為可能有被斷章取義。這訊息最可能的出處是我詢問乾太有沒有考慮用 Docker 部屬周邊服務，因為手動配置 Redis 跟 MariaDB 的易便性，的確不及直接 docker-compose 部署方便。但這僅為建議 (feature request)，我未批評原做法不好。</p><blockquote><blockquote><p>「不考慮換成 PostageSQL 嗎？聽說效能好一點」</p></blockquote><p>欸？等等，前一句你不是說怎麼不用 MariaDB 嗎？怎麼下一秒問怎麼不考慮換成 PostageSQL 了？</p><p>算了，繼續看其他的好了。</p></blockquote><p><strong>不要用斷章取義的訊息推斷訊息情境</strong>。本訊息出處已不可考，但或許也是作為一個 feature request 提出。由於 Laravel 的 Eloquent ORM 本來就可以自行切換成喜歡的資料庫後端，這純粹就是提供一個遵循 SQL 標準，在普通情境有更加效能的資料庫系統建議。</p><blockquote><blockquote><p>你現在的開發模式大概跟 jQuery + Notepad++ 那時代差不多</p><p>你們是不是都很喜歡把 IDE 當 VI 寫</p></blockquote></blockquote><p>這裡的 context，是我發現到乾太在 Blade 範本，利用手動輸入元件路徑的方式取用 Vue 元件，完全不考慮讓 IDE 管理元件的名稱。這部分確實是個調侃，因為無論是現代前端或是後端，都盡可能希望仰賴 IDE 的 auto-completion 而非自己手打，而我又是寫 TypeScript 出身的，本來就會對這塊尤其留意。</p><p>縱觀包括這一則訊息的原始 context，我確實站在現代前端工程師的立場，批評了 init.engineer 目前前端開發模式的不足，而乾太也在之中，承認他並不是很了解前端開發的生態。我和乾太畢竟開發的領域和習慣大相徑庭，因此誤會與衝突個人認為是難免的。若乾太認為這種調侃使其不適，我在此遞上十足的歉意。</p><blockquote><blockquote><p>既然 Blade 可以做 Component，為什麼又需要一個 Vue？</p></blockquote></blockquote><p>問這問題的當下，我並不了解純靠北工程師的 codebase。因此當我讀到 Blade + Vue 的混合程式碼時，就向乾太詢問了這個混合的必要性。畢竟能用一個渲染模板完成的事情，我們為何要拆成兩個？</p><p>因為 Laravel 目錄架構與 Vue 習慣的開發模式不同，我問這句的另一個目的也是為了要把 Vue deprecate 掉。這樣我也比較可以不用為了維護 Vue 元件的名稱而操心。</p><blockquote><blockquote><p>無論是裝了 Laravel 的 JetBrains PHPStorm，還是裝了一堆 Laravel Plugins 的 VS Code，兩個都看不到這個函數的定義</p></blockquote></blockquote><p><strong>我畢竟剛入門 PHP&#x2F;Laravel 開發</strong>，因此當我發現乾太可以 auto-complete，而我不行的時候，<strong>我就向乾太請教設定 Laravel 相關的事宜</strong>。這純粹是一個普通，有些新手級的問題，但乾太的斷章取義，似乎讓整個情境變得像是我在指責 Laravel——我並沒有這個意思。</p><blockquote><blockquote><p>老實說，我不是很喜歡這個 Codebase 的前端擺放方式，所以我其實得承認，我有點在找碴</p></blockquote></blockquote><p>這個訊息的情境是這樣的：我原本想要自己開一個 repo，用自己熟悉的架構，獨立寫 init.engineer 的 Front-end。後端 API 的部分，我當時也有積極幫乾太尋找能開發純靠北 API 的夥伴。所以我的確有自己的解決方案，但乾太否決了這個建議，要求我寫在原來的 codebase。既然如此，我就像乾太提出了目前 codebase 開發前端的不足。不過我也得承認：在指出問題的過程中，我欠缺換位思考。在此再向乾太致上十足歉意。</p><blockquote><p><img src="https://i.imgur.com/fMC8P3j.png" alt="原文中質疑我不滿 Laravel 的部分"></p></blockquote><p>見上，<strong>畢竟我原本是想要自己獨立一個 repo 寫前端的</strong>。啟動 Laravel 很快樂，但用 Laravel 的架構寫前端就不快樂了⋯⋯除此之外，乾太將我後來用 Laravel 正式貢獻前端的紀錄完全忽略了，實際上我後來花了幾週的時間，學習 init.engineer 的全端開發方式，並貢獻了乾太所期望的首頁 Milestone。詳情可以見 <a href="https://github.com/init-engineer/init.engineer/pull/88">init-engineer&#x2F;init.engineer PR#88</a>：</p><p><img src="https://i.imgur.com/73kSNOq.jpg" alt="完整貢獻紀錄"></p><blockquote><p>當你把項目下放給這個人後，他雖然會嘗試接觸項目相關的技術，但是整個過程會有許多負面情緒、抱怨，甚至是質疑項目技術。</p></blockquote><p>我承認。</p><blockquote><p>如果對於項目技術不熟悉，會質疑項目是否過時了、難以開發，甚至會有「你現在的開發模式大概跟 jQuery + Notepad++ 那時代差不多」諸如此類的言論，反而不是嘗試去了解相關技術。</p></blockquote><p>與上面的 <code>他雖然會嘗試接觸項目相關的技術</code> 相斥。</p><blockquote><p>本部落格所有文章除特別聲明外，均採用 CC BY-NC-ND 4.0 許可協議。轉載請註明來自 我不會寫程式！</p></blockquote><p>ND 部分我只能確保我想反駁的論點完全取自原文。BY 和 NC 皆已遵循。</p><h2 id="專案始末"><a href="#專案始末" class="headerlink" title="專案始末"></a>專案始末</h2><p>有鑒於還沒有人想知道這方面的事情，我先擱置不寫。</p><h2 id="「其他人的想法」又是怎麼一回事？"><a href="#「其他人的想法」又是怎麼一回事？" class="headerlink" title="「其他人的想法」又是怎麼一回事？"></a>「其他人的想法」又是怎麼一回事？</h2><ul><li><a href="https://haer0248.me/451/">haer0248 的回應</a>：我完全承認本文內容我所有的疏失。在此誠摯向阿任道歉。</li><li><a href="https://t.me/s/bystartw/">Telegram - 靠北 byStarTW (pan93412)</a>：我和幾位朋友都找不出後期訊息中明顯的靠北／錯誤點。或許對方是我的粉絲，所以才這麼鍥而不捨地收藏我的語錄？</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://blog.init.engineer/posts/BlockedPan93412/&quot;&gt;https://blog.init.engineer/posts/BlockedPan93412/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;這篇文章僅為行使本人 (Pan93412) 之媒體更正權。&lt;/p&gt;
+&lt;h2 id=&quot;關於訊息的可靠性問題&quot;&gt;&lt;a href=&quot;#關於訊息的可靠性問題&quot; </summary>
+      
+    
+    
+    
+    <category term="The thoughts" scheme="https://blog.pan93.com/categories/The-thoughts/"/>
+    
+    
+    <category term="乾太" scheme="https://blog.pan93.com/tags/%E4%B9%BE%E5%A4%AA/"/>
+    
+    <category term="Kantai235" scheme="https://blog.pan93.com/tags/Kantai235/"/>
+    
+    <category term="Kantai" scheme="https://blog.pan93.com/tags/Kantai/"/>
+    
+    <category term="靠北" scheme="https://blog.pan93.com/tags/%E9%9D%A0%E5%8C%97/"/>
+    
+    <category term="斷章取義" scheme="https://blog.pan93.com/tags/%E6%96%B7%E7%AB%A0%E5%8F%96%E7%BE%A9/"/>
+    
+    <category term="錯誤描述" scheme="https://blog.pan93.com/tags/%E9%8C%AF%E8%AA%A4%E6%8F%8F%E8%BF%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>該選名聲未知的科大，還是私立普大？</title>
     <link href="https://blog.pan93.com/college-or-university/"/>
     <id>https://blog.pan93.com/college-or-university/</id>
     <published>2022-03-07T01:01:42.000Z</published>
-    <updated>2022-03-07T01:05:25.388Z</updated>
+    <updated>2022-03-07T19:36:41.839Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>原問題在「學霸模擬機」。放在 Blog 純粹是為了更大的排版自由。</p></blockquote><h2 id="TL-DR-核心問題"><a href="#TL-DR-核心問題" class="headerlink" title="TL;DR - 核心問題"></a>TL;DR - 核心問題</h2><p>究竟該走「已經特選上」，但「未知名聲」的科技大學；還是放棄科大，繼續準備個申，走傳統的私立大學？</p><h2 id="簡短自我介紹"><a href="#簡短自我介紹" class="headerlink" title="簡短自我介紹"></a>簡短自我介紹</h2><p>我目前是普高生，但對程式實作有濃厚的興趣。目前是幾個知名專案的維護者或共同創辦者，能力也在幾間大學的特殊選才中獲得肯定（書審都過）。</p><p>因為數學和自然上的短板，我是社會組，且想要走偏資的資管（數學不重，同時可以滿足我程式探索的興趣）。經過深入比較，我投了包含 <strong>高雄科技大學</strong> 的 <strong>智慧商務系</strong> 的幾間科技大學，而我最終也上了。</p><h2 id="這間科大的優點在哪裡？"><a href="#這間科大的優點在哪裡？" class="headerlink" title="這間科大的優點在哪裡？"></a>這間科大的優點在哪裡？</h2><p>根據某學校資料，智慧商務系的前身，是偏資訊的 <strong>資訊管理系</strong>。我有看過課程大綱，且我對這個科系的課程 <strong>頗有興趣</strong>。而且身為高雄人，若我讀這間科技大學的話，不僅 <strong>學費比較省</strong>（國立學費通常比私立來得便宜），而且也可以 <strong>省下通勤和在外租房的費用</strong>。</p><h2 id="那這間科大的缺點是什麼？"><a href="#那這間科大的缺點是什麼？" class="headerlink" title="那這間科大的缺點是什麼？"></a>那這間科大的缺點是什麼？</h2><p>其實不全然是這間科大的問題。</p><p>這間科大特選通過第二階段的有 8 個人 (3 正取 &#x2F; 5 備取)。然而這 8 個人當中，<strong>有 5 個人 (62.5%) 選擇放棄資格</strong>。最近我聽聞剩下 3 個人當中，有一個也想要放棄。雖然我確定最後一個人是因為人生規劃而萌生放棄想法，但這也難免會讓我懷疑：<strong>「這科系是不是沒人想讀？」</strong></p><p>其實我有認識一位就讀本科系的學長，據他所說：<strong>「這個科系比較自由，更適合你發展自己想要的東西。」</strong> 我不擅長讀言下之意，雖然我喜歡給予比較多自學空間的學校，但他的意思也有沒有可能是 <strong>科系課程有點水？</strong></p><h2 id="學測成績，及落點可上的大學"><a href="#學測成績，及落點可上的大學" class="headerlink" title="學測成績，及落點可上的大學"></a>學測成績，及落點可上的大學</h2><p>我的學測成績如下：(# &#x3D; 未考)</p><table><thead><tr><th>國</th><th>英</th><th>數A</th><th>數B</th><th>社</th><th>自</th></tr></thead><tbody><tr><td>12</td><td>12</td><td>3</td><td>8</td><td>14</td><td>#</td></tr></tbody></table><p>此外英聽 B、APCS 觀念 3 實作 2。使用 <a href="https://www.com.tw/">https://www.com.tw</a> 進行落點分析，國立和私立的大致情況如下：</p><ul><li>國立：[地名大學] 如屏東大學、臺北大學</li><li>私立：[傳統大學] 如淡江大學、輔仁大學</li></ul><h2 id="別人的想法是什麼？"><a href="#別人的想法是什麼？" class="headerlink" title="別人的想法是什麼？"></a>別人的想法是什麼？</h2><p>我問過其中一位老師，他覺得出外縣市（即便是私立大學）比較能拓展視野，也能獲得比較多的資源。</p><p>其他大部分朋友的想法都是「你喜歡哪一個，就去哪一間學校。」我挺滿意現況，但畢竟 <strong>我只看過課程大綱，以及聽學長姐的說法</strong>。我擔心我會不會因為不夠瞭解這間科系（<strong>資訊不對等</strong>），而給自己留下遺憾。</p><p>此外，根據這個社團的幾篇貼文，普高生走科大是不是 <strong>萬不得已</strong> 的選擇？即便我本來就想走科大。</p><h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>如果要做這兩間大學的優劣比較的話：</p><ul><li><p>高科大</p><ul><li>(+) 是國立大學（雖然是科技大學）</li><li>(+) 已經上了</li><li>(+) 學費和住宿費不會成問題</li><li>(+) 科系的課程很適合我</li><li>(?) 朋友覺得這科系很自由（但究竟是什麼樣的自由？）</li><li>(-) 普高生去科大給人的觀感不好？（即便我本來就想去科大）</li><li>(-) 幾乎所有人 (5~6&#x2F;8) 選擇放棄這個科系的名額</li><li>(-) 這個校區好像有點簡陋？</li></ul></li><li><p>個申上普大</p><ul><li>(+) 是普大，很符合普高生正常的升學路徑</li><li>(+) 給人的觀感比較好？</li><li>(?) 不一定能上</li><li>(-) 學費跟住宿費或許會成問題</li><li>(-) 未知這幾間大學的課程架構</li><li>(-) 得花時間去準備個申</li><li>(-) 普大的部分課程架構不太符合我的性向</li><li>(-) 失去特選的光環 (?)</li><li>(-) <strong>科大已經錄取，應該就不行個申了？</strong></li></ul></li></ul><p>我偏好維持現狀（讀高科大），但我仍想請教其他更有經驗的朋友。希望這次詢問可以讓我更清楚該走哪一條路。謝謝 &gt;&lt;</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>原問題在「學霸模擬機」。放在 Blog 純粹是為了更大的排版自由。</p></blockquote><h2 id="TL-DR-核心問題"><a href="#TL-DR-核心問題" class="headerlink" title="TL;DR - 核心問題"></a>TL;DR - 核心問題</h2><p>究竟該走「已經特選上」，但「未知名聲」的科技大學；還是放棄科大，繼續準備個申，走傳統的私立大學？</p><h2 id="簡短自我介紹"><a href="#簡短自我介紹" class="headerlink" title="簡短自我介紹"></a>簡短自我介紹</h2><p>我目前是普高生，但對程式實作有濃厚的興趣。目前是幾個知名專案的維護者或共同創辦者，能力也在幾間大學的特殊選才中獲得肯定（書審都過）。</p><p>因為數學和自然上的短板，我是社會組，且想要走偏資的資管（數學不重，同時可以滿足我程式探索的興趣）。經過深入比較，我投了包含 <strong>高雄科技大學</strong> 的 <strong>智慧商務系</strong> 的幾間科技大學，而我最終也上了。</p><h2 id="這間科大的優點在哪裡？"><a href="#這間科大的優點在哪裡？" class="headerlink" title="這間科大的優點在哪裡？"></a>這間科大的優點在哪裡？</h2><p>根據某學校資料，智慧商務系的前身，是偏資訊的 <strong>資訊管理系</strong>。我有看過課程大綱，且我對這個科系的課程 <strong>頗有興趣</strong>。而且身為高雄人，若我讀這間科技大學的話，不僅 <strong>學費比較省</strong>（國立學費通常比私立來得便宜），而且也可以 <strong>省下通勤和在外租房的費用</strong>。</p><h2 id="那這間科大的缺點是什麼？"><a href="#那這間科大的缺點是什麼？" class="headerlink" title="那這間科大的缺點是什麼？"></a>那這間科大的缺點是什麼？</h2><p>其實不全然是這間科大的問題。</p><p>這間科大特選通過第二階段的有 8 個人（3 正取 &#x2F; 5 備取）。然而這 8 個人當中，<strong>有 5 個人（62.5%）選擇放棄資格</strong>。最近我聽聞剩下 3 個人當中，有一個也想要放棄。雖然我確定最後一個人是因為人生規劃而萌生放棄想法，但這也難免會讓我懷疑：<strong>「這科系是不是沒人想讀？」</strong></p><p>其實我有認識一位就讀本科系的學長，據他所說：<strong>「這個科系比較自由，更適合你發展自己想要的東西」。</strong> 我不擅長讀言下之意，雖然我喜歡給予比較多自學空間的學校，但他的意思也有沒有可能是 <strong>科系課程有點水？</strong></p><h2 id="學測成績，及落點可上的大學"><a href="#學測成績，及落點可上的大學" class="headerlink" title="學測成績，及落點可上的大學"></a>學測成績，及落點可上的大學</h2><p>我的學測成績如下：（# &#x3D; 未考）</p><table><thead><tr><th>國</th><th>英</th><th>數A</th><th>數B</th><th>社</th><th>自</th></tr></thead><tbody><tr><td>12</td><td>12</td><td>3</td><td>8</td><td>14</td><td>#</td></tr></tbody></table><p>此外英聽 B、APCS 觀念 3 實作 2。使用 <a href="https://www.com.tw/">https://www.com.tw</a> 進行落點分析，國立和私立的大致情況如下：</p><ul><li>國立：[地名大學] 如屏東大學、臺北大學</li><li>私立：[傳統大學] 如淡江大學、輔仁大學</li></ul><h2 id="別人的想法是什麼？"><a href="#別人的想法是什麼？" class="headerlink" title="別人的想法是什麼？"></a>別人的想法是什麼？</h2><p>我問過其中一位老師，他覺得出外縣市（即便是私立大學）比較能拓展視野，也能獲得比較多的資源。</p><p>其他大部分朋友的想法都是「你喜歡哪一個，就去哪一間學校。」我挺滿意現況，但畢竟 <strong>我只看過課程大綱，以及聽學長姐的說法</strong>。我擔心我會不會因為不夠瞭解這間科系（<strong>資訊不對等</strong>），而給自己留下遺憾。</p><p>此外，根據這個社團的幾篇貼文，普高生走科大是不是 <strong>萬不得已</strong> 的選擇？即便我本來就想走科大。</p><h2 id="結論"><a href="#結論" class="headerlink" title="結論"></a>結論</h2><p>如果要做這兩間大學的優劣比較的話：</p><ul><li><p>高科大</p><ul><li>(+) 是國立大學（雖然是科技大學）</li><li>(+) 已經上了</li><li>(+) 學費和住宿費不會成問題</li><li>(+) 科系的課程很適合我</li><li>(?) 朋友覺得這科系很自由（但究竟是什麼樣的自由？）</li><li>(-) 普高生去科大給人的觀感不好？（即便我本來就想去科大）</li><li>(-) 幾乎所有人 (5~6&#x2F;8) 選擇放棄這個科系的名額</li><li>(-) 這個校區好像有點簡陋？</li></ul></li><li><p>個申上普大</p><ul><li>(+) 是普大，很符合普高生正常的升學路徑</li><li>(+) 給人的觀感比較好？</li><li>(?) 不一定能上</li><li>(-) 學費跟住宿費或許會成問題</li><li>(-) 未知這幾間大學的課程架構</li><li>(-) 得花時間去準備個申</li><li>(-) 普大的部分課程架構不太符合我的性向</li><li>(-) 失去特選的光環 (?)</li><li>(-) <strong>科大已經錄取，應該就不行個申了？</strong></li></ul></li></ul><p>我偏好維持現狀（讀高科大），但我仍想請教其他更有經驗的朋友。希望這次詢問可以讓我更清楚該走哪一條路。謝謝 &gt;&lt;</p>]]></content>
     
     
       
@@ -539,33 +575,6 @@
     <category term="事件" scheme="https://blog.pan93.com/tags/%E4%BA%8B%E4%BB%B6/"/>
     
     <category term="選取" scheme="https://blog.pan93.com/tags/%E9%81%B8%E5%8F%96/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>DevLog：使用者體驗 (1)</title>
-    <link href="https://blog.pan93.com/ux-1/"/>
-    <id>https://blog.pan93.com/ux-1/</id>
-    <published>2020-10-17T16:20:37.000Z</published>
-    <updated>2020-10-17T16:20:37.000Z</updated>
-    
-    <content type="html"><![CDATA[<p><a href="https://github.com/qier222/YesPlayMusic/pull/9">貢獻了一個新東西到某個 GitHub 儲存庫</a>，其中主要是讓程式更適合使用者。有許多開發者常常犯下類似「錯誤訊息太艱深難懂」、「以為使用者會需要，但其實沒必要的」的錯誤，而這篇文章我會詳談為何我覺得開發者為何不應該犯這些錯誤。</p><span id="more"></span><h2 id="錯誤訊息不應過於簡陋"><a href="#錯誤訊息不應過於簡陋" class="headerlink" title="錯誤訊息不應過於簡陋"></a>錯誤訊息不應過於簡陋</h2><blockquote><p>此外，我把原本很醜的 <code>if</code> 表示式以 Map 改寫，同時我也讓訊息比較好懂，畢竟這個專案的目標客群是一般使用者，盡可能用些平易近人的錯誤訊息。</p><p><a href="https://github.com/qier222/YesPlayMusic/pull/9#issuecomment-711028059">GitHub - YesPlayMusic, PR #9</a></p></blockquote><p>為什麼錯誤訊息要平易近人？首先我們來看一個反例。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">權杖錯誤。</span><br></pre></td></tr></table></figure><p>你能一眼就看出來到底出了什麼問題，且該怎麼修正嗎？就連我這個稍有經驗的電腦使用者都不一定知道該怎麼修，更何況是一般使用者？</p><p>也因此，一個好的錯誤訊息要讓使用者知道這是怎麼了，和應該怎麼修。就以上面的錯誤訊息為例，我們可以寫得更加具體：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">判斷權杖時發生錯誤。可能是因為閒置過久，或是沒有權限所致。</span><br></pre></td></tr></table></figure><p>首先，前面的「具體錯誤」是給了解系統的人看的，這樣使用者詢問這些人時，他們才能清楚是哪個環節出錯。而後面的可能發生原因，就是給使用者看的。也因此，我們要盡可能避開專有名詞，用使用者能看懂的字眼，去告訴使用者大概是怎麼了。</p><p>現在使用者知道問題的可能原因了。但是，使用者知道原因，卻不知道怎麼修，這樣仍然不是合格的錯誤訊息。所以我們也要給出可能的解決方法。首先，我們先看解決方法的反例：</p><p><img src="image-7.webp" alt="Microsoft 詞彙庫中的反例"></p><p>「請聯絡您的系統管理員。」絕對不是解決方法，事實上 Microsoft 之前很喜歡使用「聯絡管理員」這種推卸責任的話語來掩蓋他們懶著寫解決方法的事實。</p><p>但是聯絡管理員真的有用嗎？事實上不少使用者自己就是「系統管理員」，難道是要聯絡自己嗎？所以解決方法的撰寫，要盡可能讓使用者能夠自己解決，而不是一直推卸。就以上面的錯誤訊息來說，我們可以改寫成這樣：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">判斷權杖時發生錯誤。可能是因為閒置過久，或是沒有權限所致。請嘗試重新登入您的帳戶，或重新以有權限存取此系統的帳戶登入。</span><br></pre></td></tr></table></figure><p>比起最一開始的錯誤訊息，我們讓開發者更好判斷錯誤的本因、讓使用者更好理解問題的可能原因以及怎麼解決，這樣便是最適合使用者和系統管理員的錯誤訊息。</p><h2 id="不需要就不要寫"><a href="#不需要就不要寫" class="headerlink" title="不需要就不要寫"></a>不需要就不要寫</h2><p>時間寶貴，別浪費時間在沒人用的功能上。寫太多功能，除了程式本身會變得十分臃腫，也會使核心功能的維護時間被寫新功能的開發時間佔據，導致程式日漸不穩定。</p><p>此外，不要一股腦把所有能拿到的東西都塞進去使用者介面裡面，因為使用者不需要也看不懂，放太多只會讓介面變得十分混亂。舉個現實中的例子，假如你拿到這些資料：</p><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="comment">// kb/s</span></span><br><span class="line">  <span class="attr">currentSpeed</span>: <span class="number">500</span>, <span class="comment">// 目前速度</span></span><br><span class="line">  <span class="comment">// byte</span></span><br><span class="line">  <span class="attr">totalSize</span>: <span class="number">100000000</span>, <span class="comment">// 總計大小</span></span><br><span class="line">  <span class="comment">// byte</span></span><br><span class="line">  <span class="attr">gotSize</span>: <span class="number">300000</span>, <span class="comment">// 收到的大小</span></span><br><span class="line">  <span class="attr">respHeader</span>: &#123; <span class="comment">// 伺服器回應的 header</span></span><br><span class="line">    <span class="attr">server</span>: <span class="string">&#x27;blah&#x27;</span>,</span><br><span class="line">    <span class="attr">cookies</span>: &#123;&#125;</span><br><span class="line">  &#125;,</span><br><span class="line">  <span class="attr">reqHeader</span>: &#123; <span class="comment">// 用戶端要求的 header</span></span><br><span class="line">    <span class="attr">userAgent</span>: <span class="string">&#x27;???&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>一個不好的使用者介面會把目前速度、總計大小、已下載的大小、伺服器和用戶端的回應放上去，甚至還會幫忙算 ETA 和經過時間，但是使用者真的需要這些資料嗎？</p><p>如果只是單純的遊戲下載器，我們只要告訴使用者目前進度和 ETA 就好。而如果是瀏覽器下載器，也不用精確到把詳細的回應告訴使用者。</p><p>所以，請秉持著「有需要再寫」原則，可以看看<a href="/golden-circle">〈用 Golden Circle 從初衷找出需求〉</a>，了解怎麼利用輔助工具幫你找到最需要的核心功能。</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://github.com/qier222/YesPlayMusic/pull/9&quot;&gt;貢獻了一個新東西到某個 GitHub 儲存庫&lt;/a&gt;，其中主要是讓程式更適合使用者。有許多開發者常常犯下類似「錯誤訊息太艱深難懂」、「以為使用者會需要，但其實沒必要的」的錯誤，而這篇文章我會詳談為何我覺得開發者為何不應該犯這些錯誤。&lt;/p&gt;</summary>
-    
-    
-    
-    <category term="Developments" scheme="https://blog.pan93.com/categories/Developments/"/>
-    
-    
-    <category term="epf" scheme="https://blog.pan93.com/tags/epf/"/>
-    
-    <category term="JavaScript" scheme="https://blog.pan93.com/tags/JavaScript/"/>
-    
-    <category term="Node.js" scheme="https://blog.pan93.com/tags/Node-js/"/>
-    
-    <category term="Vue.js" scheme="https://blog.pan93.com/tags/Vue-js/"/>
     
   </entry>
   
