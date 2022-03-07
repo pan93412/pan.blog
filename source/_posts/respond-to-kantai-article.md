@@ -14,7 +14,7 @@ categories:
 
 <https://blog.init.engineer/posts/BlockedPan93412/>
 
-這篇文章僅為行使本人 (Pan93412) 之媒體更正權。
+這篇文章僅為行使本人 (Pan93412) 之媒體答辯權。
 
 ## 關於訊息的可靠性問題
 
