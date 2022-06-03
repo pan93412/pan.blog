@@ -13,4 +13,9 @@ comments:
 sidebar:
   logo:
     avatar: '[config.avatar](/)'
-heti: true
+plugins:
+  heti:
+    enable: true
+  mathjax:
+    enable: true
+  
