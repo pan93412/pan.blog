@@ -17,17 +17,29 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: '16.x'
-      - name: 快取 NPM 的相依關係
-        uses: actions/cache@v2
+
+      - uses: pnpm/action-setup@v2.0.1
+        name: 安裝 PNPM
+
+      - name: 取得 PNPM 儲存區的位置
+        id: pnpm-cache
+        run: |
+          echo "::set-output name=pnpm_cache_dir::$(pnpm store path)"
+
+      - uses: actions/cache@v3
+        name: 設定 PNPM 快取
         with:
-          path: node_modules
-          key: ${{ runner.OS }}-npm-cache
+          path: ${{ steps.pnpm-cache.outputs.pnpm_cache_dir }}
+          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: |
-            ${{ runner.OS }}-npm-cache
+            ${{ runner.os }}-pnpm-store-
+
       - name: 安裝相依關係
         run: npm install
+
       - name: 建置
         run: npm run build
+
       - name: 部署
         uses: peaceiris/actions-gh-pages@v3
         with:
