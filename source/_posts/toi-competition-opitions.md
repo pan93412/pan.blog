@@ -16,6 +16,7 @@ categories:
   - - The thoughts
 date: 2020-11-02 08:57:07
 updated: 2020-11-02 08:57:07
+robots: noindex
 ---
 
 **又墊底了。**

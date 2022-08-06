@@ -10,6 +10,7 @@ tags:
 categories:
   - The thoughts
   - school
+robots: noindex
 ---
 
 是時候退租自己的 Contabo VPS 了。這台主機陪了我 7 個月，陪伴我寫了非常多篇文章，要跟它分離，著實不捨。

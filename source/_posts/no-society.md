@@ -7,6 +7,7 @@ categories:
   - The thoughts
 date: 2021-04-09 09:17:56
 updated: 2021-04-09 09:17:56
+robots: noindex
 ---
 
 我討厭吵雜的環境、涌動的人群和髒亂的地方。但我走不得。我必須為了合群，忍受這樣的環境。

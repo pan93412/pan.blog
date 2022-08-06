@@ -11,6 +11,7 @@ categories:
   - The thoughts
 date: 2021-04-30 18:25:47
 updated: 2021-04-30 18:25:47
+robots: noindex
 ---
 
 為什麼 Authouse 最後科展沒有得名？

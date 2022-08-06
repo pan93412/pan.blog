@@ -10,6 +10,7 @@ tags:
   - 錯誤描述
 categories:
   - The thoughts
+robots: noindex
 ---
 
 <https://blog.init.engineer/posts/BlockedPan93412/>

@@ -9,6 +9,7 @@ categories:
   - The thoughts
 date: 2021-03-10 17:38:53
 updated: 2021-03-10 17:38:53
+robots: noindex
 ---
 
 看到某篇關於資訊補習的評論。我覺得台灣教給國高中生的真的只有「演算法」的部分。

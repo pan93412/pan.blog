@@ -12,6 +12,7 @@ tags:
     - 個人申請
 categories:
   - The thoughts
+robots: noindex
 ---
 
 > 原問題在「學霸模擬機」。放在 Blog 純粹是為了更大的排版自由。
