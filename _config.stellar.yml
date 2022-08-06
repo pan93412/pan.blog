@@ -14,8 +14,8 @@ sidebar:
   logo:
     avatar: '[config.avatar](/)'
 plugins:
-  heti:
-    enable: true
+  # heti:
+  #   enable: true
   mathjax:
     enable: true
   

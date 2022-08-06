@@ -112,6 +112,9 @@ inject:
   head:
     - <script async src="https://www.googletagmanager.com/gtag/js?id=G-SK8EPCLBY6"></script>
     - <script src="/gtag.js"></script>
+    - <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css">
+    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pan93412/harmonyos-fonts-optional/css/harmonyos_sans_tc.min.css">
 
 feed:
   enable: true
