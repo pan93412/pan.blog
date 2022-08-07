@@ -34,12 +34,12 @@ categories: Development
       - **spawn**（生成）：指產生 thread 的行為。
       - **thread pool**（執行緒池）：將 thread 高效分配給每個任務的地方。
 - **Async runtime**: 以 tokio 為例
-  - **join** (macro)：並行執行 async 函數。
+  - **join** (macro)：並行執行 async 函數，並在全部完成後回傳。
   - **select** (macro)：哪個 async 函數快，回傳那個 async 函數的結果。
   - **main** (attribute macro)：在 main() 初始化 runtime。
   - **block_on**：在 sync 上執行 async 函數。
   - **spawn**：平行執行 async 函數。
-  - **spawn_blocking**：因為一個任務本身會堵住 (blocking) 整個程式，就改丟到另一個程式獨立執行的行為。
+  - **spawn_blocking**：在非同步函數裡面，為一個高耗時且同步 (blocking) 的函數另闢新執行緒 (thread)。
 
 ## 同步 (Synchronous) 跟非同步 (Asynchoronous)
 
