@@ -1,5 +1,5 @@
 ---
-title: 文组也能懂的 Rust async 机制（简体版）
+title: 文科生也能懂的 Rust async 机制（简体版）
 date: 2022-08-07 21:12:45
 updated: 2022-08-07 21:21:00
 tags:
@@ -22,7 +22,7 @@ categories: Development
 
 > 修改一下：work stealing, thread-per-core, waker, mpsc, task queue 只有他们懂... 正常人不可能看懂 – [@twicemoemoe, 22-08-02](https://twitter.com/twicemoemoe/status/1554305217134735362)
 
-作为一个文组，其实觉得 async 真的没有想象中的这么困难⋯⋯ 😂 或许搭配一些图片会好懂很多吧。
+作为一个文科生，其实觉得 async 真的没有想象中的这么困难⋯⋯ 😂 或许搭配一些图片会好懂很多吧。
 
 ## TL;DR 不废话版本
 
