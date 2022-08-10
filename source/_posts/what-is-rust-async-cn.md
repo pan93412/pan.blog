@@ -7,7 +7,7 @@ tags:
     - async
     - easy
     - simple
-categories: Development
+categories: Developments
 ---
 
 > 考虑到其他语区的朋友，我使用 [繁化姬](http://zhconvert.org) 将这篇文章全文转换为简体（暂时不包含图档）。简体版是以 [commit 89f7c52](https://github.com/pan93412/pan.blog/tree/89f7c52c8d72915077808d2fe1db5dd12d622bc7) 为底进行转换，若未来有一些更新，亦会随之同步并在此更新。
