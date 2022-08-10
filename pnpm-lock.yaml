@@ -6,6 +6,7 @@ specifiers:
   hexo-generator-category: ^1.0.0
   hexo-generator-feed: ^3.0.0
   hexo-generator-index: ^2.0.0
+  hexo-generator-sitemap: ^3.0.1
   hexo-generator-tag: ^1.0.0
   hexo-migrator-wordpress: ^2.1.2
   hexo-related-popular-posts: ^5.0.1
@@ -21,6 +22,7 @@ dependencies:
   hexo-generator-category: 1.0.0
   hexo-generator-feed: 3.0.0
   hexo-generator-index: 2.0.0
+  hexo-generator-sitemap: 3.0.1
   hexo-generator-tag: 1.0.0
   hexo-migrator-wordpress: 2.1.2
   hexo-related-popular-posts: 5.0.1
@@ -1650,6 +1652,17 @@ packages:
     dependencies:
       hexo-pagination: 1.0.0
       timsort: 0.3.0
+    dev: false
+
+  /hexo-generator-sitemap/3.0.1:
+    resolution: {integrity: sha512-n+0KLNmq6TLbiZPTQF6NY5MbEem/O+DFx0lgQZNQcU4tdjXIZRrQJs+KRKeT66NTkdlYTqb4WwCxswLqQz0crA==}
+    engines: {node: '>=12.13.0'}
+    dependencies:
+      hexo-util: 2.6.1
+      micromatch: 4.0.5
+      nunjucks: 3.2.3
+    transitivePeerDependencies:
+      - chokidar
     dev: false
 
   /hexo-generator-tag/1.0.0:
@@ -3694,12 +3707,12 @@ packages:
     resolution: {integrity: sha512-rFJYdHlk2C+pKAoV4Nlptb+b7nmBN5QOg8VkQVNMbK7jf/lDctaUF9nNehZqVoarDWS74nMpTWVDhWecWwoqQw==}
     engines: {node: '>=10.13.0'}
     dependencies:
+      JSONStream: 1.3.5
       bluebird: 3.7.2
       cuid: 2.1.8
       graceful-fs: 4.2.10
       hexo-log: 3.0.0
       is-plain-object: 5.0.0
-      JSONStream: 1.3.5
       rfdc: 1.3.0
     dev: false
 

@@ -123,3 +123,6 @@ feed:
   limit: 20
   content_limit: 200
   autodiscovery: true
+
+sitemap:
+  path: sitemap.xml
