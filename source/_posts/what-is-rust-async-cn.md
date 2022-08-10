@@ -1,7 +1,7 @@
 ---
 title: 文科生也能懂的 Rust async 机制（简体版）
 date: 2022-08-07 21:12:45
-updated: 2022-08-07 21:21:00
+updated: 2022-08-10 11:07:00
 tags:
     - Rust
     - async
@@ -29,12 +29,12 @@ categories: Developments
 - **Sync**（同步）：一件事情做完之后，再做下一件事情。
   - **blocking**（堵塞）：指“等一件事情”的行为。
 - **Async**（异步）：一件事情还没完成，可以做其他不冲突的事情。
-  - **concurrency**（并发、並行）：程序 **架构** 中，各个任务可以 **独立运行** 的特性。
+  - **concurrency**（并发、并行）：程序 **架构** 中，各个任务可以 **独立运行** 的特性。
     - **future**：Rust 中的一个异步任务的表示。
     - **polling**：不停地询问任务，确认事情是否已经完成。
     - **event-driven**：事情完成后，任务自己发通知表明完成。
   - **parallelism**（平行）：同时 **运行** 数个程序的行为。
-    - **thread**（线程、執行緒）：系统进程（任务集）的基本单元。thread 通常是交由 CPU 内核运行。
+    - **thread**（线程、执行绪）：系统进程（任务集）的基本单元。thread 通常是交由 CPU 内核运行。
       - **spawn**（生成）：指产生 thread 的行为。
       - **thread pool**（线程池）：将 thread 高效分配给每个任务的地方。
 - **Async runtime**: 以 tokio 为例
@@ -67,7 +67,7 @@ categories: Developments
 
 回到电脑的例子上。我们可以把“你”和“你妈”比拟为 **CPU 内核 (core)** ，分配给你和你妈的一大堆独立任务叫做 **线程 (thread)** 。**并发** 就是工作单元自己用异步的方式处理任务；**平行** 就是分配其他工作单元处理任务。
 
-### 進階：线程池 (thread pool)
+### 进阶：线程池 (thread pool)
 
 你电脑的内核是有限的。就以 Apple M1 这颗 CPU 来说，最多也就只有 8 个内核。那要怎么高效的把一大堆线程，都分配到这些 CPU 上呢？
 
@@ -356,7 +356,7 @@ async fn main() {
 
 ### 进阶阅读：让一个任务 (Future) 变成一个绿色线程 (Green Thread)——`spawn`
 
-还记得併發 (Concurrent) 跟平行 (Parallelism) 吗？虽然大部分的情况下，在 **单线程**“併發”就已经很足够快了。倘若这个任务耗时很长，你希望开另一条线程“平行”专门处理这个任务，那就可以用 `spawn`：
+还记得并发 (Concurrent) 跟平行 (Parallelism) 吗？虽然大部分的情况下，在 **单线程**“并发”就已经很足够快了。倘若这个任务耗时很长，你希望开另一条线程“平行”专门处理这个任务，那就可以用 `spawn`：
 
 ```rs
 let handle = tokio::task::spawn(async {
