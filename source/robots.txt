@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://blog.pan93.com/sitemap.xml
