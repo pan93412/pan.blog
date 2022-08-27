@@ -18,7 +18,7 @@ robots:
 
 > Interface Builder 給每個標籤的命名都是隨機的，手動改起來又低效又容易改壞，對多語言本地化而言簡直是天災。
 
-[事實上在 WWDC21 中](https://www.wwdcnotes.com/notes/wwdc21/10220/)，Apple 就為 Xcode 推出了一項可以解決這項痛點的新功能：「使用編譯器擷取字串」。與早期透過從 Swift 原始碼拉取可翻譯字串，經常漏掉一些字串的方式不同，這個功能會先編譯原始碼，然後從編譯出的檔案中判斷可以翻譯的字串。
+[事實上在 WWDC21 中](https://www.wwdcnotes.com/notes/wwdc21/10220/)，Apple 就為 Xcode 推出了一項可以解決這項痛點的新功能：「使用編譯器擷取字串」。與早期透過從 Swift 原始碼拉取可翻譯字串，經常漏掉一些字串的方式不同——這個功能會先編譯原始碼，然後從編譯出的檔案中判斷可以翻譯的字串。
 
 ## 啟用功能
 
@@ -52,7 +52,7 @@ robots:
 
 ![Go to “Product” > “Import Localization…”](menu-import-localization.webp)
 
-匯入時可能會跳出一些 lint 提示（警告或錯誤），這裡可以視情況修正，若是故意為之可直接匯入：
+匯入時可能會跳出一些 lint 提示（警告或錯誤），這裡可以視情況修正。若是故意為之，亦可直接匯入：
 
 ![The lint result of XCLOC import](lint-xcloc.webp)
 
