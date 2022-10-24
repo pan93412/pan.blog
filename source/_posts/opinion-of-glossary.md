@@ -7,6 +7,7 @@ tags:
     - glossary
     - localization
     - l10n
+    - twitter
 categories:
     - The thoughts
     - Translating
