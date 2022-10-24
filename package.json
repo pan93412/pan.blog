@@ -7,7 +7,8 @@
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server"
+    "server": "hexo server",
+    "fmt": "prettier -w ."
   },
   "hexo": {
     "version": "6.3.0"
@@ -28,5 +29,8 @@
     "hexo-renderer-stylus": "^2.1.0",
     "hexo-server": "^3.0.0",
     "hexo-theme-landscape": "^0.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
   }
 }
