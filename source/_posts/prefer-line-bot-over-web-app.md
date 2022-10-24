@@ -1,6 +1,6 @@
 ---
 title: 為什麼選擇「壟斷的」LINE bot，而不是傳統的 Web apps？
-date: 2022-10-24 23:17:02
+date: 2022-09-13 09:02:00
 updated: 2022-10-24 23:17:02
 tags:
     - line

@@ -14,7 +14,7 @@ robots:
 
 ## Context
 
-![Disappointing results. Lazy devs living in a bubble, refusing to learn anything other than react.](are-dev-too-lazy-to-learn-stuff/context.png)
+![Disappointing results. Lazy devs living in a bubble, refusing to learn anything other than react.](context.png)
 
 src: <https://twitter.com/saadeghi/status/1571980855991574531?s=61&t=UVzhpuQaGcgZkGpySz_yVQ>
 
