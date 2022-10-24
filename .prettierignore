@@ -1,3 +1,5 @@
 themes/
 source/gtag.js
 public/
+pnpm-lock.yaml
+db.json
