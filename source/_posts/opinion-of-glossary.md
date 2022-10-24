@@ -8,9 +8,7 @@ tags:
     - localization
     - l10n
     - twitter
-categories:
-    - The thoughts
-    - Translating
+categories: Translating
 robots:
 ---
 

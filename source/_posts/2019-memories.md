@@ -5,8 +5,7 @@ tags:
   - '2020'
   - '2021'
   - 時光膠囊
-categories:
-  - The thoughts
+categories: The thoughts
 date: 2020-12-26 03:22:00
 updated: 2020-12-26 03:22:00
 robots: noindex
@@ -54,5 +53,5 @@ You still can write your opition here⋯⋯ 那我可以寫在我自掏腰包的
 
 ♥
 
-Best regards,  
+Best regards,
 Yi-Jyun Pan on 2020/12/26.

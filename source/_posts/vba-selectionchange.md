@@ -4,8 +4,7 @@ tags:
   - vba
   - 事件
   - 選取
-categories:
-  - Developments
+categories: Developments
 date: 2020-10-18 23:40:43
 updated: 2020-10-18 23:40:43
 ---

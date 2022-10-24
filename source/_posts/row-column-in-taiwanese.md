@@ -1,9 +1,10 @@
 ---
 title: 評論：「行」，還是「列」？
-tags: []
-categories:
-  - The thoughts
-  - Translating
+tags:
+  - thoughts
+  - row
+  - column
+categories: Translating
 date: 2021-01-09 13:48:50
 updated: 2021-01-09 13:48:50
 ---

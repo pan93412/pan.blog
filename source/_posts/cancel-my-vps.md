@@ -7,9 +7,7 @@ tags:
   - vps
   - contabo
   - thought
-categories:
-  - The thoughts
-  - school
+categories: The thoughts
 robots: noindex
 ---
 

@@ -9,8 +9,7 @@ tags:
   - 靠北
   - 斷章取義
   - 錯誤描述
-categories:
-  - The thoughts
+categories: The thoughts
 robots: noindex
 ---
 

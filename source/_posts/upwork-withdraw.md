@@ -1,8 +1,7 @@
 ---
 title: 未成年在 Upwork 活該拿不回錢。
 tags: []
-categories:
-  - The thoughts
+categories: The thoughts
 date: 2021-01-11 00:05:13
 updated: 2021-01-11 00:05:13
 ---

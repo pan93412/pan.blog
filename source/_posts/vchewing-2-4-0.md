@@ -6,7 +6,7 @@ tags:
     - vChewing
     - 威注音
     - twitter
-categories: Recommendations
+categories: Recommendation
 robots:
 ---
 

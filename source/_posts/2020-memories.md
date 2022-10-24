@@ -5,8 +5,7 @@ tags:
   - '2021'
   - '2022'
   - 時光膠囊
-categories:
-  - The thoughts
+categories: The thoughts
 date: 2021-12-29 22:37:00
 updated: 2021-12-31 22:00:00
 robots: noindex
@@ -79,5 +78,5 @@ robots: noindex
 
 ♥
 
-Best regards,  
+Best regards,
 Yi-Jyun Pan on 2021/12/31.

@@ -6,8 +6,7 @@ tags:
   - macintosh
   - mac
   - windows
-categories:
-  - The thoughts
+categories: The thoughts
 date: 2020-10-23 00:53:27
 updated: 2020-10-23 00:53:27
 robots: noindex

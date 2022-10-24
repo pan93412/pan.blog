@@ -7,9 +7,7 @@ tags:
   - sms-os-project
   - speakout
   - yc97643
-categories:
-  - Developments
-  - The thoughts
+categories: The thoughts
 date: 2020-11-02 17:51:12
 updated: 2020-11-02 17:51:12
 robots: noindex

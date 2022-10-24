@@ -1,8 +1,7 @@
 ---
 title: 寫程式或許重要的一直都不是能力……？
 tags: []
-categories:
-  - The thoughts
+categories: The thoughts
 date: 2020-12-17 07:33:52
 updated: 2020-12-17 07:33:52
 robots: noindex

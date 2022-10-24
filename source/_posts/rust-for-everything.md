@@ -6,7 +6,7 @@ tags:
     - Rust
     - random
     - development
-categories: random
+categories: Random
 robots: noindex
 ---
 

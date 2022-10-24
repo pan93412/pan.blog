@@ -6,9 +6,7 @@ tags:
   - catching
   - thoughts
   - developments
-categories:
-  - Developments
-  - The thoughts
+categories: The thoughts
 date: 2021-04-30 18:25:47
 updated: 2021-04-30 18:25:47
 robots: noindex

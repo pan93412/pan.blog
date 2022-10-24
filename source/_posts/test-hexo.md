@@ -1,7 +1,6 @@
 ---
 title: 這是一篇 Hexo 測試文。
-categories:
-  - 未分類
+categories: Random
 date: 2021-5-3 12:27:00
 updated: 2021-5-3 12:27:00
 robots: noindex

@@ -5,8 +5,7 @@ tags:
   - facebook
   - information
   - thought
-categories:
-  - The thoughts
+categories: The thoughts
 date: 2021-03-10 17:38:53
 updated: 2021-03-10 17:38:53
 robots: noindex

@@ -1,8 +1,7 @@
 ---
 title: CISCC 抱怨系統的開發日誌與心得
 tags: []
-categories:
-  - Developments
+categories: Developments
 date: 2021-01-20 21:01:23
 updated: 2021-01-20 21:01:23
 robots: noindex

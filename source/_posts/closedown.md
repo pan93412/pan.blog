@@ -2,8 +2,7 @@
 title: 閉關心得
 date: 2021-08-30 01:23:32
 updated: 2021-08-30 01:23:32
-categories:
-  - The thoughts
+categories: The thoughts
 tags:
   - closedown
 robots: noindex

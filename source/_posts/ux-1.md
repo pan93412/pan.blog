@@ -5,8 +5,7 @@ tags:
   - JavaScript
   - Node.js
   - Vue.js
-categories:
-  - Developments
+categories: Developments
 date: 2020-10-18 00:20:37
 updated: 2022-08-06 10:41:40
 ---

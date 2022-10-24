@@ -3,8 +3,7 @@ title: 討厭社交。
 tags:
   - 社交
   - 討厭
-categories:
-  - The thoughts
+categories: The thoughts
 date: 2021-04-09 09:17:56
 updated: 2021-04-09 09:17:56
 robots: noindex

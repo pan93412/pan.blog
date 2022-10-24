@@ -11,8 +11,7 @@ tags:
     - 優劣
     - 特殊選才
     - 個人申請
-categories:
-  - The thoughts
+categories: The thoughts
 robots: noindex
 ---
 

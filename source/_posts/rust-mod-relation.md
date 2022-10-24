@@ -8,8 +8,7 @@ tags:
   - super
   - self
   - programming
-categories:
-  - Developments
+categories: Developments
 ---
 
 ![`rust_hello_world` 的架構圖，與 crate、super、self 的關係](crate-relation.png)
