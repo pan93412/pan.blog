@@ -18,4 +18,7 @@ plugins:
   #   enable: true
   mathjax:
     enable: true
-  
+style:
+  font-family:
+    body: '"HarmonyOS Sans TC", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
+    code: '"JetBrains Mono", Menlo, Monaco, Consolas, system-ui, "Courier New", monospace, sans-serif'
