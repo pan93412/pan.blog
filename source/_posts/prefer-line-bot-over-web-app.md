@@ -3,12 +3,12 @@ title: 為什麼選擇「壟斷的」LINE bot，而不是傳統的 Web apps？
 date: 2022-09-13 09:02:00
 updated: 2022-10-24 23:17:02
 tags:
-    - line
-    - web
-    - bot
-    - app
-    - technology
-    - twitter
+  - line
+  - web
+  - bot
+  - app
+  - technology
+  - twitter
 categories: The thoughts
 robots:
 ---
@@ -41,7 +41,7 @@ Telegram 的話也可以辦到，但相較之下使用量就少很多了；Messe
 
 ## 備註
 
-* Discord 的話也不是很自由，而且使用廣泛度也略輸 Messenger 跟 LINE。Discord 目前更適合當一個社群場合經營，而它的 bot 目前還沒有這兩個來得直接。
-* Matrix 的話是有無限可能，但光同步聊天記錄就慢的跟……一樣。而且使用量甚至贏不過 Telegram。
-* Slack 和 Mattermost 的專業不是這個，而且在新工作空間都需要註冊一支新的帳號。後者的維護成本甚至大於一個小型的 Web App。
-* Web Apps 除了開發的能力要求和成本都比較高之外，還有儲存使用者資料的資安問題——不專業的 Web Developer 可能就會把密碼存成明碼或純粹用 MD5 或 SHA-1 雜湊。
+- Discord 的話也不是很自由，而且使用廣泛度也略輸 Messenger 跟 LINE。Discord 目前更適合當一個社群場合經營，而它的 bot 目前還沒有這兩個來得直接。
+- Matrix 的話是有無限可能，但光同步聊天記錄就慢的跟……一樣。而且使用量甚至贏不過 Telegram。
+- Slack 和 Mattermost 的專業不是這個，而且在新工作空間都需要註冊一支新的帳號。後者的維護成本甚至大於一個小型的 Web App。
+- Web Apps 除了開發的能力要求和成本都比較高之外，還有儲存使用者資料的資安問題——不專業的 Web Developer 可能就會把密碼存成明碼或純粹用 MD5 或 SHA-1 雜湊。

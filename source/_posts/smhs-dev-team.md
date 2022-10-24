@@ -20,6 +20,7 @@ robots: noindex
 smhs-os-project/smhs-epf-faq 進入封存狀態 (2020-10-30)
 
 <!-- more -->
+
 ## SMHS 學習歷程解疑網時期：建立、重寫與擴散
 
 「SMHS 學習歷程解疑網」最早是黃猷埕 (yc97843，YC) 獨自一人寫出來的。而我當初是透過選修的老師知道這個網站的。

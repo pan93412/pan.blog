@@ -1,7 +1,7 @@
 ---
 title: 109 高中資訊學科能力複賽的參加心得
 tags:
-  - '109'
+  - "109"
   - algorighm
   - competition
   - high
@@ -11,7 +11,7 @@ tags:
   - senior
   - TOI
   - visual studio
-id: '404'
+id: "404"
 categories: The thoughts
 date: 2020-11-02 08:57:07
 updated: 2020-11-02 08:57:07
@@ -21,7 +21,9 @@ robots: noindex
 **又墊底了。**
 
 但不一樣的是，**這次比賽我收穫上不少**。
+
 <!-- more -->
+
 ## 早先的選手培訓課程
 
 **這是我覺得整個競賽當中，我最印象深刻而且最有收穫的課程。**

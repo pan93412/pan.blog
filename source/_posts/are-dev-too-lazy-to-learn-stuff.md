@@ -3,11 +3,11 @@ title: Are developers too lazy to learn new technology?
 date: 2022-09-20 08:09:00
 updated: 2022-10-24 23:11:53
 tags:
-    - twitter
-    - developer
-    - new
-    - technology
-    - lazy
+  - twitter
+  - developer
+  - new
+  - technology
+  - lazy
 categories: The thoughts
 robots:
 ---

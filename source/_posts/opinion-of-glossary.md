@@ -3,11 +3,11 @@ title: 對堅守「台灣詞彙」的看法
 date: 2022-10-17 09:41:00
 updated: 2022-10-24 22:44:44
 tags:
-    - taiwanese
-    - glossary
-    - localization
-    - l10n
-    - twitter
+  - taiwanese
+  - glossary
+  - localization
+  - l10n
+  - twitter
 categories: Translating
 robots:
 ---

@@ -3,10 +3,10 @@ title: 什麼時候該引入 Lockfile？
 date: 2022-10-18 13:37:00
 updated: 2022-10-24 22:19:37
 tags:
-    - lockfile
-    - npm
-    - cargo
-    - twitter
+  - lockfile
+  - npm
+  - cargo
+  - twitter
 categories: Developments
 robots:
 ---

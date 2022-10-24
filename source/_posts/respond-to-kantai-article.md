@@ -61,7 +61,7 @@ robots: noindex
 
 > ![原文中質疑我不滿 Laravel 的部分](https://i.imgur.com/fMC8P3j.png)
 
-見上，**畢竟我原本是想要自己獨立一個 repo 寫前端的**。啟動 Laravel 很快樂，但用 Laravel 的架構寫前端就不快樂了⋯⋯除此之外，乾太將我後來用 Laravel 正式貢獻前端的紀錄完全忽略了，實際上我後來花了幾週的時間，學習 init.engineer 的全端開發方式，並貢獻了乾太所期望的首頁 Milestone。詳情可以見 [init-engineer/init.engineer PR#88](https://github.com/init-engineer/init.engineer/pull/88)：
+見上，**畢竟我原本是想要自己獨立一個 repo 寫前端的**。啟動 Laravel 很快樂，但用 Laravel 的架構寫前端就不快樂了 ⋯⋯ 除此之外，乾太將我後來用 Laravel 正式貢獻前端的紀錄完全忽略了，實際上我後來花了幾週的時間，學習 init.engineer 的全端開發方式，並貢獻了乾太所期望的首頁 Milestone。詳情可以見 [init-engineer/init.engineer PR#88](https://github.com/init-engineer/init.engineer/pull/88)：
 
 ![完整貢獻紀錄](https://i.imgur.com/73kSNOq.jpg)
 

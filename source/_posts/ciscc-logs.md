@@ -70,7 +70,7 @@ pan93412/ciscc-docker 的截圖。(2020/1/20)
 
 ### 2021/1/14 ~ 2021/1/16
 
-- [睽違 9 天後，ciscc-discord 終於更新了！](https://github.com/pan93412/ciscc-discord/compare/952ece53564e0bef9c78e5d5586533b27f753a28%5E...master)😆 不過這次不是我的功勞，是 [ChAoSUnItY](https://github.com/pan93412/ciscc-discord/commits?author=ChAoSUnItY) 大大的！他幫我修正了幾個陳年 bug，就比如說可以利用 ciscc 平台亂標人，還有時區錯誤的問題。我也順便把幾個註釋上的問題更新了。
+- [睽違 9 天後，ciscc-discord 終於更新了！](https://github.com/pan93412/ciscc-discord/compare/952ece53564e0bef9c78e5d5586533b27f753a28%5E...master)😆 不過這次不是我的功勞，是 [ChAoSUnItY](https://github.com/pan93412/ciscc-discord/commits?author=ChAoSUnItY) 大大的！他幫我修正了幾個陳年 bug，就比如說可以利用 ciscc 平台亂標人，還有時區錯誤的問題。我也順便把幾個註釋上的問題更新了。
 - 但是我還沒有更新 VPS 上的版本，抽空更新。
 
 ### 2021/1/8

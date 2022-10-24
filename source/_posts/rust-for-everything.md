@@ -3,9 +3,9 @@ title: Rust for everything
 date: 2022-08-12 01:44:41
 updated: 2022-08-12 01:44:41
 tags:
-    - Rust
-    - random
-    - development
+  - Rust
+  - random
+  - development
 categories: Random
 robots: noindex
 ---

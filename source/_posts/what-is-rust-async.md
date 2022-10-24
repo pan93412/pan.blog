@@ -3,10 +3,10 @@ title: 文組也能懂的 Rust async 機制
 date: 2022-08-07 13:03:20
 updated: 2022-08-07 19:59:00
 tags:
-    - Rust
-    - async
-    - easy
-    - simple
+  - Rust
+  - async
+  - easy
+  - simple
 categories: Developments
 ---
 
@@ -18,7 +18,7 @@ categories: Developments
 
 > 修改一下：work stealing, thread-per-core, waker, mpsc, task queue 只有他们懂... 正常人不可能看懂 – [@twicemoemoe, 22-08-02](https://twitter.com/twicemoemoe/status/1554305217134735362)
 
-作為一個文組，其實覺得 async 真的沒有想像中的這麼困難⋯⋯ 😂 或許搭配一些圖片會好懂很多吧。
+作為一個文組，其實覺得 async 真的沒有想像中的這麼困難 ⋯⋯ 😂 或許搭配一些圖片會好懂很多吧。
 
 ## TL;DR 不廢話版本
 
@@ -132,7 +132,7 @@ loop {
 }
 ```
 
-這樣有什麼問題？首先非同步任務通常要一段時間才會完成，一直 `poll()` 不會加快執行速度。如果真這樣寫，會浪費很多 CPU 時間在沒必要的 `poll()` 上。另外，`loop {}` 是個 *blocking* 同步函數，這樣子寫，下一個 `Future` 是執行不了的。
+這樣有什麼問題？首先非同步任務通常要一段時間才會完成，一直 `poll()` 不會加快執行速度。如果真這樣寫，會浪費很多 CPU 時間在沒必要的 `poll()` 上。另外，`loop {}` 是個 _blocking_ 同步函數，這樣子寫，下一個 `Future` 是執行不了的。
 
 那換另一種方式呢？
 
@@ -317,9 +317,9 @@ let content = match content_status {
 
 ### 讓 `main()` 變成 async 函數的起源地
 
-我們在[〈延伸閱讀：await 只能在 async function 裡面執行〉](#延伸閱讀await-只能在-async-function-裡面執行)裡面有提及「所有呼叫者必須都是 *async function*，」那 `main()` 呢？
+我們在[〈延伸閱讀：await 只能在 async function 裡面執行〉](#延伸閱讀await-只能在-async-function-裡面執行)裡面有提及「所有呼叫者必須都是 _async function_，」那 `main()` 呢？
 
-還記得上文有提到「Futures 需要一個 *executor* 調度？」那 `main()` 原則上就是配置 runtime，讓 runtime 準備 executor 的地方：
+還記得上文有提到「Futures 需要一個 _executor_ 調度？」那 `main()` 原則上就是配置 runtime，讓 runtime 準備 executor 的地方：
 
 ```rs
 fn main() {
@@ -356,7 +356,7 @@ async fn main() {
 
 ```rs
 let handle = tokio::task::spawn(async {
-  /* 現在這裡面的東西，都在獨立的 thread 裡面跑了！ */ 
+  /* 現在這裡面的東西，都在獨立的 thread 裡面跑了！ */
 });
 ```
 
@@ -367,7 +367,7 @@ let handle = tokio::task::spawn(async {
 ### 在非同步函數裡面呼叫高耗時同步函數——`spawn_blocking`
 
 除了開一個 `std::thread::spawn` OS thread 跑這種函數之外，你也可以用
-[`tokio::task::spawn_blocking`](https://docs.rs/tokio/latest/tokio/task/fn.spawn_blocking.html) 開一個 **可以 await** 的同步 *blocking* 堵塞函數。
+[`tokio::task::spawn_blocking`](https://docs.rs/tokio/latest/tokio/task/fn.spawn_blocking.html) 開一個 **可以 await** 的同步 _blocking_ 堵塞函數。
 
 ```rs
 let _this_returns_42 = tokio::task::spawn_blocking(|| {
@@ -387,7 +387,7 @@ let _this_returns_42 = tokio::task::spawn_blocking(|| {
 
 另外這篇文章花了我 7hr 來寫，如果覺得有用的話，歡迎把這篇文章分享給更多對 async 以及 Rust 非同步程式有興趣的人 owo 謝謝 🙏
 
-![7hr!!!](./how-long-i-wasted.webp)  
+![7hr!!!](./how-long-i-wasted.webp)
 
 另外也可以 follow 我的 [GitHub](http://github.com/pan93412) 支持我的 OSS 工作 ouo
 

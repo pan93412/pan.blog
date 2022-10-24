@@ -3,10 +3,10 @@ title: The comparison of Linter and Formatter
 date: 2022-09-09 20:39:00
 updated: 2022-10-24 23:23:52
 tags:
-    - twitter
-    - compare
-    - linter
-    - formatter
+  - twitter
+  - compare
+  - linter
+  - formatter
 categories: Developments
 robots:
 ---
