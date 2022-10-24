@@ -18,6 +18,10 @@ plugins:
   #   enable: true
   mathjax:
     enable: true
+footer:
+  content: |
+    本站由 [@pan93412](https://pan93.com) 使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar) 主題建立。
+    本 blog 所有文章除特別聲明外，均採用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 授權條款，轉載請標明出處。
 style:
   font-family:
     body: '"HarmonyOS Sans TC", system-ui, "Microsoft Yahei", "Segoe UI", -apple-system, Roboto, Ubuntu, "Helvetica Neue", Arial, "WenQuanYi Micro Hei", sans-serif'
