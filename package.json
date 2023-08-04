@@ -31,6 +31,6 @@
     "hexo-theme-landscape": "^0.0.3"
   },
   "devDependencies": {
-    "prettier": "^2.8.1"
+    "prettier": "^3.0.1"
   }
 }
