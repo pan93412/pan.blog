@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "bierner.github-markdown-preview",
-    "telesoho.vscode-markdown-paste-image"
+    "telesoho.vscode-markdown-paste-image",
+    "codeyu.vscode-hexo"
   ]
 }
