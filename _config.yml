@@ -118,7 +118,6 @@ inject:
     - <script defer src="https://umami.pan93.com/script.js" data-website-id="6ca57b26-8e20-4de3-8cc1-0a986261365b"></script>
     - <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
     - <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jetbrains-mono@1.0.6/css/jetbrains-mono.min.css">
-    - <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/pan93412/harmonyos-fonts-optional/css/harmonyos_sans_tc.min.css">
 
 feed:
   enable: true
