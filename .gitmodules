@@ -1,3 +1,4 @@
 [submodule "themes/stellar"]
 	path = themes/stellar
 	url = https://github.com/pan93412/hexo-theme-stellar.git
+	branch = update-zhtw-translation
