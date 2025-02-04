@@ -11,7 +11,7 @@ tags:
 categories: Developments
 ---
 
-![`rust_hello_world` 的架構圖，與 crate、super、self 的關係](crate-relation.png)
+![`rust_hello_world` 的架構圖，與 crate、super、self 的關係](https://assets.blog.pan93.com/rust-mod-relation/crate-relation.png)
 
 假設 `rust_hello_world` 的目錄架構長這樣：（範例源自於我手邊的某個 production 專案）
 

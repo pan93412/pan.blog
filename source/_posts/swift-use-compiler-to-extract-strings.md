@@ -24,41 +24,41 @@ robots:
 
 這項功能在新專案是預設啟用的，但舊專案可以 opt-in：點開專案設定，進入 “Build Settings”，展開所有功能（All），尋找 “Swift” 然後找到 Localization 的 “Use Compiler to Extract Swift Strings”，將其設定為 Yes 即可。
 
-![Opt in “Use Compiler to Extract Swift Strings”](opt-in-function.webp)
+![Opt in “Use Compiler to Extract Swift Strings”](https://assets.blog.pan93.com/swift-use-compiler-to-extract-strings/opt-in-function.webp)
 
 ## 匯出字串
 
 開啟之後的國際化與本地化方式，跟先前會不太一樣。以往需要手動改 strings 檔案，現在可以先到 “Product” > “Export Localization…” 匯出編譯器擷取出的所有字串：
 
-![“Product” > “Export Localization…”](menu-export-localization.webp)
+![“Product” > “Export Localization…”](https://assets.blog.pan93.com/swift-use-compiler-to-extract-strings/menu-export-localization.webp)
 
 接下來指定匯出的路徑，然後等待 Swift 完成編譯並擷取字串。若是從舊專案 opt-in，擷取字串的過程中可能會拋出一些錯誤，這個時候就得修正（如果只是警告的話也可以忽略）：
 
-![Exporting…](exporting.webp)
+![Exporting…](https://assets.blog.pan93.com/swift-use-compiler-to-extract-strings/exporting.webp)
 
 ## 翻譯流程
 
 接下來就可以進入選擇好的資料夾，使用 Xcode 點開對應語系的 xcloc 檔案：
 
-![Open the xcloc file with Xcode](open-xcloc.webp)
+![Open the xcloc file with Xcode](https://assets.blog.pan93.com/swift-use-compiler-to-extract-strings/open-xcloc.webp)
 
 如果不習慣 Xcode 的本地化工具，也可以打開特色選單 > 「顯示套件內容」，Localized Content 裡面就有通用的 xliff 格式以及一些其他檔案（比如 RTF）。xliff 檔案可以用 Poedit 開啟，也可以上傳到 Crowdin、Transifex、Weblate 等協作翻譯平台：
 
-![Open the xliff file with Xcode](open-xliff-with-poedit.webp)
+![Open the xliff file with Xcode](https://assets.blog.pan93.com/swift-use-compiler-to-extract-strings/open-xliff-with-poedit.webp)
 
 ## 匯入字串
 
 翻譯流程完成之後，可以到 “Product” > “Import Localization…” 匯入翻譯完成的 xcloc 檔案：
 
-![Go to “Product” > “Import Localization…”](menu-import-localization.webp)
+![Go to “Product” > “Import Localization…”](https://assets.blog.pan93.com/swift-use-compiler-to-extract-strings/menu-import-localization.webp)
 
 匯入時可能會跳出一些 lint 提示（警告或錯誤），這裡可以視情況修正。若是故意為之，亦可直接匯入：
 
-![The lint result of XCLOC import](lint-xcloc.webp)
+![The lint result of XCLOC import](https://assets.blog.pan93.com/swift-use-compiler-to-extract-strings/lint-xcloc.webp)
 
 由於是基於編譯器擷取的結果，因此 strings 檔案也會跟著更新，往後就不需要自己維護 strings 檔案了：
 
-![The diff before importing and after importing](git-staging-diff.webp)
+![The diff before importing and after importing](https://assets.blog.pan93.com/swift-use-compiler-to-extract-strings/git-staging-diff.webp)
 
 ## 結語
 

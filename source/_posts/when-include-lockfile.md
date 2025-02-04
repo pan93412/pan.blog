@@ -15,7 +15,7 @@ robots:
 
 ## 撰文初衷
 
-![第一次看到沒有 commit package-lock.json 的 repo, posted by @as790726, on 2022/10/17.](twitter-original-post.png)
+![第一次看到沒有 commit package-lock.json 的 repo, posted by @as790726, on 2022/10/17.](https://assets.blog.pan93.com/when-include-lockfile/twitter-original-post.png)
 
 > 第一次看到沒有 commit package-lock.json 的 repo
 
